@@ -10,14 +10,29 @@
     "last updated": "12/20/2023"
   },
   {
+    "name": "MMC",
+    "ip": "minemen.club",
+    "last updated": "12/21/2023"
+  },
+  {
     "name": "Universocraft",
     "ip": "mc.universocraft.com",
     "last updated": "11/29/2023"
   },
   {
-    "name": "MMC",
-    "ip": "minemen.club",
-    "last updated": "12/21/2023"
+    "name": "Supercraft",
+    "ip": "mc.supercraft.fun",
+    "last updated": "12/23/2023"
+  },
+  {
+    "name": "Hylex",
+    "ip": "hylex.gg",
+    "last updated": "12/20/2023"
+  },
+  {
+    "name": "Hycraft",
+    "ip": "play.hycraft.us",
+    "last updated": "11/29/2023"
   },
   {
     "name": "JartexNetwork",
@@ -28,20 +43,5 @@
     "name": "PikaNetwork",
     "ip": "pikanetwork.net",
     "last updated": "11/29/2023"
-  },
-  {
-    "name": "Hycraft",
-    "ip": "play.hycraft.us",
-    "last updated": "11/29/2023"
-  },
-  {
-    "name": "Hylex",
-    "ip": "hylex.gg",
-    "last updated": "12/20/2023"
-  },
-  {
-    "name": "Vulcan",
-    "ip": "supercraft.es",
-    "last updated": "11/30/2023"
   }
 ]
