@@ -1650,7 +1650,7 @@
     }
   },
   "module.combat.norotate.name": {
-    "state": true,
+    "state": false,
     "Mode*1": {
       "value": "Edit"
     }
