@@ -1188,7 +1188,7 @@
       "value": "Normal"
     },
     "Ray Cast*3": {
-      "value": "Strict"
+      "value": "Off"
     },
     "Sprint*4": {
       "value": "Watchdog Jump"
