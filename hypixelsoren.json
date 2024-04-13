@@ -571,7 +571,7 @@
     }
   },
   "module.movement.noslow.name": {
-    "state": true,
+    "state": false,
     "Mode*1": {
       "value": "Watchdog"
     },
@@ -1301,8 +1301,8 @@
       "value": "Glass"
     },
     "Position*6": {
-      "positionX": 516.0,
-      "positionY": 392.0,
+      "positionX": 498.0,
+      "positionY": 384.0,
       "scaleX": 140.0,
       "scaleY": 50.0
     },
@@ -1910,9 +1910,9 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position*1": {
-      "positionX": 860.5,
+      "positionX": 859.5,
       "positionY": 368.5,
-      "scaleX": 95.0,
+      "scaleX": 96.0,
       "scaleY": 132.0
     },
     "Outline*2": {
