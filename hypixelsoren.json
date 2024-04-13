@@ -1,0 +1,2096 @@
+{
+  "Metadata": {
+    "version": "6",
+    "creationDate": "14.04.2024"
+  },
+  "module.combat.lightningtracker.name": {
+    "state": false
+  },
+  "module.combat.legitreach.name": {
+    "state": false,
+    "Max Ping Spoof*1": {
+      "value": 200.0
+    },
+    "Render Real Location*2": {
+      "value": false
+    },
+    "Hypixel Mode*3": {
+      "value": true
+    }
+  },
+  "module.combat.tickbase.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Post"
+    }
+  },
+  "module.combat.regen.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Vanilla"
+    },
+    "Minimum Health*2": {
+      "value": 15.0
+    },
+    "Speed*3": {
+      "value": 20.0
+    },
+    "Minimum Health*4": {
+      "value": 15.0
+    },
+    "Minimum Health*5": {
+      "value": 15.0
+    }
+  },
+  "module.other.clientspoofer.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Lunar"
+    }
+  },
+  "module.other.nuker.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Nearby"
+    },
+    "Delay*2": {
+      "value": 150.0
+    },
+    "Range*3": {
+      "value": 4.0
+    },
+    "Rotations*4": {
+      "value": false
+    },
+    "Scatter*5": {
+      "value": false
+    },
+    "Swing*6": {
+      "value": false
+    }
+  },
+  "module.render.keystrokes.name": {
+    "state": false,
+    "Position*1": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 72.0,
+      "scaleY": 72.0
+    },
+    "Space*2": {
+      "value": true
+    }
+  },
+  "module.other.hypixelautoplay.name": {
+    "state": true,
+    "Mode*1": {
+      "value": "Hypixel"
+    }
+  },
+  "module.player.fastuse.name": {
+    "state": false,
+    "Speed*1": {
+      "value": 24.0
+    }
+  },
+  "module.movement.sprint.name": {
+    "state": true,
+    "Legit*1": {
+      "value": false
+    }
+  },
+  "module.other.timer.name": {
+    "state": false,
+    "Timer*1": {
+      "first": 0.1,
+      "second": 0.1
+    }
+  },
+  "module.player.fastbreak.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Percentage"
+    },
+    "Speed*2": {
+      "value": 10.0
+    },
+    "Ticks*3": {
+      "value": 1.0
+    },
+    "Ignore Mining Fatigue*4": {
+      "value": true
+    }
+  },
+  "module.movement.targetstrafe.name": {
+    "state": false,
+    "Range*1": {
+      "value": 0.7
+    },
+    "Hold Jump*2": {
+      "value": false
+    }
+  },
+  "module.combat.disabler.name": {
+    "state": false,
+    "Cubecraft*1": {
+      "value": false
+    },
+    "Mine Land Kick Checks*2": {
+      "value": false
+    },
+    "Watchdog Timer*3": {
+      "value": false
+    },
+    "Verus Checks*4": {
+      "value": false
+    },
+    "Movement*5": {
+      "value": false
+    },
+    "Sprint*6": {
+      "value": false
+    },
+    "Verus Checks 2*7": {
+      "value": false
+    },
+    "Movement*8": {
+      "value": false
+    },
+    "Sprint*9": {
+      "value": false
+    },
+    "Damage*10": {
+      "value": false
+    },
+    "Vehicle Packets*11": {
+      "value": false
+    },
+    "Force Server Teleport*12": {
+      "value": false
+    },
+    "Direction*13": {
+      "value": "Up"
+    },
+    "Delay*14": {
+      "value": 20.0
+    },
+    "Math Ground*15": {
+      "value": false
+    },
+    "Ground State*16": {
+      "value": false
+    },
+    "Vulcan Checks*17": {
+      "value": false
+    },
+    "Omni-Sprint*18": {
+      "value": false
+    },
+    "Auto Clicker*19": {
+      "value": false
+    },
+    "Reach (4.5 Block)*20": {
+      "value": true
+    },
+    "Strafe and Jump*21": {
+      "value": false
+    },
+    "Fast Use*22": {
+      "value": false
+    },
+    "Miscellaneous (Auto-Block, BadPackets)*23": {
+      "value": false
+    },
+    "Keep Sprint (To disable KeepSprint spoof 1.9)*24": {
+      "value": false
+    },
+    "Cancel Sprint Packet*25": {
+      "value": true
+    },
+    "OmniSprint*26": {
+      "value": false
+    },
+    "UniversoCraft*27": {
+      "value": false
+    },
+    "Rise Balance Timer Abuse*28": {
+      "value": false
+    },
+    "Reset On World Change*29": {
+      "value": false
+    },
+    "Force low timer when Balance is below 0*30": {
+      "value": false
+    },
+    "Display*31": {
+      "value": false
+    },
+    "Pulse*32": {
+      "value": false
+    },
+    "Hypixel*33": {
+      "value": false
+    },
+    "Only Still*34": {
+      "value": false
+    },
+    "Cancel Transactions*35": {
+      "value": false
+    },
+    "MMC Reach*36": {
+      "value": false
+    },
+    "Abilities*37": {
+      "value": false
+    },
+    "Input*38": {
+      "value": false
+    },
+    "Spectate*39": {
+      "value": false
+    },
+    "Cancel Keep Alive*40": {
+      "value": false
+    },
+    "No Rules*41": {
+      "value": false
+    },
+    "Deprecated*42": {
+      "value": false
+    },
+    "Experimental (Used for testing)*43": {
+      "value": false
+    },
+    "Ticks*44": {
+      "value": 5.0
+    },
+    "Test*45": {
+      "value": false
+    },
+    "Hypixel Slime (Deprecated)*46": {
+      "value": false
+    },
+    "MMC Partial Reach (Deprecated)*47": {
+      "value": false
+    },
+    "MMC Keep Sprint (Deprecated)*48": {
+      "value": false
+    },
+    "Dynamic PVP (Deprecated)*49": {
+      "value": false
+    },
+    "Ghostly (Deprecated)*50": {
+      "value": false
+    },
+    "Lunar (Deprecated)*51": {
+      "value": false
+    }
+  },
+  "module.movement.stuck.name": {
+    "state": false
+  },
+  "module.player.twerk.name": {
+    "state": false
+  },
+  "module.player.inventorysync.name": {
+    "state": false
+  },
+  "module.render.animations.name": {
+    "state": true,
+    "Block Animation*1": {
+      "value": "Exhibition"
+    },
+    "Swing Animation*2": {
+      "value": "Smooth"
+    },
+    "Update Position Only When Blocking*3": {
+      "value": false
+    },
+    "Swing Speed*4": {
+      "value": 0.0
+    },
+    "X*5": {
+      "value": 0.0
+    },
+    "Y*6": {
+      "value": 0.0
+    },
+    "Z*7": {
+      "value": 0.0
+    },
+    "Scale*8": {
+      "value": 1.0
+    },
+    "Always Show*9": {
+      "value": false
+    }
+  },
+  "module.render.nocameraclip.name": {
+    "state": true
+  },
+  "module.other.translator.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Delay"
+    }
+  },
+  "module.render.glint.name": {
+    "state": false,
+    "Glint Weapons*1": {
+      "value": true
+    },
+    "Hue*2": {
+      "first": 187.0,
+      "second": 209.0
+    },
+    "Layers*3": {
+      "value": 2.0
+    }
+  },
+  "module.ghost.aimassist.name": {
+    "state": false,
+    "Speed*1": {
+      "value": 10.0
+    },
+    "Require Swinging*2": {
+      "value": true
+    },
+    "Sticky*3": {
+      "value": false
+    },
+    "Targets*4": {
+      "value": false
+    },
+    "Player*5": {
+      "value": true
+    },
+    "Invisibles*6": {
+      "value": false
+    },
+    "Animals*7": {
+      "value": false
+    },
+    "Mobs*8": {
+      "value": false
+    },
+    "Player Teammates*9": {
+      "value": true
+    }
+  },
+  "module.player.autohead.name": {
+    "state": false,
+    "Health*1": {
+      "value": 12.0
+    },
+    "Delay*2": {
+      "first": 50.0,
+      "second": 50.0
+    }
+  },
+  "module.player.manager.name": {
+    "state": false,
+    "Delay*1": {
+      "first": 0.0,
+      "second": 50.0
+    },
+    "Legit*2": {
+      "value": false
+    },
+    "Sword Slot*3": {
+      "value": 1.0
+    },
+    "Pickaxe Slot*4": {
+      "value": 7.0
+    },
+    "Axe Slot*5": {
+      "value": 8.0
+    },
+    "Shovel Slot*6": {
+      "value": 9.0
+    },
+    "Block Slot*7": {
+      "value": 2.0
+    },
+    "Potion Slot*8": {
+      "value": 4.0
+    },
+    "Food Slot*9": {
+      "value": 3.0
+    }
+  },
+  "module.ghost.safewalk.name": {
+    "state": false,
+    "Blocks Only*1": {
+      "value": false
+    },
+    "Backwards Only*2": {
+      "value": false
+    }
+  },
+  "module.other.securityfeatures.name": {
+    "state": false
+  },
+  "module.ghost.aimbacktrack.name": {
+    "state": false,
+    "Rotation Backtrack Amount*1": {
+      "value": 10.0
+    }
+  },
+  "module.combat.criticals.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog"
+    },
+    "Delay*2": {
+      "value": 500.0
+    },
+    "Delay*3": {
+      "value": 0.0
+    },
+    "Delay*4": {
+      "value": 500.0
+    }
+  },
+  "module.render.bpscounter.name": {
+    "state": true,
+    "Title*1": {
+      "value": true
+    },
+    "Position*2": {
+      "positionX": 915.5,
+      "positionY": 332.0,
+      "scaleX": 40.0,
+      "scaleY": 21.0
+    }
+  },
+  "module.movement.sneak.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Standard"
+    }
+  },
+  "module.other.autogroomer.name": {
+    "state": false,
+    "Chat Bypass*1": {
+      "value": false
+    },
+    "DM Messages*2": {
+      "value": false
+    },
+    "Spam*3": {
+      "value": false
+    }
+  },
+  "module.other.noguiclose.name": {
+    "state": false,
+    "Chat Only*1": {
+      "value": false
+    }
+  },
+  "module.other.spotify.name": {
+    "state": false,
+    "Position*1": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 180.0,
+      "scaleY": 65.0
+    }
+  },
+  "module.player.autopot.name": {
+    "state": false,
+    "Health*1": {
+      "value": 13.0
+    },
+    "Delay*2": {
+      "first": 750.0,
+      "second": 800.0
+    },
+    "Rotation Speed*3": {
+      "first": 10.0,
+      "second": 10.0
+    }
+  },
+  "module.other.insults.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "CSGO"
+    },
+    "Prefix*2": {
+      "value": ""
+    },
+    "Delay*3": {
+      "value": 9.0
+    },
+    "Randomizer*4": {
+      "value": false
+    }
+  },
+  "module.player.antisuffocate.name": {
+    "state": false,
+    "Swing*1": {
+      "value": true
+    }
+  },
+  "module.render.2desp.name": {
+    "state": true,
+    "Box Mode*1": {
+      "value": "Standard"
+    },
+    "Health Bar Mode*2": {
+      "value": "Gradient"
+    },
+    "Moggage...*3": {
+      "value": false
+    },
+    "Targets*4": {
+      "value": true
+    },
+    "Player*5": {
+      "value": true
+    },
+    "Invisibles*6": {
+      "value": false
+    },
+    "Animals*7": {
+      "value": false
+    },
+    "Mobs*8": {
+      "value": false
+    },
+    "Player Teammates*9": {
+      "value": true
+    }
+  },
+  "module.render.sniperoverlay.name": {
+    "state": false,
+    "Position*1": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 100.0,
+      "scaleY": 100.0
+    }
+  },
+  "module.movement.noslow.name": {
+    "state": true,
+    "Mode*1": {
+      "value": "Watchdog"
+    },
+    "Multiplier*2": {
+      "value": 0.7
+    },
+    "Amount*3": {
+      "value": 2.0
+    }
+  },
+  "module.movement.flight.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Vanilla"
+    },
+    "Speed*2": {
+      "value": 0.1
+    },
+    "Speed*3": {
+      "value": 1.8
+    },
+    "Speed*4": {
+      "value": 1.65
+    },
+    "Vanilla Kick Bypass*5": {
+      "value": true
+    },
+    "Speed*6": {
+      "value": 1.2
+    },
+    "Damage Speed*7": {
+      "value": 0.8
+    },
+    "NCP Mode*8": {
+      "value": "Normal"
+    },
+    "Sub-Mode*9": {
+      "value": "Fast"
+    },
+    "Speed*10": {
+      "value": 2.0
+    },
+    "Send Flying*11": {
+      "value": false
+    },
+    "Speed*12": {
+      "value": 1.0
+    },
+    "Speed*13": {
+      "value": 2.0
+    },
+    "Sub-Mode*14": {
+      "value": "Block"
+    },
+    "Height*15": {
+      "value": 1.0
+    },
+    "Speed*16": {
+      "value": 1.0
+    },
+    "Speed*17": {
+      "value": 1.0
+    },
+    "Speed*18": {
+      "value": 1.0
+    },
+    "Speed*19": {
+      "value": 1.0
+    },
+    "Send Flying*20": {
+      "value": false
+    },
+    "Disable on Teleport*21": {
+      "value": false
+    },
+    "View Bobbing*22": {
+      "value": false
+    },
+    "Fake Damage*23": {
+      "value": false
+    },
+    "Smooth Camera*24": {
+      "value": false
+    },
+    "Visual Dragon*25": {
+      "value": false
+    }
+  },
+  "module.movement.step.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Vanilla"
+    },
+    "Height*2": {
+      "value": 1.0
+    },
+    "Reverse*3": {
+      "value": true
+    },
+    "Timer*4": {
+      "value": 1.0
+    },
+    "Height*5": {
+      "value": 1.0
+    },
+    "Timer*6": {
+      "value": 0.5
+    },
+    "Reverse*7": {
+      "value": false
+    },
+    "Height*8": {
+      "value": 1.5
+    },
+    "Timer*9": {
+      "value": 0.5
+    },
+    "2 Block*10": {
+      "value": true
+    },
+    "Instant*11": {
+      "value": true
+    }
+  },
+  "module.other.test.name": {
+    "state": false,
+    "Position*1": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 100.0,
+      "scaleY": 100.0
+    },
+    "Run If () -\u003e*2": {
+      "value": "onGround"
+    }
+  },
+  "module.render.esp.name": {
+    "state": false,
+    "Glow*1": {
+      "value": true
+    },
+    "Chams*2": {
+      "value": false
+    },
+    "Static Color*3": {
+      "value": false
+    }
+  },
+  "module.render.killeffect.name": {
+    "state": false,
+    "Lightning*1": {
+      "value": true
+    },
+    "Explosion*2": {
+      "value": true
+    }
+  },
+  "module.player.scaffold.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Normal"
+    },
+    "Rotation Mode*2": {
+      "value": "Normal"
+    },
+    "Ray Cast*3": {
+      "value": "Off"
+    },
+    "Sprint*4": {
+      "value": "Watchdog Jump"
+    },
+    "Speed*5": {
+      "value": 1.3
+    },
+    "Smooth Camera*6": {
+      "value": false
+    },
+    "Tower*7": {
+      "value": "Legit"
+    },
+    "Same Y*8": {
+      "value": "Auto Jump"
+    },
+    "Downwards (Press Sneak)*9": {
+      "value": "Watchdog"
+    },
+    "Rotation Speed*10": {
+      "first": 5.0,
+      "second": 10.0
+    },
+    "Place Delay*11": {
+      "first": 0.0,
+      "second": 0.0
+    },
+    "Timer*12": {
+      "value": 1.0
+    },
+    "Expand*13": {
+      "value": 0.0
+    },
+    "Movement Correction*14": {
+      "value": false
+    },
+    "Safe Walk*15": {
+      "value": false
+    },
+    "Sneak*16": {
+      "value": false
+    },
+    "Start Sneaking*17": {
+      "first": 0.0,
+      "second": 0.0
+    },
+    "Stop Sneaking*18": {
+      "first": 0.0,
+      "second": 0.0
+    },
+    "Sneak every x blocks*19": {
+      "first": 1.0,
+      "second": 1.0
+    },
+    "Sneaking Speed*20": {
+      "value": 0.2
+    },
+    "Render*21": {
+      "value": true
+    },
+    "Advanced*22": {
+      "value": false
+    },
+    "Yaw Offset*23": {
+      "value": "0"
+    },
+    "Ignore Speed Effect*24": {
+      "value": false
+    },
+    "Up Side Down*25": {
+      "value": false
+    }
+  },
+  "module.combat.godmode.name": {
+    "state": false
+  },
+  "module.ghost.legitscaffold.name": {
+    "state": false,
+    "Length*1": {
+      "first": 3.0,
+      "second": 4.0
+    },
+    "Sneak speed multiplier*2": {
+      "value": 0.3
+    },
+    "Only on ground*3": {
+      "value": false
+    },
+    "Only when holding blocks*4": {
+      "value": false
+    },
+    "Only when moving backwards*5": {
+      "value": false
+    },
+    "Only on Sneak*6": {
+      "value": true
+    }
+  },
+  "module.movement.inventorymove.name": {
+    "state": false,
+    "Bypass Mode*1": {
+      "value": "Watchdog"
+    },
+    "Clicks*2": {
+      "value": 3.0
+    },
+    "Amount*3": {
+      "value": 5.0
+    }
+  },
+  "module.other.cheatdetector.name": {
+    "state": false,
+    "Alert Type*1": {
+      "value": "Client Side"
+    }
+  },
+  "module.render.hurtcolor.name": {
+    "state": false,
+    "1.7 Damage Animation*1": {
+      "value": true
+    }
+  },
+  "module.other.playernotifier.name": {
+    "state": false,
+    "Notify Distance*1": {
+      "value": 35.0
+    },
+    "Notify Once*2": {
+      "value": false
+    }
+  },
+  "module.render.ambience.name": {
+    "state": true,
+    "Time*1": {
+      "value": 16559.0
+    },
+    "Time Speed*2": {
+      "value": 0.0
+    },
+    "Weather*3": {
+      "value": "Unchanged"
+    },
+    "Snow Color*4": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    }
+  },
+  "module.render.itemphysics.name": {
+    "state": false
+  },
+  "module.other.irc.name": {
+    "state": true
+  },
+  "module.other.richpresence.name": {
+    "state": true
+  },
+  "module.player.clutch.name": {
+    "state": false,
+    "Rotation Speed*1": {
+      "first": 10.0,
+      "second": 10.0
+    },
+    "Place Delay*2": {
+      "first": 0.0,
+      "second": 0.0
+    }
+  },
+  "module.render.freelook.name": {
+    "state": false,
+    "Invert Pitch*1": {
+      "value": false
+    }
+  },
+  "module.movement.potionextender.name": {
+    "state": false,
+    "Extend Duration*1": {
+      "value": 10.0
+    }
+  },
+  "module.other.bwutils.name": {
+    "state": false,
+    "Sword Reveal*1": {
+      "value": true
+    },
+    "Include Stone*2": {
+      "value": false
+    },
+    "Armor Reveal*3": {
+      "value": true
+    },
+    "Invisible Check*4": {
+      "value": true
+    },
+    "Invisibility Status*5": {
+      "value": false
+    }
+  },
+  "module.render.freecam.name": {
+    "state": false,
+    "Speed*1": {
+      "value": 1.0
+    }
+  },
+  "module.combat.fences.name": {
+    "state": false
+  },
+  "module.movement.longjump.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog Fire Ball"
+    },
+    "Height*2": {
+      "value": 0.419
+    },
+    "Speed*3": {
+      "value": 0.6
+    },
+    "Bunny Friction*4": {
+      "value": 133.0
+    },
+    "Ground Speed*5": {
+      "value": 1.0
+    },
+    "Jump Speed*6": {
+      "value": 0.5
+    },
+    "Glide*7": {
+      "value": 3.0
+    },
+    "Timer*8": {
+      "value": 0.1
+    },
+    "Height*9": {
+      "value": 1.0
+    },
+    "Mode*10": {
+      "value": "Custom"
+    },
+    "Height*11": {
+      "value": 1.5
+    },
+    "Speed*12": {
+      "value": 1.0
+    },
+    "Less Fall Damage*13": {
+      "value": true
+    },
+    "Height*14": {
+      "value": 2.0
+    },
+    "Auto Disable*15": {
+      "value": true
+    },
+    "Fake Damage*16": {
+      "value": false
+    }
+  },
+  "module.ghost.keepsprint.name": {
+    "state": false,
+    "Hit Slow Down During Velocity*1": {
+      "value": 1.0
+    },
+    "Hit Slow Down Normal*2": {
+      "value": 1.0
+    },
+    "Buffer Decrease*3": {
+      "value": 1.0
+    },
+    "Max Buffer*4": {
+      "value": 1.0
+    },
+    "Velocity Hit Sprint*5": {
+      "value": false
+    },
+    "Normal Hit Sprint*6": {
+      "value": false
+    },
+    "Buffer Abuse*7": {
+      "value": false
+    },
+    "Only In Air*8": {
+      "value": false
+    }
+  },
+  "module.ghost.autoclicker.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Normal"
+    },
+    "CPS*2": {
+      "first": 14.9,
+      "second": 20.0
+    },
+    "Right Click*3": {
+      "value": false
+    },
+    "Left Click*4": {
+      "value": true
+    },
+    "Hit Select*5": {
+      "value": false
+    },
+    "Break Blocks*6": {
+      "value": false
+    },
+    "Drag Click Length*7": {
+      "first": 17.0,
+      "second": 18.0
+    },
+    "Delay Between Dragging*8": {
+      "first": 6.0,
+      "second": 6.0
+    },
+    "Jitter*9": {
+      "value": false
+    }
+  },
+  "module.ghost.clickassist.name": {
+    "state": false,
+    "Extra Left Clicks*1": {
+      "value": 1.0
+    },
+    "Extra Right Clicks*2": {
+      "value": 1.0
+    }
+  },
+  "module.ghost.guiclicker.name": {
+    "state": false
+  },
+  "module.movement.jesus.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog"
+    },
+    "Allow Jump*2": {
+      "value": true
+    }
+  },
+  "Sampler (Dev)": {
+    "state": false
+  },
+  "module.player.nofall.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog"
+    }
+  },
+  "module.player.autotool.name": {
+    "state": true
+  },
+  "module.player.antivoid.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog"
+    },
+    "Distance*2": {
+      "value": 5.0
+    },
+    "Distance*3": {
+      "value": 5.0
+    },
+    "Distance*4": {
+      "value": 5.0
+    },
+    "Distance*5": {
+      "value": 5.0
+    },
+    "Distance*6": {
+      "value": 5.0
+    }
+  },
+  "module.combat.teleportaura.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Single"
+    },
+    "Range*2": {
+      "value": 32.0
+    },
+    "CPS*3": {
+      "first": 10.0,
+      "second": 15.0
+    },
+    "Render*4": {
+      "value": true
+    }
+  },
+  "module.other.autogg.name": {
+    "state": false,
+    "Message*1": {
+      "value": "Why waste another game without Rise?"
+    }
+  },
+  "module.render.breadcrumbs.name": {
+    "state": false,
+    "Time*1": {
+      "value": 150.0
+    }
+  },
+  "module.movement.strafe.name": {
+    "state": false,
+    "Strength*1": {
+      "value": 100.0
+    }
+  },
+  "module.combat.trap.name": {
+    "state": false
+  },
+  "module.combat.consolespammer.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Channel"
+    },
+    "Channels/tick*2": {
+      "value": 1.0
+    }
+  },
+  "module.other.debugger.name": {
+    "state": false,
+    "Transactions*1": {
+      "value": false
+    },
+    "Keep Alive*2": {
+      "value": false
+    },
+    "Teleport*3": {
+      "value": true
+    },
+    "Velocity*4": {
+      "value": false
+    },
+    "Abilities*5": {
+      "value": false
+    },
+    "Display All*6": {
+      "value": false
+    },
+    "Blacklist*7": {
+      "value": false
+    },
+    "Time Since Move*8": {
+      "value": false
+    },
+    "Dev Panel*9": {
+      "value": false
+    },
+    "Event Calls*10": {
+      "value": false
+    },
+    "*11": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 180.0,
+      "scaleY": 207.0
+    }
+  },
+  "module.render.chat.name": {
+    "state": true,
+    "Open Height*1": {
+      "value": 200.0
+    },
+    "Max Closed Height*2": {
+      "value": 250.0
+    },
+    "Message disappearance speed*3": {
+      "value": 3250.0
+    },
+    "Background*4": {
+      "value": true
+    },
+    "*5": {
+      "positionX": 100.0,
+      "positionY": 4.5,
+      "scaleX": 300.0,
+      "scaleY": 200.0
+    }
+  },
+  "module.render.fpscounter.name": {
+    "state": false,
+    "Title*1": {
+      "value": true
+    },
+    "Position*2": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 40.0,
+      "scaleY": 21.0
+    }
+  },
+  "module.render.hotbar.name": {
+    "state": true,
+    "*1": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 182.0,
+      "scaleY": 40.0
+    }
+  },
+  "module.render.chestesp.name": {
+    "state": true
+  },
+  "module.render.cpscounter.name": {
+    "state": false,
+    "Title*1": {
+      "value": true
+    },
+    "Position*2": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 32.0,
+      "scaleY": 21.0
+    }
+  },
+  "module.combat.comboonehit.name": {
+    "state": false,
+    "Attack Packets*1": {
+      "value": 1.0
+    }
+  },
+  "module.render.clickgui.name": {},
+  "module.render.tracers.name": {
+    "state": false
+  },
+  "module.render.hurtcamera.name": {
+    "state": false,
+    "Intensity*1": {
+      "value": 0.0
+    }
+  },
+  "module.player.blink.name": {
+    "state": false,
+    "Pulse*1": {
+      "value": true
+    },
+    "Delay*2": {
+      "first": 5.0,
+      "second": 9.0
+    }
+  },
+  "Jump Circles": {
+    "state": false
+  },
+  "module.render.targetinfo.name": {
+    "state": true,
+    "Mode*1": {
+      "value": "Exhibition"
+    },
+    "Particles*2": {
+      "value": true
+    },
+    "Background Mode*3": {
+      "value": "Glass"
+    },
+    "Particles*4": {
+      "value": true
+    },
+    "Background Mode*5": {
+      "value": "Glass"
+    },
+    "Position*6": {
+      "positionX": 516.0,
+      "positionY": 392.0,
+      "scaleX": 140.0,
+      "scaleY": 50.0
+    },
+    "Follow Player*7": {
+      "value": false
+    }
+  },
+  "module.movement.noclip.name": {
+    "state": false,
+    "Block*1": {
+      "value": true
+    }
+  },
+  "module.movement.teleport.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog BedWars"
+    }
+  },
+  "module.combat.crasher.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Vanilla"
+    }
+  },
+  "Data": {
+    "state": false
+  },
+  "module.combat.antibot.name": {
+    "state": false,
+    "Funcraft Check*1": {
+      "value": false
+    },
+    "NPC Detection Check*2": {
+      "value": true
+    },
+    "Duplicate Name Check*3": {
+      "value": false
+    },
+    "No Ping Check*4": {
+      "value": false
+    },
+    "Negative Unique ID Check*5": {
+      "value": false
+    },
+    "Duplicate Unique ID Check*6": {
+      "value": false
+    },
+    "Time Visible Check*7": {
+      "value": false
+    },
+    "Middle Click Bot*8": {
+      "value": true
+    }
+  },
+  "module.player.antifireball.name": {
+    "state": false,
+    "Rotate*1": {
+      "value": true
+    }
+  },
+  "module.render.appleskin.name": {
+    "state": false,
+    "Max Flash Alpha*1": {
+      "value": 0.65
+    }
+  },
+  "module.render.nametags.name": {
+    "state": true,
+    "Mode*1": {
+      "value": "Classic"
+    },
+    "Show Health*2": {
+      "value": false
+    },
+    "Show Team Tag*3": {
+      "value": false
+    },
+    "Show Team Tag*4": {
+      "value": true
+    },
+    "Targets*5": {
+      "value": false
+    },
+    "Player*6": {
+      "value": true
+    },
+    "Invisibles*7": {
+      "value": false
+    },
+    "Animals*8": {
+      "value": false
+    },
+    "Mobs*9": {
+      "value": false
+    },
+    "Player Teammates*10": {
+      "value": true
+    }
+  },
+  "module.combat.pingspoof.name": {
+    "state": false,
+    "Delay*1": {
+      "first": 50.0,
+      "second": 949.0
+    },
+    "Delay Teleports*2": {
+      "value": false
+    },
+    "Delay Velocity*3": {
+      "value": true
+    },
+    "Delay Entity Movements*4": {
+      "value": false
+    }
+  },
+  "module.render.sessionstats.name": {
+    "state": false,
+    "*1": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 130.0,
+      "scaleY": 55.0
+    },
+    "Mode*2": {
+      "value": "Rue"
+    },
+    "Interpolate Text*3": {
+      "value": false
+    }
+  },
+  "module.ghost.wtap.name": {
+    "state": true,
+    "Mode*1": {
+      "value": "Silent"
+    },
+    "WTap Chance*2": {
+      "value": 100.0
+    }
+  },
+  "module.movement.speed.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog"
+    },
+    "Speed*2": {
+      "value": 1.1
+    },
+    "Hurt Boost*3": {
+      "value": true
+    },
+    "Boost Speed*4": {
+      "value": 0.1
+    },
+    "Speed*5": {
+      "value": 10.0
+    },
+    "Mode*6": {
+      "value": "YPort"
+    },
+    "Type*7": {
+      "value": "Ground Strafe"
+    },
+    "Fast Fall*8": {
+      "value": false
+    },
+    "Ticks to Glide*9": {
+      "value": 5.0
+    },
+    "Jump Motion*10": {
+      "value": 0.419
+    },
+    "Ground Speed*11": {
+      "value": 1.55
+    },
+    "Bunny Slope*12": {
+      "value": 0.599
+    },
+    "Timer*13": {
+      "value": 1.0
+    },
+    "Damage Boost*14": {
+      "value": false
+    },
+    "Custom Boost*15": {
+      "value": true
+    },
+    "Boost Speed*16": {
+      "value": 0.8
+    },
+    "Low Hop*17": {
+      "value": true
+    },
+    "Y-port Hop*18": {
+      "value": false
+    },
+    "Hurt Time*19": {
+      "value": 6.0
+    },
+    "Sub-Mode*20": {
+      "value": "Hop"
+    },
+    "Rotation Exploit Mode*21": {
+      "value": "Off"
+    },
+    "CPU SpeedUp Exploit*22": {
+      "value": false
+    },
+    "No Jump Delay*23": {
+      "value": false
+    },
+    "Disable on Teleport*24": {
+      "value": false
+    },
+    "Stop on Disable*25": {
+      "value": false
+    }
+  },
+  "module.render.interface.name": {
+    "state": true,
+    "Mode*1": {
+      "value": "Classic"
+    },
+    "ArrayList Color Mode*2": {
+      "value": "Fade"
+    },
+    "ArrayList Font*3": {
+      "value": "Minecraft"
+    },
+    "Shader Effect*4": {
+      "value": "Shadow"
+    },
+    "Drop Shadow*5": {
+      "value": true
+    },
+    "Sidebar*6": {
+      "value": false
+    },
+    "Particles on Kill*7": {
+      "value": true
+    },
+    "BackGround*8": {
+      "value": "Off"
+    },
+    "Custom Client Name*9": {
+      "value": ""
+    },
+    "Offset*10": {
+      "value": 7.0
+    },
+    "ArrayList Color Mode*11": {
+      "value": "Fade"
+    },
+    "ArrayList Alignment*12": {
+      "value": "Right"
+    },
+    "Font*13": {
+      "value": false
+    },
+    "Arraylist Side Bar*14": {
+      "value": false
+    },
+    "Arraylist Background*15": {
+      "value": false
+    },
+    "Show Fps*16": {
+      "value": true
+    },
+    "Show Time*17": {
+      "value": true
+    },
+    "Show Ping*18": {
+      "value": false
+    },
+    "Show Coordinates*19": {
+      "value": false
+    },
+    "Custom Client Name*20": {
+      "value": "Rise"
+    },
+    "Font*21": {
+      "value": false
+    },
+    "Modules to Show*22": {
+      "value": "All"
+    },
+    "Suffix*23": {
+      "value": true
+    },
+    "Lowercase*24": {
+      "value": false
+    },
+    "Remove Spaces*25": {
+      "value": false
+    },
+    "Shaders*26": {
+      "value": true
+    },
+    "Toggle Notifications*27": {
+      "value": false
+    },
+    "Information Type*28": {
+      "value": "Rise"
+    }
+  },
+  "module.render.streamer.name": {
+    "state": false,
+    "Name*1": {
+      "value": true
+    },
+    "Replacement*2": {
+      "value": "You"
+    }
+  },
+  "module.player.breaker.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Normal"
+    },
+    "Bed*2": {
+      "value": true
+    },
+    "Keep Break Progress When Out Of Range*3": {
+      "value": true
+    },
+    "Cancel velocity whilst breaking, so you don\u0027t slow down in air*4": {
+      "value": true
+    },
+    "Through Walls*5": {
+      "value": true
+    },
+    "Empty Surrounding*6": {
+      "value": true
+    },
+    "Rotate*7": {
+      "value": true
+    },
+    "Only Rotate at Start and Stop*8": {
+      "value": true
+    },
+    "Whitelist Own Bed*9": {
+      "value": true
+    },
+    "Slow Down In Air*10": {
+      "value": true
+    },
+    "Movement Correction*11": {
+      "value": "Off"
+    }
+  },
+  "module.ghost.fastplace.name": {
+    "state": true,
+    "Delay*1": {
+      "value": 0.0
+    }
+  },
+  "module.other.spammer.name": {
+    "state": false,
+    "Message*1": {
+      "value": "Buy Rise at riseclient.com!"
+    },
+    "Delay*2": {
+      "value": 300.0
+    }
+  },
+  "module.combat.killaura.name": {
+    "state": false,
+    "Attack Mode*1": {
+      "value": "Switch"
+    },
+    "Switch Delay*2": {
+      "first": 2.0,
+      "second": 7.0
+    },
+    "Auto Block*3": {
+      "value": "Fake"
+    },
+    "Right Click Only*4": {
+      "value": false
+    },
+    "Prevent Serverside Blocking*5": {
+      "value": true
+    },
+    "Sorting*6": {
+      "value": "Health"
+    },
+    "Click Delay Mode*7": {
+      "value": "Normal"
+    },
+    "Range*8": {
+      "value": 3.0
+    },
+    "CPS*9": {
+      "first": 16.0,
+      "second": 18.0
+    },
+    "Rotation speed*10": {
+      "first": 10.0,
+      "second": 10.0
+    },
+    "Movement correction*11": {
+      "value": "Off"
+    },
+    "Keep sprint*12": {
+      "value": true
+    },
+    "Target ESP Mode*13": {
+      "value": "Ring"
+    },
+    "Box Mode*14": {
+      "value": "Full"
+    },
+    "Ray cast*15": {
+      "value": true
+    },
+    "Advanced*16": {
+      "value": true
+    },
+    "Rotation Mode*17": {
+      "value": "Legit/Normal"
+    },
+    "Attack whilst Scaffolding*18": {
+      "value": false
+    },
+    "No swing*19": {
+      "value": false
+    },
+    "Auto disable*20": {
+      "value": true
+    },
+    "Targets*21": {
+      "value": false
+    },
+    "Player*22": {
+      "value": true
+    },
+    "Invisibles*23": {
+      "value": false
+    },
+    "Animals*24": {
+      "value": false
+    },
+    "Mobs*25": {
+      "value": false
+    },
+    "Player Teammates*26": {
+      "value": false
+    }
+  },
+  "module.ghost.noclickdelay.name": {
+    "state": false
+  },
+  "module.combat.velocity.name": {
+    "state": true,
+    "Mode*1": {
+      "value": "Standard"
+    },
+    "Horizontal*2": {
+      "value": 0.0
+    },
+    "Vertical*3": {
+      "value": 100.0
+    },
+    "Explosion Ignore*4": {
+      "value": true
+    },
+    "Horizontal*5": {
+      "value": 0.0
+    },
+    "Vertical*6": {
+      "value": 100.0
+    },
+    "Buffer*7": {
+      "value": 1.0
+    },
+    "Delay*8": {
+      "value": 10.0
+    },
+    "Ping Spoof*9": {
+      "value": true
+    },
+    "Chance*10": {
+      "value": 100.0
+    },
+    "Legit Timing*11": {
+      "value": true
+    },
+    "Chance*12": {
+      "value": 100.0
+    },
+    "Legit Timing*13": {
+      "value": false
+    },
+    "Delay*14": {
+      "value": 1.0
+    },
+    "Horizontal*15": {
+      "value": 0.0
+    },
+    "Vertical*16": {
+      "value": 0.0
+    },
+    "Horizontal*17": {
+      "value": 0.0
+    },
+    "Vertical*18": {
+      "value": 0.0
+    },
+    "Tick Velocity*19": {
+      "value": 1.0
+    },
+    "Tick*20": {
+      "value": 1.0
+    },
+    "Vertical*21": {
+      "value": false
+    },
+    "Horizontal*22": {
+      "value": true
+    },
+    "On Swing*23": {
+      "value": false
+    }
+  },
+  "module.render.fullbright.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Effect"
+    }
+  },
+  "module.combat.norotate.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Edit"
+    }
+  },
+  "module.other.murdermystery.name": {
+    "state": false
+  },
+  "module.player.stealer.name": {
+    "state": false,
+    "Delay*1": {
+      "first": 0.0,
+      "second": 50.0
+    },
+    "Ignore Trash*2": {
+      "value": true
+    }
+  },
+  "module.ghost.reach.name": {
+    "state": false,
+    "Range*1": {
+      "first": 4.2,
+      "second": 4.2
+    },
+    "Buffer Decrease*2": {
+      "value": 1.0
+    },
+    "Max Buffer*3": {
+      "value": 5.0
+    },
+    "Buffer Abuse*4": {
+      "value": false
+    }
+  },
+  "module.combat.staffdetector.name": {
+    "state": false,
+    "Auto Leave*1": {
+      "value": true
+    }
+  },
+  "module.render.viewbobbing.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Meme"
+    }
+  },
+  "module.other.clicksounds.name": {
+    "state": false,
+    "Sound*1": {
+      "value": "Standard"
+    },
+    "Volume*2": {
+      "value": 0.5
+    },
+    "Variation*3": {
+      "value": 5.0
+    }
+  },
+  "Mimic": {
+    "state": false,
+    "Rotations*1": {
+      "value": true
+    },
+    "Clicker*2": {
+      "value": true
+    }
+  },
+  "module.render.unlimitedchat.name": {
+    "state": false
+  },
+  "module.other.antiafk.name": {
+    "state": false
+  },
+  "module.render.scoreboard.name": {
+    "state": true,
+    "Position*1": {
+      "positionX": 860.5,
+      "positionY": 368.5,
+      "scaleX": 95.0,
+      "scaleY": 132.0
+    },
+    "Outline*2": {
+      "value": false
+    },
+    "Blur color*3": {
+      "value": false
+    },
+    "Replace IP with Rise Website*4": {
+      "value": true
+    }
+  },
+  "module.ghost.hitbox.name": {
+    "state": false,
+    "Expand Amount*1": {
+      "value": 1.139
+    },
+    "Effect range*2": {
+      "value": true
+    }
+  },
+  "module.movement.phase.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Watchdog Auto Phase"
+    }
+  },
+  "module.render.particles.name": {
+    "state": true,
+    "Multiplier*1": {
+      "value": 1.0
+    },
+    "Always Crit*2": {
+      "value": true
+    },
+    "Always Sharpness*3": {
+      "value": true
+    }
+  },
+  "module.movement.wallclimb.name": {
+    "state": false,
+    "Mode*1": {
+      "value": "Verus"
+    }
+  },
+  "TestDropdownModule": {
+    "state": false
+  },
+  "AutoGG": {
+    "state": false
+  },
+  "Disabler": {
+    "state": false,
+    "Mode*1": {
+      "value": "Age of Consent"
+    }
+  },
+  "Client Name": {
+    "state": false
+  },
+  "Age of Consent Disabler": {
+    "state": false
+  },
+  "epic bypass": {
+    "state": false,
+    "Mode*1": {
+      "value": "sex"
+    },
+    "Speed*2": {
+      "value": 0.7
+    }
+  },
+  "HUD Novoline Arraylist": {
+    "state": false,
+    "X Position*1": {
+      "value": 718.0
+    },
+    "Y Position*2": {
+      "value": 1.0
+    }
+  },
+  "Novoline Name": {
+    "state": false,
+    "FPS X*1": {
+      "value": 1.0
+    },
+    "FPS Y*2": {
+      "value": 491.0
+    },
+    "BUILD X*3": {
+      "value": 930.0
+    },
+    "BUILD Y*4": {
+      "value": 1000.0
+    },
+    "SHADERS*5": {
+      "value": true
+    }
+  },
+  "Session Info": {
+    "state": false,
+    "Shader*1": {
+      "value": true
+    },
+    "X*2": {
+      "value": 2.0
+    },
+    "Y*3": {
+      "value": 23.0
+    }
+  },
+  "Target Info": {
+    "state": false,
+    "Mode*1": {
+      "value": "Novoline"
+    },
+    "X*2": {
+      "value": 381.0
+    },
+    "Y*3": {
+      "value": 250.0
+    },
+    "Shaders*4": {
+      "value": false
+    }
+  },
+  "Rank Beg": {
+    "state": false,
+    "Accept gift delay*1": {
+      "value": 45.0
+    },
+    "Beg message delay*2": {
+      "value": 15.0
+    },
+    "Filler message delay*3": {
+      "value": 30.0
+    },
+    "Swap lobby delay*4": {
+      "value": 30.0
+    },
+    "Use /stuck delay*5": {
+      "value": 5.0
+    },
+    "Random delay scale*6": {
+      "value": 5.0
+    },
+    "Beg message word count*7": {
+      "first": 1.0,
+      "second": 6.0
+    },
+    "Filler message word count*8": {
+      "first": 1.0,
+      "second": 3.0
+    },
+    "Beggar language*9": {
+      "value": "English"
+    },
+    "Lobby*10": {
+      "value": "Bedwars"
+    },
+    "Accept sent gifts*11": {
+      "value": true
+    },
+    "Send beg messages*12": {
+      "value": true
+    },
+    "Send filler messages*13": {
+      "value": true
+    },
+    "Use /stuck*14": {
+      "value": true
+    },
+    "Go to gamemode lobby*15": {
+      "value": true
+    },
+    "Go to lobby 1*16": {
+      "value": true
+    }
+  },
+  "theme": "TEST"
+}
