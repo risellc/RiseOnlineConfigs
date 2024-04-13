@@ -753,7 +753,7 @@
       "value": "Watchdog"
     },
     "Same Y*8": {
-      "value": "Off"
+      "value": "Auto Jump"
     },
     "Downwards (Press Sneak)*9": {
       "value": "Watchdog"
@@ -1212,10 +1212,10 @@
       "value": true
     },
     "*5": {
-      "positionX": 100.0,
-      "positionY": 4.5,
+      "positionX": 4.5,
+      "positionY": 476.0,
       "scaleX": 300.0,
-      "scaleY": 0.0
+      "scaleY": 34.0
     }
   },
   "module.render.fpscounter.name": {
@@ -1233,8 +1233,8 @@
   "module.render.hotbar.name": {
     "state": true,
     "*1": {
-      "positionX": 100.0,
-      "positionY": 100.0,
+      "positionX": 389.0,
+      "positionY": 496.5,
       "scaleX": 182.0,
       "scaleY": 40.0
     }
