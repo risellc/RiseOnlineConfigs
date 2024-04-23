@@ -443,7 +443,7 @@
     }
   },
   "module.player.blink.name": {
-    "state": true,
+    "state": false,
     "Pulse*1": {
       "value": true
     },
@@ -459,7 +459,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": true,
+    "state": false,
     "Attack Mode*1": {
       "value": "Switch"
     },
@@ -929,7 +929,7 @@
     }
   },
   "module.combat.antibot.name": {
-    "state": true,
+    "state": false,
     "Funcraft Check*1": {
       "value": false
     },
@@ -1469,8 +1469,8 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position*1": {
-      "positionX": 867.5,
-      "positionY": 359.5,
+      "positionX": 845.5,
+      "positionY": 287.5,
       "scaleX": 88.0,
       "scaleY": 141.0
     },
@@ -1788,8 +1788,8 @@
       "value": "Glass"
     },
     "Position*6": {
-      "positionX": 511.0,
-      "positionY": 390.0,
+      "positionX": 553.0,
+      "positionY": 396.0,
       "scaleX": 130.0,
       "scaleY": 42.0
     },
@@ -1965,7 +1965,7 @@
     "state": false
   },
   "Disabler": {
-    "state": true,
+    "state": false,
     "Mode*1": {
       "value": "Age of Consent"
     }
