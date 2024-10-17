@@ -26,7 +26,7 @@
     }
   },
   "module.combat.antibot.name": {
-    "state": false,
+    "state": true,
     "Funcraft Check in module.combat.antibot.name Module": {
       "value": false
     },
@@ -146,7 +146,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": false,
+    "state": true,
     "Attack Mode in module.combat.killaura.name Module": {
       "value": "Switch"
     },
@@ -281,9 +281,9 @@
       "value": "Glass"
     },
     "Position in module.render.targetinfo.name Module": {
-      "positionX": 324.0,
-      "positionY": 304.0,
-      "scaleX": 148.0,
+      "positionX": 293.0,
+      "positionY": 252.0,
+      "scaleX": 161.0,
       "scaleY": 48.0
     },
     "Follow Player in module.render.targetinfo.name Module": {
@@ -664,7 +664,7 @@
     }
   },
   "module.movement.jesus.name": {
-    "state": true,
+    "state": false,
     "Mode in module.movement.jesus.name Module": {
       "value": "Watchdog"
     },
@@ -675,10 +675,10 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position in module.render.scoreboard.name Module": {
-      "positionX": 628.5,
-      "positionY": 238.0,
-      "scaleX": 87.0,
-      "scaleY": 141.0
+      "positionX": 600.5,
+      "positionY": 237.0,
+      "scaleX": 115.0,
+      "scaleY": 123.0
     },
     "Outline in module.render.scoreboard.name Module": {
       "value": false
@@ -891,7 +891,7 @@
     "state": true,
     " in module.render.sessionstats.name Module": {
       "positionX": 4.5,
-      "positionY": 26.0,
+      "positionY": 34.0,
       "scaleX": 130.0,
       "scaleY": 55.0
     },
@@ -1121,7 +1121,7 @@
     },
     "Position in module.render.bpscounter.name Module": {
       "positionX": 4.5,
-      "positionY": 101.0,
+      "positionY": 135.0,
       "scaleX": 41.0,
       "scaleY": 21.0
     }
@@ -1276,7 +1276,7 @@
   "module.movement.flight.name": {
     "state": false,
     "Mode in module.movement.flight.name Module": {
-      "value": "Watchdog"
+      "value": "Vanilla"
     },
     "Speed in Vanilla Mode": {
       "value": 1.0
@@ -1445,7 +1445,7 @@
     }
   },
   "module.render.nocameraclip.name": {
-    "state": false
+    "state": true
   },
   "module.movement.wallclimb.name": {
     "state": false,
@@ -1792,7 +1792,7 @@
       "value": "Watchdog"
     },
     "Same Y in module.player.scaffold.name Module": {
-      "value": "Auto Jump"
+      "value": "On"
     },
     "Downwards (Press Sneak) in module.player.scaffold.name Module": {
       "value": "Off"
@@ -1910,7 +1910,7 @@
     "state": true
   },
   "module.movement.phase.name": {
-    "state": false,
+    "state": true,
     "Mode in module.movement.phase.name Module": {
       "value": "Watchdog Auto Phase"
     }
@@ -1981,20 +1981,15 @@
   },
   "module.player.stealer.name": {
     "state": true,
-    "Validate Name in module.player.stealer.name Module": {
+    "Delay in module.player.stealer.name Module": {
+      "first": 100.0,
+      "second": 150.0
+    },
+    "Ignore Trash in module.player.stealer.name Module": {
       "value": true
     },
-    "Instant in module.player.stealer.name Module": {
-      "value": false
-    },
-    "Minimum Click Delay in module.player.stealer.name Module": {
-      "value": 2.0
-    },
-    "Maximum Click Delay in module.player.stealer.name Module": {
-      "value": 2.0
-    },
-    "Close Delay in module.player.stealer.name Module": {
-      "value": 1.0
+    "Gui Detection in module.player.stealer.name Module": {
+      "value": true
     }
   },
   "module.ghost.aimbacktrack.name": {
@@ -2048,7 +2043,7 @@
       "positionX": 100.0,
       "positionY": 100.0,
       "scaleX": 220.0,
-      "scaleY": 130.0
+      "scaleY": 115.0
     }
   },
   "module.player.antivoid.name": {
