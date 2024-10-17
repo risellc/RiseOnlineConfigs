@@ -1276,7 +1276,7 @@
   "module.movement.flight.name": {
     "state": false,
     "Mode in module.movement.flight.name Module": {
-      "value": "Vanilla"
+      "value": "Watchdog"
     },
     "Speed in Vanilla Mode": {
       "value": 1.0
