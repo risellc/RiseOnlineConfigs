@@ -178,7 +178,7 @@
     },
     "Rotation speed in module.combat.killaura.name Module": {
       "first": 10.0,
-      "second": 20.0
+      "second": 10.0
     },
     "Movement correction in module.combat.killaura.name Module": {
       "value": "Off"
