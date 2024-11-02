@@ -1483,7 +1483,7 @@
     "state": false
   },
   "module.other.bwutils.name": {
-    "state": false,
+    "state": true,
     "Sword Reveal in module.other.bwutils.name Module": {
       "value": true
     },
@@ -2012,7 +2012,7 @@
       "value": 500.0
     },
     "Delay in Verus Mode": {
-      "value": 50.0
+      "value": 350.0
     }
   },
   "module.movement.phase.name": {
