@@ -239,7 +239,7 @@
     }
   },
   "module.player.autotool.name": {
-    "state": false
+    "state": true
   },
   "module.ghost.guiclicker.name": {
     "state": false
@@ -259,7 +259,7 @@
   "module.player.antivoid.name": {
     "state": false,
     "Mode in module.player.antivoid.name Module": {
-      "value": "Packet"
+      "value": "Blink"
     },
     "Distance in Packet Mode": {
       "value": 5.0
@@ -315,7 +315,7 @@
       "second": 0.0
     },
     "Timer in module.player.scaffold.name Module": {
-      "value": 1.2
+      "value": 1.3
     },
     "Expand in module.player.scaffold.name Module": {
       "value": 0.0
@@ -385,9 +385,9 @@
     "state": false
   },
   "module.render.ambience.name": {
-    "state": false,
+    "state": true,
     "Time in module.render.ambience.name Module": {
-      "value": 0.0
+      "value": 13799.0
     },
     "Time Speed in module.render.ambience.name Module": {
       "value": 0.0
@@ -585,9 +585,9 @@
     }
   },
   "module.combat.legitreach.name": {
-    "state": false,
+    "state": true,
     "Max Ping Spoof in module.combat.legitreach.name Module": {
-      "value": 1000.0
+      "value": 349.0
     },
     "Render Real Location in module.combat.legitreach.name Module": {
       "value": true
@@ -816,12 +816,12 @@
     }
   },
   "module.combat.antibot.name": {
-    "state": false,
+    "state": true,
     "Funcraft Check in module.combat.antibot.name Module": {
       "value": false
     },
     "NPC Detection Check in module.combat.antibot.name Module": {
-      "value": false
+      "value": true
     },
     "Duplicate Name Check in module.combat.antibot.name Module": {
       "value": false
@@ -849,7 +849,7 @@
     }
   },
   "module.player.nofall.name": {
-    "state": false,
+    "state": true,
     "Mode in module.player.nofall.name Module": {
       "value": "Matrix"
     },
@@ -1037,9 +1037,9 @@
     }
   },
   "module.movement.targetstrafe.name": {
-    "state": false,
+    "state": true,
     "Range in module.movement.targetstrafe.name Module": {
-      "value": 1.5
+      "value": 1.0
     },
     "Hold Jump in module.movement.targetstrafe.name Module": {
       "value": true
@@ -1048,7 +1048,7 @@
       "value": false
     },
     "Circle in module.movement.targetstrafe.name Module": {
-      "value": false
+      "value": true
     }
   },
   "module.player.twerk.name": {
@@ -1534,7 +1534,7 @@
     }
   },
   "module.render.2desp.name": {
-    "state": false,
+    "state": true,
     "Box in module.render.2desp.name Module": {
       "value": true
     },
@@ -1542,7 +1542,7 @@
       "value": "Health"
     },
     "Armor Bar in module.render.2desp.name Module": {
-      "value": false
+      "value": true
     },
     "Targets in module.render.2desp.name Module": {
       "value": false
@@ -1719,7 +1719,7 @@
       "value": "Above"
     },
     "Ray cast in module.combat.killaura.name Module": {
-      "value": false
+      "value": true
     },
     "Through Walls in module.combat.killaura.name Module": {
       "value": false
@@ -2103,17 +2103,11 @@
   "module.render.hotbar.name": {
     "state": true,
     " in module.render.hotbar.name Module": {
-      "positionX": 389.0,
-      "positionY": 485.5,
+      "positionX": 100.0,
+      "positionY": 100.0,
       "scaleX": 182.0,
       "scaleY": 40.0
     }
-  },
-  "AutoJump": {
-    "state": false
-  },
-  "velocity-disable": {
-    "state": false
   },
   "theme": "BLEND"
 }
