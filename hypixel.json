@@ -709,8 +709,8 @@
       "value": "Switch"
     },
     "Switch Delay in module.combat.killaura.name Module": {
-      "first": 2.0,
-      "second": 2.0
+      "first": 0.0,
+      "second": 0.0
     },
     "Auto Block in module.combat.killaura.name Module": {
       "value": "Watchdog"
