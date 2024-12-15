@@ -780,7 +780,7 @@
       "second": 0.0
     },
     "Auto Block in module.combat.killaura.name Module": {
-      "value": "Watchdog 2"
+      "value": "Watchdog"
     },
     "Right Click Only in module.combat.killaura.name Module": {
       "value": false
@@ -798,8 +798,8 @@
       "value": 3.0
     },
     "CPS in module.combat.killaura.name Module": {
-      "first": 10.0,
-      "second": 10.0
+      "first": 20.0,
+      "second": 20.0
     },
     "Rotation speed in module.combat.killaura.name Module": {
       "first": 10.0,
