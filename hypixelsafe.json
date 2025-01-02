@@ -1070,7 +1070,7 @@
     }
   },
   "module.player.antivoid.name": {
-    "state": true,
+    "state": false,
     "Mode in module.player.antivoid.name Module": {
       "value": "Watchdog"
     },
