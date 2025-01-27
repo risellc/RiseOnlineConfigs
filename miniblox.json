@@ -2003,7 +2003,7 @@
     }
   },
   "module.player.inventorysync.name": {
-    "state": false
+    "state": true
   },
   "module.render.targetinfo.name": {
     "state": true,
