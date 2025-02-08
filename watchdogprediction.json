@@ -613,7 +613,7 @@
   "module.combat.velocity.name": {
     "state": true,
     "Mode in module.combat.velocity.name Module": {
-      "value": "Watchdog Prediction 2"
+      "value": "Watchdog Prediction"
     },
     "Horizontal in Standard Mode": {
       "value": 100.0
