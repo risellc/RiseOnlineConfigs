@@ -142,7 +142,7 @@
       "value": false
     },
     "Alternate Motion in Watchdog Mode": {
-      "value": true
+      "value": false
     },
     "Jump Motion in NCP Mode": {
       "value": 0.4
