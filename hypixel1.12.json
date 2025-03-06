@@ -388,7 +388,7 @@
       "value": true
     },
     "Watchdog Ground Spoof in module.player.breaker.name Module": {
-      "value": false
+      "value": true
     },
     "Rotate in module.player.breaker.name Module": {
       "value": true
@@ -536,7 +536,7 @@
       "value": false
     },
     "Equal Air/Ground Dig in module.player.fastbreak.name Module": {
-      "value": false
+      "value": true
     }
   },
   "module.movement.step.name": {
