@@ -388,7 +388,7 @@
       "value": true
     },
     "Watchdog Ground Spoof in module.player.breaker.name Module": {
-      "value": true
+      "value": false
     },
     "Rotate in module.player.breaker.name Module": {
       "value": true
