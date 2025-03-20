@@ -1251,9 +1251,9 @@
     "state": false
   },
   "module.movement.phase.name": {
-    "state": true,
+    "state": false,
     "Mode in module.movement.phase.name Module": {
-      "value": "Watchdog 1.17.1 Full Block"
+      "value": "Watchdog Semi Block"
     },
     "Amount in Watchdog Semi Block Mode": {
       "value": 1.0
