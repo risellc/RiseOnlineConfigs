@@ -1646,7 +1646,7 @@
     }
   },
   "module.combat.disabler.name": {
-    "state": false,
+    "state": true,
     "Cubecraft in module.combat.disabler.name Module": {
       "value": false
     },
