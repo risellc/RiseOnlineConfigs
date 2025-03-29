@@ -937,19 +937,19 @@
       "value": "Watchdog"
     },
     "Horizontal in Standard Mode": {
-      "value": 0.0
+      "value": 200.0
     },
     "Vertical in Standard Mode": {
-      "value": 0.0
+      "value": 200.0
     },
     "Explosion Ignore in Standard Mode": {
       "value": false
     },
     "Horizontal in Buffer Abuse Mode": {
-      "value": 100.0
+      "value": 200.0
     },
     "Vertical in Buffer Abuse Mode": {
-      "value": 100.0
+      "value": 200.0
     },
     "Buffer in Buffer Abuse Mode": {
       "value": 1.0
@@ -1012,10 +1012,10 @@
       "value": false
     },
     "Stack in Watchdog Mode": {
-      "value": true
+      "value": false
     },
     "Ping Spoof in Watchdog Mode": {
-      "value": true
+      "value": false
     },
     "Always Cancel Vertical in Watchdog Mode": {
       "value": true
@@ -1138,7 +1138,7 @@
       "value": 2.0
     },
     "Mode in Vulcan Mode": {
-      "value": "BHop"
+      "value": "Yport"
     },
     "Type in Watchdog Mode": {
       "value": "Low Strafe"
@@ -1330,7 +1330,7 @@
       "value": "Watchdog Semi Block"
     },
     "Amount in Watchdog Semi Block Mode": {
-      "value": 1.0
+      "value": 0.8
     },
     "Timer in Watchdog Semi Block Mode": {
       "value": 0.1
@@ -1448,16 +1448,16 @@
   "module.movement.flight.name": {
     "state": false,
     "Mode in module.movement.flight.name Module": {
-      "value": "Watchdog"
+      "value": "Vanilla"
     },
     "Speed in Vanilla Mode": {
-      "value": 0.2
+      "value": 4.2
     },
     "Speed in MiniBlox Mode": {
       "value": 5.0
     },
     "Miniblox Mode in MiniBlox 2 Mode": {
-      "value": "Blink Vanilla"
+      "value": "Non-Blink"
     },
     "Speed in Unknown": {
       "value": 1.0
@@ -1559,7 +1559,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": false,
+    "state": true,
     "Attack Mode in module.combat.killaura.name Module": {
       "value": "Switch"
     },
@@ -1673,7 +1673,7 @@
       "value": true
     },
     "Position in module.render.fpscounter.name Module": {
-      "positionX": 100.0,
+      "positionX": 4.5,
       "positionY": 100.0,
       "scaleX": 43.0,
       "scaleY": 21.0
@@ -1712,7 +1712,7 @@
   "module.render.animations.name": {
     "state": true,
     "Block Animation in module.render.animations.name Module": {
-      "value": "Sunny"
+      "value": "Exhibition New"
     },
     "Swing Animation in module.render.animations.name Module": {
       "value": "None"
@@ -1992,7 +1992,7 @@
       "value": true
     },
     "Position in module.render.bpscounter.name Module": {
-      "positionX": 100.0,
+      "positionX": 52.0,
       "positionY": 100.0,
       "scaleX": 41.0,
       "scaleY": 21.0
@@ -2065,7 +2065,7 @@
     }
   },
   "module.other.cheatdetector.name": {
-    "state": false,
+    "state": true,
     "Alert Type in module.other.cheatdetector.name Module": {
       "value": "ClientSide"
     }
@@ -2088,9 +2088,9 @@
       "value": "Glass"
     },
     "Position in module.render.targetinfo.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 261.0,
+      "positionX": 287.0,
+      "positionY": 318.0,
+      "scaleX": 266.0,
       "scaleY": 48.0
     },
     "Follow Player in module.render.targetinfo.name Module": {
@@ -2223,10 +2223,10 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position in module.render.scoreboard.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 124.0,
-      "scaleY": 123.0
+      "positionX": 651.5,
+      "positionY": 203.0,
+      "scaleX": 100.0,
+      "scaleY": 105.0
     },
     "Outline in module.render.scoreboard.name Module": {
       "value": false
