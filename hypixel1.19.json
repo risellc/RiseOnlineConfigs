@@ -1018,7 +1018,7 @@
       "value": true
     },
     "Always Cancel Vertical in Watchdog Mode": {
-      "value": false
+      "value": true
     },
     "Watchdog Backtrack in Watchdog Mode": {
       "value": false
@@ -1675,7 +1675,7 @@
     "Position in module.render.fpscounter.name Module": {
       "positionX": 100.0,
       "positionY": 100.0,
-      "scaleX": 42.0,
+      "scaleX": 43.0,
       "scaleY": 21.0
     }
   },
@@ -1788,7 +1788,7 @@
     }
   },
   "module.movement.jesus.name": {
-    "state": false,
+    "state": true,
     "Mode in module.movement.jesus.name Module": {
       "value": "Watchdog"
     },
@@ -1875,7 +1875,7 @@
       "positionX": 100.0,
       "positionY": 100.0,
       "scaleX": 320.0,
-      "scaleY": 97.0
+      "scaleY": 130.0
     }
   },
   "module.other.playernotifier.name": {
@@ -2090,7 +2090,7 @@
     "Position in module.render.targetinfo.name Module": {
       "positionX": 100.0,
       "positionY": 100.0,
-      "scaleX": 238.0,
+      "scaleX": 261.0,
       "scaleY": 48.0
     },
     "Follow Player in module.render.targetinfo.name Module": {
@@ -2223,7 +2223,7 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position in module.render.scoreboard.name Module": {
-      "positionX": 109.0,
+      "positionX": 100.0,
       "positionY": 100.0,
       "scaleX": 124.0,
       "scaleY": 123.0
