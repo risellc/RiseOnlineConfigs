@@ -308,7 +308,7 @@
     }
   },
   "module.combat.criticals.name": {
-    "state": true,
+    "state": false,
     "Mode in module.combat.criticals.name Module": {
       "value": "Watchdog"
     },
