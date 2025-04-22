@@ -400,7 +400,7 @@
       "value": true
     },
     "Always Cancel Vertical in Watchdog Mode": {
-      "value": true
+      "value": false
     },
     "Watchdog Backtrack in Watchdog Mode": {
       "value": false
