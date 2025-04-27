@@ -188,7 +188,7 @@
     }
   },
   "module.other.debugger.name": {
-    "state": false,
+    "state": true,
     "Transactions in module.other.debugger.name Module": {
       "value": false
     },
@@ -987,8 +987,8 @@
       "value": "Glass"
     },
     "Position in module.render.targetinfo.name Module": {
-      "positionX": 299.0,
-      "positionY": 188.5,
+      "positionX": 415.0,
+      "positionY": 307.0,
       "scaleX": 214.0,
       "scaleY": 48.0
     },
@@ -1575,7 +1575,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": false,
+    "state": true,
     "Attack Mode in module.combat.killaura.name Module": {
       "value": "Switch"
     },
@@ -1631,7 +1631,7 @@
       "value": true
     },
     "Rotation Mode in module.combat.killaura.name Module": {
-      "value": "Snap"
+      "value": "Legit/Normal"
     },
     "Attack whilst Scaffolding in module.combat.killaura.name Module": {
       "value": false
@@ -1720,10 +1720,10 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position in module.render.scoreboard.name Module": {
-      "positionX": 655.5,
+      "positionX": 645.5,
       "positionY": 232.0,
-      "scaleX": 96.0,
-      "scaleY": 132.0
+      "scaleX": 106.0,
+      "scaleY": 114.0
     },
     "Outline in module.render.scoreboard.name Module": {
       "value": false
@@ -2036,10 +2036,10 @@
   "module.ghost.keepsprint.name": {
     "state": false,
     "Hit Slow Down During Velocity in module.ghost.keepsprint.name Module": {
-      "value": 0.0
+      "value": 1.0
     },
     "Hit Slow Down Normal in module.ghost.keepsprint.name Module": {
-      "value": 0.0
+      "value": 1.0
     },
     "Buffer Decrease in module.ghost.keepsprint.name Module": {
       "value": 1.0
@@ -2057,7 +2057,7 @@
       "value": false
     },
     "Only In Air in module.ghost.keepsprint.name Module": {
-      "value": true
+      "value": false
     }
   },
   "module.other.noguiclose.name": {
@@ -2132,9 +2132,9 @@
     }
   },
   "module.combat.legitreach.name": {
-    "state": false,
+    "state": true,
     "Max Ping Spoof in module.combat.legitreach.name Module": {
-      "value": 349.0
+      "value": 249.0
     },
     "Render Real Location in module.combat.legitreach.name Module": {
       "value": true
