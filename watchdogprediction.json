@@ -2132,7 +2132,7 @@
     }
   },
   "module.combat.legitreach.name": {
-    "state": true,
+    "state": false,
     "Max Ping Spoof in module.combat.legitreach.name Module": {
       "value": 249.0
     },
