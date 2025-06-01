@@ -354,7 +354,7 @@
       "value": 20.0
     },
     "Silent Accept Teleports in  Mode": {
-      "value": true
+      "value": false
     },
     "Deprecated in module.combat.disabler.name Module": {
       "value": true
