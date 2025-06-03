@@ -647,7 +647,7 @@
     "Funcraft Check in module.combat.antibot.name Module": {
       "value": false
     },
-    "Tab Antibot in module.combat.antibot.name Module": {
+    "Tab Check in module.combat.antibot.name Module": {
       "value": true
     },
     "NPC Detection Check in module.combat.antibot.name Module": {
@@ -2024,7 +2024,7 @@
       "value": false
     },
     "Player Teammates in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     }
   },
   "module.render.freelook.name": {
