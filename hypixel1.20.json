@@ -1848,7 +1848,7 @@
       "value": true
     },
     "Auto Disable in module.movement.longjump.name Module": {
-      "value": false
+      "value": true
     },
     "Fake Damage in module.movement.longjump.name Module": {
       "value": false
