@@ -806,7 +806,7 @@
       "value": "On"
     },
     "Downwards (Press Sneak) in module.player.scaffold.name Module": {
-      "value": "Off"
+      "value": "Watchdog"
     },
     "Rotation Speed in module.player.scaffold.name Module": {
       "first": 10.0,
