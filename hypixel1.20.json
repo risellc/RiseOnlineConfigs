@@ -1475,7 +1475,7 @@
     "Test Curve in module.other.test.name Module": {}
   },
   "module.other.irc.name": {
-    "state": false
+    "state": true
   },
   "module.ghost.noclickdelay.name": {
     "state": false
