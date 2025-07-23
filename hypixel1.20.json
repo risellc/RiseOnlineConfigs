@@ -1281,7 +1281,7 @@
   "module.movement.noslow.name": {
     "state": true,
     "Mode in module.movement.noslow.name Module": {
-      "value": "Intave"
+      "value": "Watchdog Prediction"
     },
     "Multiplier in Variable Mode": {
       "value": 0.8
