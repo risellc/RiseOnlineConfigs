@@ -1890,7 +1890,7 @@
       "value": false
     },
     "Player Teammates in module.combat.killaura.name Module": {
-      "value": false
+      "value": true
     }
   },
   "module.render.scoreboard.name": {
