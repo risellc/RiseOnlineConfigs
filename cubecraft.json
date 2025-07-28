@@ -1836,7 +1836,7 @@
       "second": 10.0
     },
     "Movement correction in module.combat.killaura.name Module": {
-      "value": "Traditional"
+      "value": "None"
     },
     "Keep sprint in module.combat.killaura.name Module": {
       "value": true
