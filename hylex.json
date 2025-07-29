@@ -305,7 +305,7 @@
     "state": false
   },
   "module.combat.antibot.name": {
-    "state": false,
+    "state": true,
     "Funcraft Check in module.combat.antibot.name Module": {
       "value": false
     },
@@ -453,7 +453,7 @@
     }
   },
   "module.movement.speed.name": {
-    "state": false,
+    "state": true,
     "Mode in module.movement.speed.name Module": {
       "value": "Grim"
     },
@@ -557,7 +557,7 @@
       "value": false
     },
     "Disable on Teleport in module.movement.speed.name Module": {
-      "value": true
+      "value": false
     },
     "Stop on Disable in module.movement.speed.name Module": {
       "value": false
@@ -1603,10 +1603,10 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position in module.render.scoreboard.name Module": {
-      "positionX": 636.5,
+      "positionX": 639.5,
       "positionY": 212.0,
-      "scaleX": 115.0,
-      "scaleY": 114.0
+      "scaleX": 112.0,
+      "scaleY": 150.0
     },
     "Outline in module.render.scoreboard.name Module": {
       "value": false
@@ -1941,7 +1941,7 @@
     }
   },
   "module.other.bwutils.name": {
-    "state": true,
+    "state": false,
     "Sword Reveal in module.other.bwutils.name Module": {
       "value": true
     },
@@ -2285,7 +2285,7 @@
     "Position in module.render.fpscounter.name Module": {
       "positionX": 100.0,
       "positionY": 121.0,
-      "scaleX": 42.0,
+      "scaleX": 40.0,
       "scaleY": 21.0
     }
   },
