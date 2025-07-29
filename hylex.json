@@ -1571,7 +1571,7 @@
     }
   },
   "module.movement.targetstrafe.name": {
-    "state": true,
+    "state": false,
     "Range in module.movement.targetstrafe.name Module": {
       "value": 1.2
     },
