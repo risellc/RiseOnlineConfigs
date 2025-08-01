@@ -1561,7 +1561,7 @@
       "value": false
     },
     "Attack While Breaking in module.player.breaker.name Module": {
-      "value": false
+      "value": true
     },
     "Show Breaker Percentage in module.player.breaker.name Module": {
       "value": true
