@@ -791,7 +791,7 @@
       "value": "Off"
     },
     "Sprint in module.player.scaffold.name Module": {
-      "value": "Normal"
+      "value": "Watchdog Prediction"
     },
     "Speed in Vulcan Mode": {
       "value": 0.9
@@ -1299,7 +1299,7 @@
       "value": true
     },
     "Sword in module.movement.noslow.name Module": {
-      "value": false
+      "value": true
     },
     "Bow in module.movement.noslow.name Module": {
       "value": true
