@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "version": "6",
-    "creationDate": "12.08.2025"
+    "creationDate": "13.08.2025"
   },
   "module.other.debugger.name": {
     "state": false,
@@ -42,14 +42,17 @@
       "scaleY": 207.0
     }
   },
-  "module.render.breadcrumbs.name": {
-    "state": false,
-    "Time in module.render.breadcrumbs.name Module": {
-      "value": 15.0
-    }
-  },
-  "Jump Circles": {
+  "module.render.tracers.name": {
     "state": false
+  },
+  "module.render.chestesp.name": {
+    "state": false
+  },
+  "module.render.freelook.name": {
+    "state": false,
+    "Invert Pitch in module.render.freelook.name Module": {
+      "value": false
+    }
   },
   "module.combat.criticals.name": {
     "state": false,
@@ -75,23 +78,32 @@
       "value": 50.0
     }
   },
-  "module.render.freecam.name": {
+  "module.render.sessionstats.name": {
     "state": false,
-    "Speed in module.render.freecam.name Module": {
-      "value": 1.0
+    " in module.render.sessionstats.name Module": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 130.0,
+      "scaleY": 55.0
+    },
+    "Mode in module.render.sessionstats.name Module": {
+      "value": "Rue"
     }
   },
-  "module.render.viewbobbing.name": {
-    "state": false,
-    "Mode in module.render.viewbobbing.name Module": {
-      "value": "Smooth"
-    }
+  "module.render.unlimitedchat.name": {
+    "state": false
   },
   "module.other.anticrash.name": {
     "state": false
   },
-  "module.render.itemphysics.name": {
-    "state": false
+  "module.render.streamer.name": {
+    "state": false,
+    "Name in module.render.streamer.name Module": {
+      "value": true
+    },
+    "Replacement in module.render.streamer.name Module": {
+      "value": "You"
+    }
   },
   "module.player.autotool.name": {
     "state": true
@@ -105,14 +117,26 @@
       "value": true
     }
   },
-  "module.render.hurtcamera.name": {
+  "module.render.bpscounter.name": {
     "state": true,
-    "Intensity in module.render.hurtcamera.name Module": {
-      "value": 1.0
+    "Title in module.render.bpscounter.name Module": {
+      "value": true
+    },
+    "Position in module.render.bpscounter.name Module": {
+      "positionX": 49.0,
+      "positionY": 99.0,
+      "scaleX": 41.0,
+      "scaleY": 21.0
     }
   },
   "Resource Pack Spoof": {
     "state": false
+  },
+  "module.render.breadcrumbs.name": {
+    "state": false,
+    "Time in module.render.breadcrumbs.name Module": {
+      "value": 15.0
+    }
   },
   "module.combat.lightningtracker.name": {
     "state": false
@@ -126,10 +150,17 @@
       "value": false
     }
   },
-  "module.render.hurtcolor.name": {
-    "state": true,
-    "1.7 Damage Animation in module.render.hurtcolor.name Module": {
+  "module.render.glint.name": {
+    "state": false,
+    "Glint Weapons in module.render.glint.name Module": {
       "value": true
+    },
+    "Hue in module.render.glint.name Module": {
+      "first": 0.0,
+      "second": 360.0
+    },
+    "Layers in module.render.glint.name Module": {
+      "value": 4.0
     }
   },
   "module.player.stealer.name": {
@@ -163,9 +194,6 @@
       "value": 25.0
     }
   },
-  "module.render.unlimitedchat.name": {
-    "state": false
-  },
   "module.player.fastuse.name": {
     "state": false,
     "Speed in module.player.fastuse.name Module": {
@@ -184,10 +212,10 @@
       "value": "Standard"
     }
   },
-  "module.player.twerk.name": {
+  "Jump Circles": {
     "state": false
   },
-  "module.render.chestesp.name": {
+  "module.player.twerk.name": {
     "state": false
   },
   "module.other.translator.name": {
@@ -254,23 +282,61 @@
       "value": false
     }
   },
-  "module.render.glint.name": {
-    "state": false,
-    "Glint Weapons in module.render.glint.name Module": {
-      "value": true
-    },
-    "Hue in module.render.glint.name Module": {
-      "first": 0.0,
-      "second": 360.0
-    },
-    "Layers in module.render.glint.name Module": {
-      "value": 4.0
-    }
-  },
   "module.combat.norotate.name": {
     "state": false,
     "Mode in module.combat.norotate.name Module": {
       "value": "Edit"
+    }
+  },
+  "module.render.nametags.name": {
+    "state": true,
+    "Mode in module.render.nametags.name Module": {
+      "value": "Modern"
+    },
+    "Show Health in Modern Mode": {
+      "value": false
+    },
+    "Show Team Tag in Vanilla Mode": {
+      "value": true
+    },
+    "Show Target Tag in Vanilla Mode": {
+      "value": false
+    },
+    "Show Friend Tag in Vanilla Mode": {
+      "value": false
+    },
+    "Shortened Tags in Vanilla Mode": {
+      "value": false
+    },
+    "Show Team Tag in Classic Mode": {
+      "value": false
+    },
+    "Show Target Tag in Classic Mode": {
+      "value": false
+    },
+    "Show Friend Tag in Classic Mode": {
+      "value": false
+    },
+    "Shortened Tags in Classic Mode": {
+      "value": false
+    },
+    "Targets in module.render.nametags.name Module": {
+      "value": false
+    },
+    "Player in module.render.nametags.name Module": {
+      "value": true
+    },
+    "Invisibles in module.render.nametags.name Module": {
+      "value": false
+    },
+    "Animals in module.render.nametags.name Module": {
+      "value": false
+    },
+    "Mobs in module.render.nametags.name Module": {
+      "value": false
+    },
+    "Player Teammates in module.render.nametags.name Module": {
+      "value": true
     }
   },
   "module.other.playernotifier.name": {
@@ -285,18 +351,6 @@
   "module.combat.staffdetector.name": {
     "state": false,
     "Auto Leave in module.combat.staffdetector.name Module": {
-      "value": true
-    }
-  },
-  "module.render.hotbar.name": {
-    "state": true,
-    " in module.render.hotbar.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 182.0,
-      "scaleY": 40.0
-    },
-    "Show XP Bar in module.render.hotbar.name Module": {
       "value": true
     }
   },
@@ -381,37 +435,10 @@
       "value": false
     }
   },
-  "module.render.scoreboard.name": {
-    "state": true,
-    "Position in module.render.scoreboard.name Module": {
-      "positionX": 636.5,
-      "positionY": 175.0,
-      "scaleX": 115.0,
-      "scaleY": 132.0
-    },
-    "Outline in module.render.scoreboard.name Module": {
-      "value": false
-    },
-    "Blur color in module.render.scoreboard.name Module": {
-      "value": false
-    },
-    "Replace IP with Rise Website in module.render.scoreboard.name Module": {
-      "value": true
-    }
-  },
   "module.other.autogg.name": {
     "state": false,
     "Message in module.other.autogg.name Module": {
       "value": "Why waste another game without Rise?"
-    }
-  },
-  "module.render.streamer.name": {
-    "state": false,
-    "Name in module.render.streamer.name Module": {
-      "value": true
-    },
-    "Replacement in module.render.streamer.name Module": {
-      "value": "You"
     }
   },
   "module.other.antiafk.name": {
@@ -454,31 +481,10 @@
       "value": false
     }
   },
-  "module.render.esp.name": {
-    "state": false,
-    "Glow in module.render.esp.name Module": {
-      "value": true
-    },
-    "Chams in module.render.esp.name Module": {
-      "value": false
-    },
-    "Static Color in module.render.esp.name Module": {
-      "value": false
-    },
-    "Skeletal in module.render.esp.name Module": {
-      "value": false
-    },
-    "White Color in module.render.esp.name Module": {
-      "value": false
-    },
-    "Width in module.render.esp.name Module": {
-      "value": 0.5
-    }
-  },
-  "module.render.appleskin.name": {
-    "state": false,
-    "Max Flash Alpha in module.render.appleskin.name Module": {
-      "value": 0.65
+  "module.render.hurtcamera.name": {
+    "state": true,
+    "Intensity in module.render.hurtcamera.name Module": {
+      "value": 1.0
     }
   },
   "module.other.cheatdetector.name": {
@@ -606,6 +612,9 @@
     "Horizontal in Bounce Mode": {
       "value": false
     },
+    "Smart Combat (for High Ping) in Grim Mode": {
+      "value": false
+    },
     "Stop Ticks in Grim Mode": {
       "value": 6.0
     },
@@ -640,25 +649,37 @@
   "module.other.chatbypass.name": {
     "state": false
   },
-  "module.render.fullbright.name": {
+  "module.render.cpscounter.name": {
+    "state": false,
+    "Title in module.render.cpscounter.name Module": {
+      "value": true
+    },
+    "Position in module.render.cpscounter.name Module": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 33.0,
+      "scaleY": 21.0
+    }
+  },
+  "module.render.hurtcolor.name": {
     "state": true,
-    "Mode in module.render.fullbright.name Module": {
-      "value": "Effect"
+    "1.7 Damage Animation in module.render.hurtcolor.name Module": {
+      "value": true
     }
   },
   "module.ghost.noclickdelay.name": {
     "state": false
   },
   "module.player.scaffold.name": {
-    "state": true,
+    "state": false,
     "Mode in module.player.scaffold.name Module": {
-      "value": "Normal"
+      "value": "Telly"
     },
     "Rotation Mode in module.player.scaffold.name Module": {
       "value": "Normal"
     },
     "Ray Cast in module.player.scaffold.name Module": {
-      "value": "Off"
+      "value": "Normal"
     },
     "Sprint in module.player.scaffold.name Module": {
       "value": "Normal"
@@ -705,10 +726,10 @@
       "value": false
     },
     "Watchdog Prediction in module.player.scaffold.name Module": {
-      "value": true
+      "value": false
     },
     "Watchdog Telly in module.player.scaffold.name Module": {
-      "value": false
+      "value": true
     },
     "Sneak in module.player.scaffold.name Module": {
       "value": false
@@ -735,7 +756,7 @@
       "value": true
     },
     "Yaw Offset in module.player.scaffold.name Module": {
-      "value": "45"
+      "value": "-45"
     },
     "Ignore Speed Effect in module.player.scaffold.name Module": {
       "value": false
@@ -765,17 +786,8 @@
       "value": 5.0
     }
   },
-  "module.render.particles.name": {
-    "state": false,
-    "Multiplier in module.render.particles.name Module": {
-      "value": 1.0
-    },
-    "Always Crit in module.render.particles.name Module": {
-      "value": true
-    },
-    "Always Sharpness in module.render.particles.name Module": {
-      "value": false
-    }
+  "module.render.nocameraclip.name": {
+    "state": false
   },
   "module.ghost.clickassist.name": {
     "state": false,
@@ -792,98 +804,23 @@
       "value": "Watchdog BedWars"
     }
   },
-  "module.render.interface.name": {
-    "state": true,
-    "Mode in module.render.interface.name Module": {
-      "value": "Modern"
-    },
-    "ArrayList Color Mode in Modern Mode": {
-      "value": "Fade"
-    },
-    "ArrayList Font in Modern Mode": {
-      "value": "Apple UI"
-    },
-    "Custom Installed Font in Unknown": {
-      "value": "Arial"
-    },
-    "Shader Effect in Modern Mode": {
-      "value": "Shadow"
-    },
-    "Drop Shadow in Modern Mode": {
-      "value": true
-    },
-    "Sidebar in Modern Mode": {
-      "value": true
-    },
-    "Particles on Kill in Modern Mode": {
-      "value": true
-    },
-    "BackGround in Modern Mode": {
-      "value": "Normal"
-    },
-    "Custom Client Name in Modern Mode": {
-      "value": ""
-    },
-    "ArrayList Color Mode in Classic Mode": {
-      "value": "Rainbow"
-    },
-    "ArrayList Alignment in Classic Mode": {
-      "value": "Right"
-    },
-    "Arraylist Side Bar in Classic Mode": {
-      "value": true
-    },
-    "Arraylist Background in Classic Mode": {
-      "value": true
-    },
-    "Show Fps in Classic Mode": {
-      "value": true
-    },
-    "Show Time in Classic Mode": {
-      "value": true
-    },
-    "Show Ping in Classic Mode": {
-      "value": true
-    },
-    "Show Coordinates in Classic Mode": {
-      "value": true
-    },
-    "Custom Client Name in Classic Mode": {
-      "value": "Rise"
-    },
-    "Font in Creida Mode": {
-      "value": false
-    },
-    "Modules to Show in module.render.interface.name Module": {
-      "value": "Exclude render"
-    },
-    "Suffix in module.render.interface.name Module": {
-      "value": true
-    },
-    "Lowercase in module.render.interface.name Module": {
-      "value": false
-    },
-    "Remove Spaces in module.render.interface.name Module": {
-      "value": false
-    },
-    "Shaders in module.render.interface.name Module": {
-      "value": false
-    },
-    "Toggle Notifications in module.render.interface.name Module": {
-      "value": false
-    },
-    "Information Type in module.render.interface.name Module": {
-      "value": "Rise"
-    }
-  },
   "module.movement.potionextender.name": {
     "state": false,
     "Extend Duration in module.movement.potionextender.name Module": {
       "value": 10.0
     }
   },
-  "module.render.tracers.name": {
-    "state": false
+  "module.render.hotbar.name": {
+    "state": true,
+    " in module.render.hotbar.name Module": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 182.0,
+      "scaleY": 40.0
+    },
+    "Show XP Bar in module.render.hotbar.name Module": {
+      "value": true
+    }
   },
   "module.movement.jesus.name": {
     "state": false,
@@ -958,8 +895,38 @@
       "value": true
     }
   },
-  "module.render.nocameraclip.name": {
-    "state": false
+  "module.render.2desp.name": {
+    "state": false,
+    "Box in module.render.2desp.name Module": {
+      "value": "Normal"
+    },
+    "Health Bar Mode in module.render.2desp.name Module": {
+      "value": "None"
+    },
+    "Armor Bar in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Targets in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Player in module.render.2desp.name Module": {
+      "value": true
+    },
+    "Invisibles in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Animals in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Mobs in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Player Teammates in module.render.2desp.name Module": {
+      "value": true
+    },
+    "Glow in module.render.2desp.name Module": {
+      "value": false
+    }
   },
   "module.movement.nojumpdelay.name": {
     "state": false
@@ -1028,44 +995,8 @@
       "second": 9.0
     }
   },
-  "module.render.targetinfo.name": {
-    "state": true,
-    "Mode in module.render.targetinfo.name Module": {
-      "value": "Modern"
-    },
-    "Particles in Modern Mode": {
-      "value": true
-    },
-    "Background Mode in Modern Mode": {
-      "value": "Glass"
-    },
-    "Particles in Creida Modern Mode": {
-      "value": true
-    },
-    "Background Mode in Creida Modern Mode": {
-      "value": "Glass"
-    },
-    "Position in module.render.targetinfo.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 217.0,
-      "scaleY": 48.0
-    },
-    "Follow Player in module.render.targetinfo.name Module": {
-      "value": false
-    }
-  },
-  "module.render.bpscounter.name": {
-    "state": true,
-    "Title in module.render.bpscounter.name Module": {
-      "value": true
-    },
-    "Position in module.render.bpscounter.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 41.0,
-      "scaleY": 21.0
-    }
+  "module.other.irc.name": {
+    "state": true
   },
   "module.combat.killaura.name": {
     "state": true,
@@ -1212,21 +1143,9 @@
     },
     " in module.render.chat.name Module": {
       "positionX": 100.0,
-      "positionY": 142.01963981297394,
+      "positionY": 100.0,
       "scaleX": 320.0,
       "scaleY": 200.0
-    }
-  },
-  "module.render.sessionstats.name": {
-    "state": false,
-    " in module.render.sessionstats.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 130.0,
-      "scaleY": 55.0
-    },
-    "Mode in module.render.sessionstats.name Module": {
-      "value": "Rue"
     }
   },
   "module.combat.consolespammer.name": {
@@ -1237,9 +1156,6 @@
     "Channels/tick in Channel Mode": {
       "value": 1.0
     }
-  },
-  "module.other.irc.name": {
-    "state": true
   },
   "module.movement.stuck.name": {
     "state": false
@@ -1259,6 +1175,33 @@
       "value": 1.0
     },
     "Debug in module.other.spotify.name Module": {
+      "value": false
+    }
+  },
+  "module.render.targetinfo.name": {
+    "state": true,
+    "Mode in module.render.targetinfo.name Module": {
+      "value": "Modern"
+    },
+    "Particles in Modern Mode": {
+      "value": true
+    },
+    "Background Mode in Modern Mode": {
+      "value": "Glass"
+    },
+    "Particles in Creida Modern Mode": {
+      "value": true
+    },
+    "Background Mode in Creida Modern Mode": {
+      "value": "Glass"
+    },
+    "Position in module.render.targetinfo.name Module": {
+      "positionX": 321.0,
+      "positionY": 325.0,
+      "scaleX": 229.0,
+      "scaleY": 48.0
+    },
+    "Follow Player in module.render.targetinfo.name Module": {
       "value": false
     }
   },
@@ -1307,31 +1250,39 @@
       "value": true
     }
   },
-  "module.render.cpscounter.name": {
+  "module.render.esp.name": {
     "state": false,
-    "Title in module.render.cpscounter.name Module": {
+    "Glow in module.render.esp.name Module": {
       "value": true
     },
-    "Position in module.render.cpscounter.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 33.0,
-      "scaleY": 21.0
-    }
-  },
-  "module.render.fpscounter.name": {
-    "state": false,
-    "Title in module.render.fpscounter.name Module": {
-      "value": true
+    "Chams in module.render.esp.name Module": {
+      "value": false
     },
-    "Position in module.render.fpscounter.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 39.0,
-      "scaleY": 21.0
+    "Static Color in module.render.esp.name Module": {
+      "value": false
+    },
+    "Skeletal in module.render.esp.name Module": {
+      "value": false
+    },
+    "White Color in module.render.esp.name Module": {
+      "value": false
+    },
+    "Width in module.render.esp.name Module": {
+      "value": 0.5
     }
   },
-  "module.render.clickgui.name": {},
+  "module.render.keystrokes.name": {
+    "state": false,
+    "Position in module.render.keystrokes.name Module": {
+      "positionX": 4.0,
+      "positionY": 84.0,
+      "scaleX": 72.0,
+      "scaleY": 72.0
+    },
+    "Space in module.render.keystrokes.name Module": {
+      "value": true
+    }
+  },
   "module.other.insults.name": {
     "state": false,
     "Mode in module.other.insults.name Module": {
@@ -1351,6 +1302,12 @@
     "state": false,
     "Swing in module.player.antisuffocate.name Module": {
       "value": true
+    }
+  },
+  "module.render.freecam.name": {
+    "state": false,
+    "Speed in module.render.freecam.name Module": {
+      "value": 1.0
     }
   },
   "module.ghost.reach.name": {
@@ -1424,7 +1381,7 @@
     }
   },
   "module.combat.antibot.name": {
-    "state": false,
+    "state": true,
     "Funcraft Check in module.combat.antibot.name Module": {
       "value": false
     },
@@ -1615,6 +1572,90 @@
       "value": "Watchdog"
     }
   },
+  "module.render.interface.name": {
+    "state": true,
+    "Mode in module.render.interface.name Module": {
+      "value": "Modern"
+    },
+    "ArrayList Color Mode in Modern Mode": {
+      "value": "Fade"
+    },
+    "ArrayList Font in Modern Mode": {
+      "value": "Apple UI"
+    },
+    "Custom Installed Font in Unknown": {
+      "value": "Arial"
+    },
+    "Shader Effect in Modern Mode": {
+      "value": "Shadow"
+    },
+    "Drop Shadow in Modern Mode": {
+      "value": true
+    },
+    "Sidebar in Modern Mode": {
+      "value": true
+    },
+    "Particles on Kill in Modern Mode": {
+      "value": true
+    },
+    "BackGround in Modern Mode": {
+      "value": "Normal"
+    },
+    "Custom Client Name in Modern Mode": {
+      "value": ""
+    },
+    "ArrayList Color Mode in Classic Mode": {
+      "value": "Rainbow"
+    },
+    "ArrayList Alignment in Classic Mode": {
+      "value": "Right"
+    },
+    "Arraylist Side Bar in Classic Mode": {
+      "value": true
+    },
+    "Arraylist Background in Classic Mode": {
+      "value": true
+    },
+    "Show Fps in Classic Mode": {
+      "value": true
+    },
+    "Show Time in Classic Mode": {
+      "value": true
+    },
+    "Show Ping in Classic Mode": {
+      "value": true
+    },
+    "Show Coordinates in Classic Mode": {
+      "value": true
+    },
+    "Custom Client Name in Classic Mode": {
+      "value": "Rise"
+    },
+    "Font in Creida Mode": {
+      "value": false
+    },
+    "Modules to Show in module.render.interface.name Module": {
+      "value": "Exclude render"
+    },
+    "Suffix in module.render.interface.name Module": {
+      "value": true
+    },
+    "Lowercase in module.render.interface.name Module": {
+      "value": false
+    },
+    "Remove Spaces in module.render.interface.name Module": {
+      "value": false
+    },
+    "Shaders in module.render.interface.name Module": {
+      "value": false
+    },
+    "Toggle Notifications in module.render.interface.name Module": {
+      "value": false
+    },
+    "Information Type in module.render.interface.name Module": {
+      "value": "Rise"
+    }
+  },
   "module.ghost.keepsprint.name": {
     "state": false,
     "Hit Slow Down During Velocity in module.ghost.keepsprint.name Module": {
@@ -1644,6 +1685,24 @@
   },
   "module.player.polardetector.name": {
     "state": false
+  },
+  "module.render.scoreboard.name": {
+    "state": true,
+    "Position in module.render.scoreboard.name Module": {
+      "positionX": 653.5,
+      "positionY": 176.0,
+      "scaleX": 98.0,
+      "scaleY": 132.0
+    },
+    "Outline in module.render.scoreboard.name Module": {
+      "value": false
+    },
+    "Blur color in module.render.scoreboard.name Module": {
+      "value": false
+    },
+    "Replace IP with Rise Website in module.render.scoreboard.name Module": {
+      "value": true
+    }
   },
   "module.other.spammer.name": {
     "state": false,
@@ -1676,88 +1735,10 @@
       "value": true
     }
   },
-  "module.render.nametags.name": {
-    "state": true,
-    "Mode in module.render.nametags.name Module": {
-      "value": "Modern"
-    },
-    "Show Health in Modern Mode": {
-      "value": false
-    },
-    "Show Team Tag in Vanilla Mode": {
-      "value": true
-    },
-    "Show Target Tag in Vanilla Mode": {
-      "value": false
-    },
-    "Show Friend Tag in Vanilla Mode": {
-      "value": false
-    },
-    "Shortened Tags in Vanilla Mode": {
-      "value": false
-    },
-    "Show Team Tag in Classic Mode": {
-      "value": false
-    },
-    "Show Target Tag in Classic Mode": {
-      "value": false
-    },
-    "Show Friend Tag in Classic Mode": {
-      "value": false
-    },
-    "Shortened Tags in Classic Mode": {
-      "value": false
-    },
-    "Targets in module.render.nametags.name Module": {
-      "value": false
-    },
-    "Player in module.render.nametags.name Module": {
-      "value": true
-    },
-    "Invisibles in module.render.nametags.name Module": {
-      "value": false
-    },
-    "Animals in module.render.nametags.name Module": {
-      "value": false
-    },
-    "Mobs in module.render.nametags.name Module": {
-      "value": false
-    },
-    "Player Teammates in module.render.nametags.name Module": {
-      "value": true
-    }
-  },
-  "module.render.2desp.name": {
+  "module.render.appleskin.name": {
     "state": false,
-    "Box in module.render.2desp.name Module": {
-      "value": "Normal"
-    },
-    "Health Bar Mode in module.render.2desp.name Module": {
-      "value": "None"
-    },
-    "Armor Bar in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Targets in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Player in module.render.2desp.name Module": {
-      "value": true
-    },
-    "Invisibles in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Animals in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Mobs in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Player Teammates in module.render.2desp.name Module": {
-      "value": true
-    },
-    "Glow in module.render.2desp.name Module": {
-      "value": false
+    "Max Flash Alpha in module.render.appleskin.name Module": {
+      "value": 0.65
     }
   },
   "module.combat.tickbase.name": {
@@ -1854,7 +1835,7 @@
     }
   },
   "module.movement.speed.name": {
-    "state": false,
+    "state": true,
     "Mode in module.movement.speed.name Module": {
       "value": "Legit"
     },
@@ -1964,16 +1945,13 @@
       "value": false
     }
   },
-  "module.render.keystrokes.name": {
-    "state": false,
-    "Position in module.render.keystrokes.name Module": {
-      "positionX": 4.0,
-      "positionY": 84.0,
-      "scaleX": 72.0,
-      "scaleY": 72.0
-    },
-    "Space in module.render.keystrokes.name Module": {
-      "value": true
+  "module.render.itemphysics.name": {
+    "state": false
+  },
+  "module.render.fullbright.name": {
+    "state": true,
+    "Mode in module.render.fullbright.name Module": {
+      "value": "Effect"
     }
   },
   "module.other.test.name": {
@@ -1988,6 +1966,18 @@
       "value": "onGround"
     },
     "Test Curve in module.other.test.name Module": {}
+  },
+  "module.render.fpscounter.name": {
+    "state": true,
+    "Title in module.render.fpscounter.name Module": {
+      "value": true
+    },
+    "Position in module.render.fpscounter.name Module": {
+      "positionX": 4.5,
+      "positionY": 100.0,
+      "scaleX": 41.0,
+      "scaleY": 21.0
+    }
   },
   "module.other.bwutils.name": {
     "state": false,
@@ -2007,6 +1997,19 @@
       "value": false
     }
   },
+  "module.render.killeffect.name": {
+    "state": true,
+    "Lightning in module.render.killeffect.name Module": {
+      "value": true
+    },
+    "Blood Explosion in module.render.killeffect.name Module": {
+      "value": false
+    },
+    "Explosion in module.render.killeffect.name Module": {
+      "value": false
+    }
+  },
+  "module.render.clickgui.name": {},
   "module.combat.lagbreak.name": {
     "state": true
   },
@@ -2059,6 +2062,12 @@
   },
   "module.ghost.guiclicker.name": {
     "state": false
+  },
+  "module.render.viewbobbing.name": {
+    "state": false,
+    "Mode in module.render.viewbobbing.name Module": {
+      "value": "Smooth"
+    }
   },
   "module.other.timer.name": {
     "state": false,
@@ -2128,6 +2137,18 @@
       "value": true
     }
   },
+  "module.render.particles.name": {
+    "state": false,
+    "Multiplier in module.render.particles.name Module": {
+      "value": 1.0
+    },
+    "Always Crit in module.render.particles.name Module": {
+      "value": true
+    },
+    "Always Sharpness in module.render.particles.name Module": {
+      "value": false
+    }
+  },
   "module.player.clutch.name": {
     "state": false,
     "Rotation Speed in module.player.clutch.name Module": {
@@ -2137,12 +2158,6 @@
     "Place Delay in module.player.clutch.name Module": {
       "first": 0.0,
       "second": 1.0
-    }
-  },
-  "module.render.freelook.name": {
-    "state": false,
-    "Invert Pitch in module.render.freelook.name Module": {
-      "value": false
     }
   },
   "module.combat.disabler.name": {
@@ -2322,18 +2337,6 @@
       "value": false
     },
     "Dynamic PVP (Deprecated) in module.combat.disabler.name Module": {
-      "value": false
-    }
-  },
-  "module.render.killeffect.name": {
-    "state": true,
-    "Lightning in module.render.killeffect.name Module": {
-      "value": true
-    },
-    "Blood Explosion in module.render.killeffect.name Module": {
-      "value": false
-    },
-    "Explosion in module.render.killeffect.name Module": {
       "value": false
     }
   },
