@@ -652,7 +652,7 @@
   "module.player.scaffold.name": {
     "state": true,
     "Mode in module.player.scaffold.name Module": {
-      "value": "Normal"
+      "value": "Telly"
     },
     "Rotation Mode in module.player.scaffold.name Module": {
       "value": "Normal"
@@ -708,7 +708,7 @@
       "value": true
     },
     "Watchdog Telly in module.player.scaffold.name Module": {
-      "value": false
+      "value": true
     },
     "Sneak in module.player.scaffold.name Module": {
       "value": false
