@@ -2006,7 +2006,7 @@
       "value": "Above"
     },
     "Ray cast in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Through Walls in module.combat.killaura.name Module": {
       "value": true
