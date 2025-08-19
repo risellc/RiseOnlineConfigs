@@ -1232,7 +1232,7 @@
       "value": false
     },
     "Watchdog Keep sprint in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Target ESP Mode in module.combat.killaura.name Module": {
       "value": "Ring"
