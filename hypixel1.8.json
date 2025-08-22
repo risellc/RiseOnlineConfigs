@@ -1655,7 +1655,7 @@
     }
   },
   "module.combat.lagbreak.name": {
-    "state": true
+    "state": false
   },
   "module.render.breadcrumbs.name": {
     "state": false,
