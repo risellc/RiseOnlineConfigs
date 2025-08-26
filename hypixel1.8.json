@@ -716,7 +716,7 @@
     }
   },
   "module.player.nofall.name": {
-    "state": true,
+    "state": false,
     "Mode in module.player.nofall.name Module": {
       "value": "Clutch"
     },
