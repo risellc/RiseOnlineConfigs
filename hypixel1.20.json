@@ -1321,8 +1321,8 @@
   "module.player.stealer.name": {
     "state": false,
     "Delay in module.player.stealer.name Module": {
-      "first": 50.0,
-      "second": 50.0
+      "first": 0,
+      "second": 0
     },
     "Ignore Trash in module.player.stealer.name Module": {
       "value": true
