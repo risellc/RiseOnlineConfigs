@@ -2213,7 +2213,7 @@
   "module.combat.antibot.name": {
     "state": true,
     "Funcraft Check in module.combat.antibot.name Module": {
-      "value": false
+      "value": true
     },
     "Tab Check in module.combat.antibot.name Module": {
       "value": false
