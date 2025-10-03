@@ -2198,7 +2198,7 @@
       "value": true
     },
     "Empty Surrounding in module.player.breaker.name Module": {
-      "value": true
+      "value": false
     },
     "Watchdog Ground Spoof in module.player.breaker.name Module": {
       "value": false
@@ -2213,7 +2213,7 @@
       "value": true
     },
     "Only Rotate at Start and Stop in module.player.breaker.name Module": {
-      "value": false
+      "value": true
     },
     "Whitelist Own Bed in module.player.breaker.name Module": {
       "value": true
