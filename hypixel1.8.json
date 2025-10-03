@@ -1731,8 +1731,8 @@
       "value": 3.0
     },
     "CPS in module.combat.killaura.name Module": {
-      "first": 20.0,
-      "second": 20.0
+      "first": 10.0,
+      "second": 10.0
     },
     "Rotation speed in module.combat.killaura.name Module": {
       "first": 10.0,
