@@ -2279,7 +2279,7 @@
       "value": false
     },
     "Replace IP with Rise Website in module.render.scoreboard.name Module": {
-      "value": false
+      "value": true
     }
   },
   "module.render.unlimitedchat.name": {
