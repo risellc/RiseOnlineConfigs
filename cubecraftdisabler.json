@@ -2133,7 +2133,7 @@
     }
   },
   "Resource Pack Spoof": {
-    "state": false
+    "state": true
   },
   "module.ghost.autoclicker.name": {
     "state": false,
