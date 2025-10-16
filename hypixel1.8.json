@@ -1950,7 +1950,7 @@
   "module.combat.velocity.name": {
     "state": true,
     "Mode in module.combat.velocity.name Module": {
-      "value": "Watchdog Reduce"
+      "value": "Legit/Jump Reset"
     },
     "Horizontal in Standard Mode": {
       "value": 100.0
