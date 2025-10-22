@@ -2484,7 +2484,7 @@
       "value": "Watchdog Prediction"
     },
     "Max Ping Spoof in Watchdog Prediction Mode": {
-      "value": 30.0
+      "value": 24.0
     },
     "When to finish eating in Watchdog Prediction Mode": {
       "value": 30.0
