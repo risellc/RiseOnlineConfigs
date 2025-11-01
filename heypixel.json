@@ -2229,7 +2229,7 @@
       "value": true
     },
     "Watchdog Mode in module.combat.legitreach.name Module": {
-      "value": true
+      "value": false
     }
   },
   "module.combat.fences.name": {
