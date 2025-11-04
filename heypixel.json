@@ -2043,7 +2043,7 @@
     }
   },
   "module.combat.lagbreak.name": {
-    "state": true
+    "state": false
   },
   "Resource Pack Spoof": {
     "state": false
