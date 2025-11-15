@@ -1365,7 +1365,7 @@
       "value": 1.0E-4
     },
     "Fast Fall in Grim Mode": {
-      "value": false
+      "value": true
     },
     "High Ping Mode (May be slower) in Grim 2 Mode": {
       "value": false
