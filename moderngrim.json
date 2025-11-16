@@ -1477,7 +1477,7 @@
       "value": 5.0
     },
     "OmniSprint in module.combat.disabler.name Module": {
-      "value": true
+      "value": false
     },
     "UniversoCraft in module.combat.disabler.name Module": {
       "value": false
