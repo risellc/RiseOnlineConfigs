@@ -1801,7 +1801,7 @@
     }
   },
   "module.movement.speed.name": {
-    "state": true,
+    "state": false,
     "Mode in module.movement.speed.name Module": {
       "value": "Legit"
     },
