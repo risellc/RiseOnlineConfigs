@@ -884,7 +884,7 @@
   "module.movement.noslow.name": {
     "state": true,
     "Mode in module.movement.noslow.name Module": {
-      "value": "Variable"
+      "value": "Matrix"
     },
     "Max Ping Spoof in Watchdog Prediction Mode": {
       "value": 8.0
