@@ -103,7 +103,7 @@
   "module.movement.flight.name": {
     "state": false,
     "Mode in module.movement.flight.name Module": {
-      "value": "Vanilla"
+      "value": "Vicnix (Deprecated)"
     },
     "Speed in Vanilla Mode": {
       "value": 2.2
@@ -166,7 +166,7 @@
       "value": 9.5
     },
     "Speed in Vicnix (Deprecated) Mode": {
-      "value": 1.0
+      "value": 2.2
     },
     "Send Flying in Vicnix (Deprecated) Mode": {
       "value": false
