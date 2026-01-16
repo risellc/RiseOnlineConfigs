@@ -459,7 +459,7 @@
       "value": false
     },
     "Delay Velocity Until Bed Broken in module.player.breaker.name Module": {
-      "value": true
+      "value": false
     },
     "Through Walls in module.player.breaker.name Module": {
       "value": true
