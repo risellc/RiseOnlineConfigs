@@ -682,13 +682,13 @@
       "value": false
     },
     "Timer in Vanilla Mode": {
-      "value": 0.0
+      "value": 1.0
     },
     "Height in NCP Mode": {
       "value": 1.0
     },
     "Timer in NCP Mode": {
-      "value": 0.0
+      "value": 1.0
     },
     "Reverse in NCP Mode": {
       "value": false
@@ -787,8 +787,8 @@
   "module.other.timer.name": {
     "state": false,
     "Timer in module.other.timer.name Module": {
-      "first": 0.0,
-      "second": 0.0
+      "first": 1.0,
+      "second": 1.0
     },
     "Watchdog in module.other.timer.name Module": {
       "value": false
