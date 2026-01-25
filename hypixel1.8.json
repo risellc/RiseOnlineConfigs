@@ -719,7 +719,7 @@
     }
   },
   "module.movement.flight.name": {
-    "state": true,
+    "state": false,
     "Mode in module.movement.flight.name Module": {
       "value": "Air Jump"
     },
