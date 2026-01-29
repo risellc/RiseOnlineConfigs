@@ -404,7 +404,7 @@
       "value": false
     },
     "Bypass Raycast When Falling in module.player.scaffold.name Module": {
-      "value": true
+      "value": false
     }
   },
   "module.combat.godmode.name": {
