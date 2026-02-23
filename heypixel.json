@@ -1362,7 +1362,7 @@
     "state": false
   },
   "module.ghost.keepsprint.name": {
-    "state": true,
+    "state": false,
     "Hit Slow Down During Velocity in module.ghost.keepsprint.name Module": {
       "value": 1.0
     },
@@ -2106,7 +2106,7 @@
       "value": true
     },
     "Stop Sprint in Grim Reduce Mode": {
-      "value": false
+      "value": true
     },
     "Range in Grim Reduce Mode": {
       "value": 3.0
