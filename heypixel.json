@@ -526,8 +526,8 @@
       "value": false
     },
     "Watchdog Telly Jump Delay in module.player.scaffold.name Module": {
-      "first": 1.0,
-      "second": 2.0
+      "first": 0.0,
+      "second": 0.0
     },
     "Watchdog Telly Rotation Speed in module.player.scaffold.name Module": {
       "first": 38.0,
