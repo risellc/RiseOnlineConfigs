@@ -1063,7 +1063,7 @@
       "value": true
     },
     "Stop Sprint in Grim Reduce Mode": {
-      "value": false
+      "value": true
     },
     "Range in Grim Reduce Mode": {
       "value": 3.0
