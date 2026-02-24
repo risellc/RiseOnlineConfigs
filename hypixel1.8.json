@@ -1498,7 +1498,7 @@
     },
     "Rotation Block Rotation Speed in module.player.scaffold.name Module": {
       "first": 122.0,
-      "second": 128.0
+      "second": 122.0
     },
     "Boost Only While Holding Jump in module.player.scaffold.name Module": {
       "value": false
