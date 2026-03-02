@@ -742,8 +742,7 @@
   "module.exploit.ghosthand.name": {
     "state": true,
     "Range in module.exploit.ghosthand.name Module": {
-      "value": 6.0
-    }
+      "value": 5.6    }
   },
   "module.player.polardetector.name": {
     "state": false
