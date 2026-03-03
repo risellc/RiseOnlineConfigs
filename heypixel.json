@@ -1120,7 +1120,7 @@
       "value": false
     },
     "On Swing in module.combat.velocity.name Module": {
-      "value": true
+      "value": false
     }
   },
   "module.render.bpscounter.name": {
