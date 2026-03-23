@@ -2207,7 +2207,7 @@
     }
   },
   "module.combat.antibot.name": {
-    "state": false,
+    "state": true,
     "Funcraft Check in module.combat.antibot.name Module": {
       "value": false
     },
