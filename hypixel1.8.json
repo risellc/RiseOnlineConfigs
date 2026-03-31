@@ -576,7 +576,7 @@
       "value": true
     },
     "Block Slowdown in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Sorting in module.combat.killaura.name Module": {
       "value": "Hurt Time"
