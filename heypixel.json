@@ -687,7 +687,7 @@
       "positionX": 100.0,
       "positionY": 4.5,
       "scaleX": 320.0,
-      "scaleY": 129.99354352471167
+      "scaleY": 200.0
     },
     "Pinyin Chinese IME in module.render.chat.name Module": {
       "value": true
@@ -725,10 +725,10 @@
   "module.render.scoreboard.name": {
     "state": true,
     "Position in module.render.scoreboard.name Module": {
-      "positionX": 630.5,
+      "positionX": 604.5,
       "positionY": 219.0,
-      "scaleX": 121.0,
-      "scaleY": 114.0
+      "scaleX": 147.0,
+      "scaleY": 123.0
     },
     "Outline in module.render.scoreboard.name Module": {
       "value": false
@@ -971,7 +971,7 @@
       "value": true
     },
     "Extra Hit in Grim Reduce Mode": {
-      "value": true
+      "value": false
     },
     "Stop Sprint in Grim Reduce Mode": {
       "value": true
@@ -1414,7 +1414,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": true,
+    "state": false,
     "Attack Mode in module.combat.killaura.name Module": {
       "value": "Switch"
     },
@@ -1466,14 +1466,14 @@
       "value": false
     },
     "CPS in module.combat.killaura.name Module": {
-      "first": 12.0,
-      "second": 14.0
+      "first": 20.0,
+      "second": 20.0
     },
     "Velocity Boost in module.combat.killaura.name Module": {
       "value": true
     },
     "Boost Ticks in module.combat.killaura.name Module": {
-      "value": 4.0
+      "value": 7.0
     },
     "Knockback Displacement in module.combat.killaura.name Module": {
       "value": false
@@ -1512,7 +1512,7 @@
       "value": true
     },
     "Through Walls in module.combat.killaura.name Module": {
-      "value": false
+      "value": true
     },
     "Advanced in module.combat.killaura.name Module": {
       "value": true
@@ -1815,7 +1815,7 @@
     "Position in module.render.fpscounter.name Module": {
       "positionX": 4.5,
       "positionY": 30.0,
-      "scaleX": 40.0,
+      "scaleX": 43.0,
       "scaleY": 21.0
     }
   },
@@ -2678,7 +2678,7 @@
     "state": false
   },
   "module.combat.antibot.name": {
-    "state": true,
+    "state": false,
     "Funcraft Check in module.combat.antibot.name Module": {
       "value": false
     },
@@ -2888,7 +2888,7 @@
     "Position in module.render.targetinfo.name Module": {
       "positionX": 378.0,
       "positionY": 280.0,
-      "scaleX": 191.0,
+      "scaleX": 233.0,
       "scaleY": 48.0
     },
     "Follow Player in module.render.targetinfo.name Module": {
