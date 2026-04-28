@@ -124,7 +124,7 @@
     }
   },
   "module.player.fastbreak.name": {
-    "state": false,
+    "state": true,
     "Mode in module.player.fastbreak.name Module": {
       "value": "Ticks"
     },
