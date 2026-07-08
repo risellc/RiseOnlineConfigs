@@ -966,7 +966,7 @@
       "value": 0.0
     },
     "Telly Only on Right Click in module.player.scaffold.name Module": {
-      "value": true
+      "value": false
     },
     "Render in module.player.scaffold.name Module": {
       "value": true
