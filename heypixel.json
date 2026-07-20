@@ -1,7 +1,99 @@
 {
   "Metadata": {
     "version": "6",
-    "creationDate": "19.04.2026"
+    "creationDate": "20.07.2026"
+  },
+  "module.combat.lightningtracker.name": {
+    "state": false
+  },
+  "module.movement.terrainspeed.name": {
+    "state": false,
+    "Mode in module.movement.terrainspeed.name Module": {
+      "value": "Watchdog"
+    },
+    "Maximise Speed in Bloxd Mode": {
+      "value": true
+    },
+    "Sneak Timer in Bloxd Mode": {
+      "value": 2.0
+    },
+    "Longjump Speed in Bloxd Mode": {
+      "value": 3.0
+    },
+    "Height in Bloxd Mode": {
+      "value": 25.0
+    }
+  },
+  "module.render.ambience.name": {
+    "state": false,
+    "Time in module.render.ambience.name Module": {
+      "value": 22539.0
+    },
+    "Time Speed in module.render.ambience.name Module": {
+      "value": 0.0
+    },
+    "Weather in module.render.ambience.name Module": {
+      "value": "Unchanged"
+    },
+    "Snow Color in module.render.ambience.name Module": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    }
+  },
+  "module.render.unlimitedchat.name": {
+    "state": false
+  },
+  "module.render.breadcrumbs.name": {
+    "state": false,
+    "Time in module.render.breadcrumbs.name Module": {
+      "value": 10.0
+    }
+  },
+  "module.other.clientspoofer.name": {
+    "state": false,
+    "Mode in module.other.clientspoofer.name Module": {
+      "value": "LabyMod"
+    },
+    "Spoofed Version, Latest would be preferred in LabyMod Mode": {
+      "value": "4.2.31"
+    }
+  },
+  "module.player.stealer.name": {
+    "state": true,
+    "Delay in module.player.stealer.name Module": {
+      "first": 40.0,
+      "second": 159.0
+    },
+    "First Item Delay in module.player.stealer.name Module": {
+      "first": 50.0,
+      "second": 50.0
+    },
+    "Ignore Trash in module.player.stealer.name Module": {
+      "value": true
+    },
+    "Respect Manager Rules in module.player.stealer.name Module": {
+      "value": true
+    },
+    "Gui Detection in module.player.stealer.name Module": {
+      "value": true
+    }
+  },
+  "module.render.viewbobbing.name": {
+    "state": false,
+    "Mode in module.render.viewbobbing.name Module": {
+      "value": "Smooth"
+    }
+  },
+  "module.player.antifireball.name": {
+    "state": false,
+    "Rotate in module.player.antifireball.name Module": {
+      "value": true
+    },
+    "Bad Packets Check in module.player.antifireball.name Module": {
+      "value": false
+    }
   },
   "module.movement.jesus.name": {
     "state": false,
@@ -12,64 +104,67 @@
       "value": true
     }
   },
-  "module.other.spammer.name": {
-    "state": false,
-    "Message in module.other.spammer.name Module": {
-      "value": "Buy Rise at riseclient.com!"
-    },
-    "Delay in module.other.spammer.name Module": {
-      "value": 20000.0
+  "module.render.hurtcolor.name": {
+    "state": true,
+    "1.7 Damage Animation in module.render.hurtcolor.name Module": {
+      "value": true
     }
   },
-  "module.other.bwutils.name": {
+  "module.other.playernotifier.name": {
     "state": false,
-    "Sword Reveal in module.other.bwutils.name Module": {
-      "value": true
+    "Notify Distance in module.other.playernotifier.name Module": {
+      "value": 35.0
     },
-    "Include Stone in module.other.bwutils.name Module": {
-      "value": true
-    },
-    "Armor Reveal in module.other.bwutils.name Module": {
-      "value": true
-    },
-    "Invisible Check in module.other.bwutils.name Module": {
-      "value": true
-    },
-    "Invisibility Status in module.other.bwutils.name Module": {
+    "Notify Once in module.other.playernotifier.name Module": {
       "value": false
     }
   },
-  "module.ghost.safewalk.name": {
+  "module.movement.wallclimb.name": {
     "state": false,
-    "Blocks Only in module.ghost.safewalk.name Module": {
-      "value": true
-    },
-    "Backwards Only in module.ghost.safewalk.name Module": {
-      "value": true
+    "Mode in module.movement.wallclimb.name Module": {
+      "value": "Watchdog"
     }
   },
-  "KB Displacement": {
+  "module.movement.inventorymove.name": {
     "state": false,
-    "Rotation Speed in KB Displacement Module": {
-      "value": 8.0
+    "Bypass Mode in module.movement.inventorymove.name Module": {
+      "value": "Grim"
     },
-    "Tracking Range in KB Displacement Module": {
-      "value": 6.0
+    "Clicks in Buffer Abuse Mode": {
+      "value": 3.0
     },
-    "Debug in KB Displacement Module": {
-      "value": false
-    }
-  },
-  "module.movement.clipper.name": {
-    "state": false,
-    "Clip Height in module.movement.clipper.name Module": {
-      "value": 13.0
-    }
-  },
-  "module.render.appleskin.name": {
-    "state": false,
-    "Max Flash Alpha in module.render.appleskin.name Module": {
+    "Amount in Buffer Abuse Mode": {
+      "value": 5.0
+    },
+    "Manager Extra Sprint Ticks in Grim Mode": {
       "value": 1.0
+    },
+    "Prediction Mode in Watchdog Mode": {
+      "value": true
+    },
+    "Ticks in Watchdog Mode": {
+      "value": 1.0
+    },
+    "Measure Chest Open in Watchdog Mode": {
+      "value": true
+    }
+  },
+  "module.combat.regen.name": {
+    "state": false,
+    "Mode in module.combat.regen.name Module": {
+      "value": "Vanilla"
+    },
+    "Minimum Health in Vanilla Mode": {
+      "value": 15.0
+    },
+    "Speed in Vanilla Mode": {
+      "value": 20.0
+    },
+    "Minimum Health in Verus Regen Mode": {
+      "value": 15.0
+    },
+    "Minimum Health in World Guard Mode": {
+      "value": 15.0
     }
   },
   "module.render.esp.name": {
@@ -93,23 +188,161 @@
       "value": 1.0
     }
   },
-  "module.render.viewbobbing.name": {
-    "state": false,
-    "Mode in module.render.viewbobbing.name Module": {
-      "value": "Smooth"
-    }
-  },
-  "module.render.hotbar.name": {
+  "module.render.chat.name": {
     "state": true,
-    " in module.render.hotbar.name Module": {
-      "positionX": 240.0,
-      "positionY": 196.0,
-      "scaleX": 182.0,
-      "scaleY": 40.0
+    "Open Height in module.render.chat.name Module": {
+      "value": 200.0
     },
-    "Show XP Bar in module.render.hotbar.name Module": {
+    "Width in module.render.chat.name Module": {
+      "value": 320.0
+    },
+    "Max Closed Height in module.render.chat.name Module": {
+      "value": 130.0
+    },
+    "Message disappearance speed in module.render.chat.name Module": {
+      "value": 1800.0
+    },
+    "Background in module.render.chat.name Module": {
+      "value": false
+    },
+    "Hide Player Source Messages in module.render.chat.name Module": {
+      "value": false
+    },
+    "Image Chat in module.render.chat.name Module": {
+      "value": true
+    },
+    " in module.render.chat.name Module": {
+      "positionX": 100.0,
+      "positionY": 4.5,
+      "scaleX": 320.0,
+      "scaleY": 200.0
+    },
+    "Pinyin Chinese IME in module.render.chat.name Module": {
       "value": true
     }
+  },
+  "module.other.irc.name": {
+    "state": true
+  },
+  "module.ghost.autoclicker.name": {
+    "state": false,
+    "Mode in module.ghost.autoclicker.name Module": {
+      "value": "Normal"
+    },
+    "CPS in Normal Mode": {
+      "first": 9.0,
+      "second": 15.0
+    },
+    "Right Click in Normal Mode": {
+      "value": false
+    },
+    "Left Click in Normal Mode": {
+      "value": true
+    },
+    "Hit Select in Normal Mode": {
+      "value": false
+    },
+    "Break Blocks in Normal Mode": {
+      "value": false
+    },
+    "ButterFly in Normal Mode": {
+      "value": true
+    },
+    "Drag Click Length in Drag Click Simulations Mode": {
+      "first": 17.0,
+      "second": 18.0
+    },
+    "Delay Between Dragging in Drag Click Simulations Mode": {
+      "first": 6.0,
+      "second": 6.0
+    },
+    "Jitter in module.ghost.autoclicker.name Module": {
+      "value": false
+    }
+  },
+  "module.render.targetinfo.name": {
+    "state": true,
+    "Mode in module.render.targetinfo.name Module": {
+      "value": "Modern"
+    },
+    "Particles in Modern Mode": {
+      "value": true
+    },
+    "Background Mode in Modern Mode": {
+      "value": "Glass"
+    },
+    "Particles in Creida Modern Mode": {
+      "value": true
+    },
+    "Background Mode in Creida Modern Mode": {
+      "value": "Glass"
+    },
+    "Position in module.render.targetinfo.name Module": {
+      "positionX": 376.0,
+      "positionY": 10.0,
+      "scaleX": 219.0,
+      "scaleY": 48.0
+    },
+    "Follow Player in module.render.targetinfo.name Module": {
+      "value": false
+    }
+  },
+  "module.player.fastuse.name": {
+    "state": false,
+    "Speed in module.player.fastuse.name Module": {
+      "value": 1.0
+    }
+  },
+  "module.render.freecam.name": {
+    "state": false,
+    "Speed in module.render.freecam.name Module": {
+      "value": 1.0
+    }
+  },
+  "Peircing": {
+    "state": false
+  },
+  "module.movement.noslow.name": {
+    "state": true,
+    "Mode in module.movement.noslow.name Module": {
+      "value": "Grim 3.0"
+    },
+    "Max Ping Spoof in Watchdog Prediction Mode": {
+      "value": 8.0
+    },
+    "When to finish eating in Watchdog Prediction Mode": {
+      "value": 30.0
+    },
+    "Non-Blink Speed Bypass in Watchdog Prediction Mode": {
+      "value": true
+    },
+    "Multiplier in Variable Mode": {
+      "value": 0.0
+    },
+    "Amount in Prediction Mode": {
+      "value": 5.0
+    },
+    "Slow down on Slabs in Watchdog Mode": {
+      "value": true
+    },
+    "Heypixel in Grim 3.0 Mode": {
+      "value": false
+    },
+    "Food in module.movement.noslow.name Module": {
+      "value": false
+    },
+    "Potion in module.movement.noslow.name Module": {
+      "value": false
+    },
+    "Sword in module.movement.noslow.name Module": {
+      "value": false
+    },
+    "Bow in module.movement.noslow.name Module": {
+      "value": false
+    }
+  },
+  "module.render.bossbar.name": {
+    "state": false
   },
   "module.render.keystrokes.name": {
     "state": false,
@@ -123,96 +356,122 @@
       "value": true
     }
   },
-  "module.combat.legitreach.name": {
+  "module.other.murdermystery.name": {
     "state": false,
-    "Max Ping Spoof in module.combat.legitreach.name Module": {
-      "value": 100.0
-    },
-    "Render Real Location in module.combat.legitreach.name Module": {
+    "Newest Method in module.other.murdermystery.name Module": {
       "value": true
     },
-    "Watchdog Mode in module.combat.legitreach.name Module": {
-      "value": true
+    "Call Out in module.other.murdermystery.name Module": {
+      "value": false
     }
   },
-  "module.player.blink.name": {
-    "state": false,
-    "Pulse in module.player.blink.name Module": {
-      "value": true
-    },
-    "Delay in module.player.blink.name Module": {
-      "first": 22.0,
-      "second": 23.0
+  "module.other.antiafk.name": {
+    "state": false
+  },
+  "module.render.clickgui.name": {
+    "Mode in module.render.clickgui.name Module": {
+      "value": "Modern"
     }
   },
-  "module.movement.longjump.name": {
+  "module.render.appleskin.name": {
     "state": false,
-    "Mode in module.movement.longjump.name Module": {
-      "value": "Vulcan"
+    "Max Flash Alpha in module.render.appleskin.name Module": {
+      "value": 1.0
+    }
+  },
+  "module.render.fullbright.name": {
+    "state": true,
+    "Mode in module.render.fullbright.name Module": {
+      "value": "Effect"
+    }
+  },
+  "module.other.cheatdetector.name": {
+    "state": false,
+    "Alert Type in module.other.cheatdetector.name Module": {
+      "value": "ClientSide"
+    }
+  },
+  "module.combat.crasher.name": {
+    "state": false,
+    "Mode in module.combat.crasher.name Module": {
+      "value": "Vanilla"
     },
-    "Height in Vanilla Mode": {
-      "value": 0.0
+    "Payload in Custom Mode": {
+      "value": "Invalid Move"
     },
-    "Speed in Vanilla Mode": {
+    "Packets in Unknown": {
+      "value": 10.0
+    }
+  },
+  "module.render.glint.name": {
+    "state": false,
+    "Glint Weapons in module.render.glint.name Module": {
+      "value": true
+    },
+    "Hue in module.render.glint.name Module": {
+      "first": 0.0,
+      "second": 360.0
+    },
+    "Layers in module.render.glint.name Module": {
+      "value": 4.0
+    }
+  },
+  "module.movement.autostuck.name": {
+    "state": false,
+    "Pulse Ticks in module.movement.autostuck.name Module": {
       "value": 1.0
     },
-    "Silent in Matrix 2 Mode": {
+    "Use Pearl in module.movement.autostuck.name Module": {
       "value": false
     },
-    "Bunny Friction in NCP Mode": {
-      "value": 159.0
+    "Require Void in module.movement.autostuck.name Module": {
+      "value": true
     },
-    "Ground Speed in NCP Mode": {
-      "value": 0.0
+    "Lock Movement in module.movement.autostuck.name Module": {
+      "value": true
     },
-    "Jump Speed in NCP Mode": {
-      "value": 1.0
-    },
-    "Glide in NCP Mode": {
-      "value": 0.0
-    },
-    "Timer in NCP Mode": {
-      "value": 1.0
-    },
-    "Timer in Watchdog 2 Mode": {
-      "value": false
-    },
-    "Fly Mode in Watchdog 2 Mode": {
-      "value": false
-    },
-    "Allow Damage Move in Watchdog 2 Mode": {
-      "value": false
-    },
-    "Delay Boost (go further with less height) in Watchdog 2 Mode": {
+    "Min Fall Distance in module.movement.autostuck.name Module": {
       "value": 2.0
     },
-    "Mode in Fire Ball Mode": {
-      "value": "Hypixel"
+    "Min Void Depth in module.movement.autostuck.name Module": {
+      "value": 2.0
     },
-    "Height in Unknown": {
-      "value": 1.0
-    },
-    "Speed in Unknown": {
-      "value": 1.0
-    },
-    "Smooth Camera in Watchdog Mode": {
-      "value": false
-    },
-    "Boost in Watchdog Fire Ball Mode": {
-      "value": true
-    },
-    "Boost in Watchdog Fire Ball 2 Mode": {
-      "value": true
-    },
-    "Auto Disable in module.movement.longjump.name Module": {
-      "value": true
-    },
-    "Fake Damage in module.movement.longjump.name Module": {
-      "value": true
+    "Search Radius in module.movement.autostuck.name Module": {
+      "value": 25.0
     }
   },
-  "module.other.irc.name": {
-    "state": true
+  "module.movement.phase.name": {
+    "state": false,
+    "Mode in module.movement.phase.name Module": {
+      "value": "Watchdog Prediction Full Block"
+    },
+    "Amount in Watchdog Semi Block Mode": {
+      "value": 1.0
+    },
+    "Timer in Watchdog Semi Block Mode": {
+      "value": 0.0
+    },
+    "Packet in Watchdog Semi Block Mode": {
+      "value": false
+    },
+    "Smart Mode (if you want it to be always be toggled on) in Watchdog 1.17.1 Full Block Mode": {
+      "value": false
+    },
+    "Silent in Watchdog 1.17.1 Full Block Mode": {
+      "value": false
+    },
+    "Release Mode in Grim Mode": {
+      "value": "Simple"
+    },
+    "Semi Packets in Grim Mode": {
+      "value": 2.0
+    }
+  },
+  "module.movement.potionextender.name": {
+    "state": false,
+    "Extend Duration in module.movement.potionextender.name Module": {
+      "value": 10.0
+    }
   },
   "module.movement.stuck.name": {
     "state": false,
@@ -220,94 +479,88 @@
       "value": true
     },
     "Test in module.movement.stuck.name Module": {
-      "value": false
+      "value": true
     },
     "Pulse Ticks in module.movement.stuck.name Module": {
-      "value": 0.0
+      "value": 1.0
     }
   },
-  "module.render.animations.name": {
+  "module.render.chestesp.name": {
+    "state": true
+  },
+  "module.render.fpscounter.name": {
     "state": true,
-    "Block Animation in module.render.animations.name Module": {
-      "value": "Exhibition New"
-    },
-    "Swing Animation in module.render.animations.name Module": {
-      "value": "None"
-    },
-    "Update Position Only When Blocking in module.render.animations.name Module": {
-      "value": false
-    },
-    "Swing Speed in module.render.animations.name Module": {
-      "value": -15.0
-    },
-    "X in module.render.animations.name Module": {
-      "value": 0.0
-    },
-    "Y in module.render.animations.name Module": {
-      "value": 0.0
-    },
-    "Z in module.render.animations.name Module": {
-      "value": 0.0
-    },
-    "Scale in module.render.animations.name Module": {
-      "value": 1.0
-    },
-    "Always Show in module.render.animations.name Module": {
-      "value": false
-    }
-  },
-  "module.movement.inventorymove.name": {
-    "state": false,
-    "Bypass Mode in module.movement.inventorymove.name Module": {
-      "value": "Grim"
-    },
-    "Clicks in Buffer Abuse Mode": {
-      "value": 3.0
-    },
-    "Amount in Buffer Abuse Mode": {
-      "value": 5.0
-    },
-    "Manager Extra Sprint Ticks in Grim Mode": {
-      "value": 1.0
-    },
-    "Prediction Mode in Watchdog Mode": {
-      "value": true
-    }
-  },
-  "module.player.fastbreak.name": {
-    "state": false,
-    "Mode in module.player.fastbreak.name Module": {
-      "value": "Ticks"
-    },
-    "Speed in module.player.fastbreak.name Module": {
-      "value": 0.0
-    },
-    "Ticks in module.player.fastbreak.name Module": {
-      "value": 1.0
-    },
-    "Ignore Mining Fatigue in module.player.fastbreak.name Module": {
+    "Title in module.render.fpscounter.name Module": {
       "value": true
     },
-    "Equal Air/Ground Dig in module.player.fastbreak.name Module": {
-      "value": true
-    }
-  },
-  "module.render.cpscounter.name": {
-    "state": false,
-    "Title in module.render.cpscounter.name Module": {
-      "value": true
-    },
-    "Position in module.render.cpscounter.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 33.0,
+    "Position in module.render.fpscounter.name Module": {
+      "positionX": 4.5,
+      "positionY": 30.0,
+      "scaleX": 40.0,
       "scaleY": 21.0
     }
   },
-  "module.combat.norotate.name": {
+  "Sampler (Dev)": {
+    "state": false
+  },
+  "module.exploit.blocktracker.name": {
     "state": false,
-    "Mode in module.combat.norotate.name Module": {
-      "value": "Edit"
+    "Name in module.exploit.blocktracker.name Module": {
+      "value": ""
+    }
+  },
+  "module.render.sessionstats.name": {
+    "state": false,
+    " in module.render.sessionstats.name Module": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 130.0,
+      "scaleY": 55.0
+    },
+    "Mode in module.render.sessionstats.name Module": {
+      "value": "Rue"
+    }
+  },
+  "module.render.hurtcamera.name": {
+    "state": true,
+    "Intensity in module.render.hurtcamera.name Module": {
+      "value": 1.0
+    }
+  },
+  "module.movement.nojumpdelay.name": {
+    "state": true
+  },
+  "module.ghost.fastplace.name": {
+    "state": true,
+    "Delay in module.ghost.fastplace.name Module": {
+      "value": 0.0
+    }
+  },
+  "module.combat.lagbreak.name": {
+    "state": false,
+    "Max Lag Ticks in module.combat.lagbreak.name Module": {
+      "value": 9.0
+    },
+    "Range in module.combat.lagbreak.name Module": {
+      "value": 10.0
+    },
+    "Minimum Range in module.combat.lagbreak.name Module": {
+      "value": 0.0
+    },
+    "Visual Mode in module.combat.lagbreak.name Module": {
+      "value": "Percentage"
+    },
+    "Circle Radius in module.combat.lagbreak.name Module": {
+      "value": 16.0
+    },
+    "Circle Thickness in module.combat.lagbreak.name Module": {
+      "value": 1.5
+    },
+    "Dispatch On Attack in module.combat.lagbreak.name Module": {
+      "value": true
+    },
+    "Dispatch On Hurtime in module.combat.lagbreak.name Module": {
+      "value": false
     }
   },
   "module.movement.flight.name": {
@@ -431,6 +684,212 @@
     },
     "Visual Dragon in module.movement.flight.name Module": {
       "value": false
+    }
+  },
+  "module.other.clicksounds.name": {
+    "state": false,
+    "Sound in module.other.clicksounds.name Module": {
+      "value": "Double"
+    },
+    "Volume in module.other.clicksounds.name Module": {
+      "value": 0.0
+    },
+    "Variation in module.other.clicksounds.name Module": {
+      "value": 5.0
+    }
+  },
+  "module.render.bpscounter.name": {
+    "state": false,
+    "Title in module.render.bpscounter.name Module": {
+      "value": true
+    },
+    "Position in module.render.bpscounter.name Module": {
+      "positionX": 4.0,
+      "positionY": 84.0,
+      "scaleX": 41.0,
+      "scaleY": 21.0
+    }
+  },
+  "module.render.nocameraclip.name": {
+    "state": true
+  },
+  "module.combat.throwableaura.name": {
+    "state": false,
+    "Rotation Range in module.combat.throwableaura.name Module": {
+      "value": 8.0
+    },
+    "Range in module.combat.throwableaura.name Module": {
+      "value": 6.0
+    },
+    "Minimum Range in module.combat.throwableaura.name Module": {
+      "value": 3.0
+    },
+    "Throw Delay in module.combat.throwableaura.name Module": {
+      "value": 5.0
+    },
+    "FOV in module.combat.throwableaura.name Module": {
+      "value": 180.0
+    },
+    "Player Teammates in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Players in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Mobs in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Auto Switch in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Prediction in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Module Check in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "AntiBot in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Snowballs in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Eggs in module.combat.throwableaura.name Module": {
+      "value": true
+    },
+    "Through Walls in module.combat.throwableaura.name Module": {
+      "value": true
+    }
+  },
+  "module.ghost.aimbacktrack.name": {
+    "state": false,
+    "Rotation Backtrack Amount in module.ghost.aimbacktrack.name Module": {
+      "value": 12.0
+    }
+  },
+  "module.render.bedplates.name": {
+    "state": false,
+    "Whitelist Own Bed in module.render.bedplates.name Module": {
+      "value": true
+    },
+    "Overlays (Bloom/Blur) in module.render.bedplates.name Module": {
+      "value": true
+    },
+    "Minimal in module.render.bedplates.name Module": {
+      "value": false
+    },
+    "Show Gradient in module.render.bedplates.name Module": {
+      "value": false
+    },
+    "Show Distance in module.render.bedplates.name Module": {
+      "value": true
+    },
+    "Distance Scale in module.render.bedplates.name Module": {
+      "value": true
+    },
+    "Range in module.render.bedplates.name Module": {
+      "value": 200.0
+    },
+    "Refresh Ticks in module.render.bedplates.name Module": {
+      "value": 1.0
+    }
+  },
+  "module.ghost.guiclicker.name": {
+    "state": false
+  },
+  "module.other.translator.name": {
+    "state": false,
+    "Mode in module.other.translator.name Module": {
+      "value": "Delay"
+    }
+  },
+  "module.render.killeffect.name": {
+    "state": true,
+    "Lightning in module.render.killeffect.name Module": {
+      "value": true
+    },
+    "Blood Explosion in module.render.killeffect.name Module": {
+      "value": false
+    },
+    "Explosion in module.render.killeffect.name Module": {
+      "value": true
+    }
+  },
+  "module.movement.sprint.name": {
+    "state": true,
+    "Legit in module.movement.sprint.name Module": {
+      "value": true
+    },
+    "Watchdog Prediction in module.movement.sprint.name Module": {
+      "value": false
+    }
+  },
+  "module.other.bwutils.name": {
+    "state": false,
+    "Sword Reveal in module.other.bwutils.name Module": {
+      "value": true
+    },
+    "Include Stone in module.other.bwutils.name Module": {
+      "value": true
+    },
+    "Armor Reveal in module.other.bwutils.name Module": {
+      "value": true
+    },
+    "Invisible Check in module.other.bwutils.name Module": {
+      "value": true
+    },
+    "Invisibility Status in module.other.bwutils.name Module": {
+      "value": false
+    }
+  },
+  "module.player.twerk.name": {
+    "state": false
+  },
+  "module.movement.strafe.name": {
+    "state": false,
+    "Strength in module.movement.strafe.name Module": {
+      "value": 100.0
+    },
+    "Hypixel Fly Disabler in module.movement.strafe.name Module": {
+      "value": false
+    }
+  },
+  "module.player.autopot.name": {
+    "state": false,
+    "Health in module.player.autopot.name Module": {
+      "value": 15.0
+    },
+    "Delay in module.player.autopot.name Module": {
+      "first": 50.0,
+      "second": 50.0
+    },
+    "Rotation Speed in module.player.autopot.name Module": {
+      "first": 10.0,
+      "second": 10.0
+    }
+  },
+  "module.player.fastbreak.name": {
+    "state": false,
+    "Mode in module.player.fastbreak.name Module": {
+      "value": "Ticks"
+    },
+    "Speed in module.player.fastbreak.name Module": {
+      "value": 0.0
+    },
+    "Ticks in module.player.fastbreak.name Module": {
+      "value": 1.0
+    },
+    "Ignore Mining Fatigue in module.player.fastbreak.name Module": {
+      "value": true
+    },
+    "Equal Air/Ground Dig in module.player.fastbreak.name Module": {
+      "value": true
+    }
+  },
+  "module.exploit.ghosthand.name": {
+    "state": true,
+    "Range in module.exploit.ghosthand.name Module": {
+      "value": 4.0
     }
   },
   "module.combat.disabler.name": {
@@ -619,168 +1078,17 @@
       "value": false
     }
   },
-  "module.render.clickgui.name": {
-    "Mode in module.render.clickgui.name Module": {
-      "value": "Modern"
-    }
-  },
-  "module.ghost.autoclicker.name": {
-    "state": false,
-    "Mode in module.ghost.autoclicker.name Module": {
-      "value": "Normal"
-    },
-    "CPS in Normal Mode": {
-      "first": 9.0,
-      "second": 15.0
-    },
-    "Right Click in Normal Mode": {
-      "value": false
-    },
-    "Left Click in Normal Mode": {
-      "value": true
-    },
-    "Hit Select in Normal Mode": {
-      "value": false
-    },
-    "Break Blocks in Normal Mode": {
-      "value": false
-    },
-    "ButterFly in Normal Mode": {
-      "value": true
-    },
-    "Drag Click Length in Drag Click Simulations Mode": {
-      "first": 17.0,
-      "second": 18.0
-    },
-    "Delay Between Dragging in Drag Click Simulations Mode": {
-      "first": 6.0,
-      "second": 6.0
-    },
-    "Jitter in module.ghost.autoclicker.name Module": {
-      "value": false
-    }
-  },
-  "module.render.chat.name": {
+  "module.render.hotbar.name": {
     "state": true,
-    "Open Height in module.render.chat.name Module": {
-      "value": 200.0
+    " in module.render.hotbar.name Module": {
+      "positionX": 240.0,
+      "positionY": 196.0,
+      "scaleX": 182.0,
+      "scaleY": 40.0
     },
-    "Width in module.render.chat.name Module": {
-      "value": 320.0
-    },
-    "Max Closed Height in module.render.chat.name Module": {
-      "value": 130.0
-    },
-    "Message disappearance speed in module.render.chat.name Module": {
-      "value": 1800.0
-    },
-    "Background in module.render.chat.name Module": {
-      "value": false
-    },
-    "Hide Player Source Messages in module.render.chat.name Module": {
-      "value": false
-    },
-    "Image Chat in module.render.chat.name Module": {
-      "value": true
-    },
-    " in module.render.chat.name Module": {
-      "positionX": 100.0,
-      "positionY": 4.5,
-      "scaleX": 320.0,
-      "scaleY": 200.0
-    },
-    "Pinyin Chinese IME in module.render.chat.name Module": {
+    "Show XP Bar in module.render.hotbar.name Module": {
       "value": true
     }
-  },
-  "module.player.autotool.name": {
-    "state": true
-  },
-  "module.other.autogroomer.name": {
-    "state": false,
-    "Chat Bypass in module.other.autogroomer.name Module": {
-      "value": false
-    },
-    "DM Messages in module.other.autogroomer.name Module": {
-      "value": false
-    },
-    "Spam in module.other.autogroomer.name Module": {
-      "value": false
-    }
-  },
-  "module.player.autopot.name": {
-    "state": false,
-    "Health in module.player.autopot.name Module": {
-      "value": 15.0
-    },
-    "Delay in module.player.autopot.name Module": {
-      "first": 50.0,
-      "second": 50.0
-    },
-    "Rotation Speed in module.player.autopot.name Module": {
-      "first": 10.0,
-      "second": 10.0
-    }
-  },
-  "module.render.scoreboard.name": {
-    "state": true,
-    "Position in module.render.scoreboard.name Module": {
-      "positionX": 604.5,
-      "positionY": 219.0,
-      "scaleX": 147.0,
-      "scaleY": 123.0
-    },
-    "Outline in module.render.scoreboard.name Module": {
-      "value": false
-    },
-    "Blur color in module.render.scoreboard.name Module": {
-      "value": false
-    },
-    "Replace IP with Rise Website in module.render.scoreboard.name Module": {
-      "value": true
-    }
-  },
-  "module.other.debugger.name": {
-    "state": true,
-    "Transactions in module.other.debugger.name Module": {
-      "value": false
-    },
-    "Keep Alive in module.other.debugger.name Module": {
-      "value": false
-    },
-    "Teleport in module.other.debugger.name Module": {
-      "value": true
-    },
-    "Velocity in module.other.debugger.name Module": {
-      "value": false
-    },
-    "Abilities in module.other.debugger.name Module": {
-      "value": false
-    },
-    "Display All in module.other.debugger.name Module": {
-      "value": false
-    },
-    "Blacklist in module.other.debugger.name Module": {
-      "value": false
-    },
-    "Time Since Move in module.other.debugger.name Module": {
-      "value": true
-    },
-    "Dev Panel in module.other.debugger.name Module": {
-      "value": false
-    },
-    "Event Calls in module.other.debugger.name Module": {
-      "value": false
-    },
-    " in module.other.debugger.name Module": {
-      "positionX": 242.0,
-      "positionY": 28.0,
-      "scaleX": 180.0,
-      "scaleY": 207.0
-    }
-  },
-  "module.ghost.guiclicker.name": {
-    "state": false
   },
   "module.render.blackholeorbit.name": {
     "state": false,
@@ -791,65 +1099,105 @@
       "scaleY": 100.0
     }
   },
-  "Watchdog TP Aura": {
+  "module.combat.pingspoof.name": {
     "state": false,
-    "Range in Watchdog TP Aura Module": {
-      "value": 20.0
+    "Delay in module.combat.pingspoof.name Module": {
+      "first": 2147.0,
+      "second": 3644.0
     },
-    "Players in Watchdog TP Aura Module": {
+    "Delay Teleports in module.combat.pingspoof.name Module": {
       "value": true
     },
-    "Hostile in Watchdog TP Aura Module": {
-      "value": false
+    "Delay Velocity in module.combat.pingspoof.name Module": {
+      "value": true
     },
-    "Teammates in Watchdog TP Aura Module": {
-      "value": false
-    },
-    "Invisibles in Watchdog TP Aura Module": {
+    "Delay Entity Movements in module.combat.pingspoof.name Module": {
       "value": true
     }
   },
-  "module.combat.comboonehit.name": {
+  "module.player.nofall.name": {
     "state": false,
-    "Attack Packets in module.combat.comboonehit.name Module": {
-      "value": 8.0
-    }
-  },
-  "module.ghost.clickassist.name": {
-    "state": false,
-    "Extra Left Clicks in module.ghost.clickassist.name Module": {
-      "value": 1.0
+    "Mode in module.player.nofall.name Module": {
+      "value": "Grim Server 1.9+"
     },
-    "Extra Right Clicks in module.ghost.clickassist.name Module": {
-      "value": 1.0
-    }
-  },
-  "module.movement.autostuck.name": {
-    "state": false,
-    "Pulse Ticks in module.movement.autostuck.name Module": {
-      "value": 1.0
-    },
-    "Use Pearl in module.movement.autostuck.name Module": {
+    "Newest Grim, may flag the anticheat in Grim Server 1.9+ Mode": {
       "value": false
     },
-    "Require Void in module.movement.autostuck.name Module": {
+    "Packet in Watchdog Blink Mode": {
       "value": true
     },
-    "Lock Movement in module.movement.autostuck.name Module": {
+    "Prediction in Watchdog Packet Mode": {
+      "value": false
+    }
+  },
+  "module.other.autogg.name": {
+    "state": false,
+    "Message in module.other.autogg.name Module": {
+      "value": "Why waste another game without Rise?"
+    }
+  },
+  "module.player.polardetector.name": {
+    "state": false
+  },
+  "module.combat.legitreach.name": {
+    "state": true,
+    "Max Ping Spoof in module.combat.legitreach.name Module": {
+      "value": 100.0
+    },
+    "Render Real Location in module.combat.legitreach.name Module": {
       "value": true
     },
-    "Min Fall Distance in module.movement.autostuck.name Module": {
-      "value": 2.0
+    "Watchdog Mode in module.combat.legitreach.name Module": {
+      "value": false
+    }
+  },
+  "module.combat.antibot.name": {
+    "state": true,
+    "Funcraft Check in module.combat.antibot.name Module": {
+      "value": false
     },
-    "Min Void Depth in module.movement.autostuck.name Module": {
-      "value": 2.0
+    "Tab Check in module.combat.antibot.name Module": {
+      "value": true
     },
-    "Search Radius in module.movement.autostuck.name Module": {
+    "NPC Detection Check in module.combat.antibot.name Module": {
+      "value": true
+    },
+    "Duplicate Name Check in module.combat.antibot.name Module": {
+      "value": false
+    },
+    "No Ping Check in module.combat.antibot.name Module": {
+      "value": true
+    },
+    "Cubecraft Bedrock Check in module.combat.antibot.name Module": {
+      "value": true
+    },
+    "Duplicate Unique ID Check in module.combat.antibot.name Module": {
+      "value": false
+    },
+    "Colour Check in module.combat.antibot.name Module": {
+      "value": true
+    },
+    "Time Visible Check in module.combat.antibot.name Module": {
+      "value": false
+    },
+    "Middle Click Bot in module.combat.antibot.name Module": {
+      "value": true
+    },
+    "Advanced in module.combat.antibot.name Module": {
+      "value": false
+    },
+    "Advanced 2 in module.combat.antibot.name Module": {
+      "value": false
+    }
+  },
+  "module.ghost.wtap.name": {
+    "state": false,
+    "Mode in module.ghost.wtap.name Module": {
+      "value": "Legit"
+    },
+    "WTap Chance in module.ghost.wtap.name Module": {
       "value": 25.0
     }
-  },
-  "module.combat.lightningtracker.name": {
-    "state": false
   },
   "module.combat.keeprange.name": {
     "state": false,
@@ -869,552 +1217,14 @@
       "value": 2.0
     }
   },
-  "module.combat.velocity.name": {
-    "state": true,
-    "Mode in module.combat.velocity.name Module": {
-      "value": "Grim Reduce"
-    },
-    "Horizontal in Standard Mode": {
-      "value": 0.0
-    },
-    "Vertical in Standard Mode": {
-      "value": 0.0
-    },
-    "Explosion Ignore in Standard Mode": {
-      "value": true
-    },
-    "Horizontal in Buffer Abuse Mode": {
-      "value": 100.0
-    },
-    "Vertical in Buffer Abuse Mode": {
-      "value": 100.0
-    },
-    "Buffer in Buffer Abuse Mode": {
-      "value": 1.0
-    },
-    "Delay (ticks) in Delay Mode": {
-      "value": 5.0
-    },
-    "Delay Explosions in Delay Mode": {
-      "value": true
-    },
-    "Chance in Legit/Jump Reset Mode": {
-      "value": 100.0
-    },
-    "Legit Timing in Legit/Jump Reset Mode": {
-      "value": false
-    },
-    "Chance in Polar Mode": {
-      "value": 100.0
-    },
-    "Legit Timing in Polar Mode": {
-      "value": false
-    },
-    "Delay in Ground Mode": {
-      "value": 1.0
-    },
-    "Stack in Vulcan Mode": {
-      "value": true
-    },
-    "Ping Spoof in Vulcan Mode": {
-      "value": true
-    },
-    "Always Cancel Vertical in Vulcan Mode": {
-      "value": true
-    },
-    "Backtrack in Vulcan Mode": {
-      "value": false
-    },
-    "Damage Boost in Vulcan Mode": {
-      "value": false
-    },
-    "Damage Boost Speed in Vulcan Mode": {
-      "value": 1.0
-    },
-    "Horizontal in Watchdog Damage Boost Fly Disabler Mode": {
-      "value": 0.0
-    },
-    "Vertical in Watchdog Damage Boost Fly Disabler Mode": {
-      "value": 0.0
-    },
-    "Tick Velocity in Tick Mode": {
-      "value": 1.0
-    },
-    "Tick in Bounce Mode": {
-      "value": 0.0
-    },
-    "Vertical in Bounce Mode": {
-      "value": false
-    },
-    "Horizontal in Bounce Mode": {
-      "value": false
-    },
-    "Delay till Ground in Grim Reduce Mode": {
-      "value": true
-    },
-    "Jump Reset in Grim Reduce Mode": {
-      "value": true
-    },
-    "Reduce Ticks in Grim Reduce Mode": {
-      "value": 3.0
-    },
-    "Teleport Disable Ticks in Grim Reduce Mode": {
-      "value": 1.0
-    },
-    "On Swing Disable on Aura in Grim Reduce Mode": {
-      "value": false
-    },
-    "Rotate in Grim Reduce Mode": {
-      "value": false
-    },
-    "Delay Plus in Grim Reduce Mode": {
-      "value": true
-    },
-    "Extra Hit in Grim Reduce Mode": {
-      "value": false
-    },
-    "Stop Sprint in Grim Reduce Mode": {
-      "value": true
-    },
-    "Range in Grim Reduce Mode": {
-      "value": 3.0
-    },
-    "Smart Combat (for High Ping) in Grim Mode": {
-      "value": true
-    },
-    "Rotate in Grim Mode": {
-      "value": true
-    },
-    "Full Rotation Fix in Grim 2 Mode": {
-      "value": true
-    },
-    "Fake S08 in Grim 2 Mode": {
-      "value": true
-    },
-    "Cancel Velocity in Grim 2 Mode": {
-      "value": true
-    },
-    "Rotation Noise in Grim 2 Mode": {
-      "value": 0.0
-    },
-    "Debug Log in Grim 2 Mode": {
-      "value": true
-    },
-    "Stack in Watchdog Mode": {
-      "value": false
-    },
-    "Ping Spoof in Watchdog Mode": {
-      "value": true
-    },
-    "Always Cancel Vertical in Watchdog Mode": {
-      "value": false
-    },
-    "Watchdog Backtrack in Watchdog Mode": {
-      "value": false
-    },
-    "Damage Boost (not for hypixel) in Watchdog Mode": {
-      "value": false
-    },
-    "Damage Boost Speed in Watchdog Mode": {
-      "value": 1.0
-    },
-    "Velocity to let through in Watchdog Prediction Mode": {
-      "value": 0.0
-    },
-    "Prevent Ghosting in Watchdog Prediction Mode": {
-      "value": false
-    },
-    "Cancel On Ground in Watchdog Reduce Mode": {
-      "value": true
-    },
-    "Cancel On Attack in Watchdog Reduce Mode": {
-      "value": true
-    },
-    "Cancel Explosions in Watchdog Reduce Mode": {
-      "value": true
-    },
-    "Type in Grim Test Mode": {
-      "value": "Reduce"
-    },
-    "Min Attacks in Unknown": {
-      "value": 2.0
-    },
-    "Max Attacks in Unknown": {
-      "value": 3.0
-    },
-    "Delay Release in Unknown": {
-      "value": false
-    },
-    "Delay Speed Threshold in Unknown": {
-      "value": 0.6
-    },
-    "Delay Timeout (ms) in Unknown": {
-      "value": 5000.0
-    },
-    "Delay Logging in Unknown": {
-      "value": false
-    },
-    "Jump Reset Tick in Unknown": {
-      "value": 1.0
-    },
-    "Grim Level in Unknown": {
-      "value": 0.001
-    },
-    "Logging in Grim Test Mode": {
-      "value": true
-    },
-    "On Swing in module.combat.velocity.name Module": {
-      "value": false
-    }
-  },
-  "module.combat.godmode.name": {
-    "state": false
-  },
-  "module.ghost.keepsprint.name": {
-    "state": false,
-    "Hit Slow Down During Velocity in module.ghost.keepsprint.name Module": {
-      "value": 1.0
-    },
-    "Hit Slow Down Normal in module.ghost.keepsprint.name Module": {
-      "value": 1.0
-    },
-    "Buffer Decrease in module.ghost.keepsprint.name Module": {
-      "value": 1.0
-    },
-    "Max Buffer in module.ghost.keepsprint.name Module": {
-      "value": 5.0
-    },
-    "Velocity Hit Sprint in module.ghost.keepsprint.name Module": {
-      "value": true
-    },
-    "Normal Hit Sprint in module.ghost.keepsprint.name Module": {
-      "value": true
-    },
-    "Buffer Abuse in module.ghost.keepsprint.name Module": {
-      "value": false
-    },
-    "Only In Air in module.ghost.keepsprint.name Module": {
-      "value": false
-    }
-  },
-  "module.movement.step.name": {
-    "state": false,
-    "Mode in module.movement.step.name Module": {
-      "value": "Vanilla"
-    },
-    "Height in Vanilla Mode": {
-      "value": 1.0
-    },
-    "Reverse in Vanilla Mode": {
-      "value": false
-    },
-    "Timer in Vanilla Mode": {
-      "value": 0.0
-    },
-    "Height in NCP Mode": {
-      "value": 1.0
-    },
-    "Timer in NCP Mode": {
-      "value": 0.0
-    },
-    "Reverse in NCP Mode": {
-      "value": false
-    },
-    "Height in New NCP Mode": {
-      "value": 1.0
-    },
-    "Timer in New NCP Mode": {
-      "value": 0.0
-    },
-    "2 Block in Matrix Mode": {
-      "value": true
-    },
-    "Instant in Unknown": {
-      "value": true
-    }
-  },
-  "module.render.freelook.name": {
-    "state": false,
-    "Invert Pitch in module.render.freelook.name Module": {
-      "value": false
-    }
-  },
-  "module.render.bedplates.name": {
-    "state": false,
-    "Whitelist Own Bed in module.render.bedplates.name Module": {
-      "value": true
-    },
-    "Overlays (Bloom/Blur) in module.render.bedplates.name Module": {
-      "value": true
-    },
-    "Minimal in module.render.bedplates.name Module": {
-      "value": false
-    },
-    "Show Gradient in module.render.bedplates.name Module": {
-      "value": false
-    },
-    "Show Distance in module.render.bedplates.name Module": {
-      "value": true
-    },
-    "Distance Scale in module.render.bedplates.name Module": {
-      "value": true
-    },
-    "Range in module.render.bedplates.name Module": {
-      "value": 200.0
-    },
-    "Refresh Ticks in module.render.bedplates.name Module": {
-      "value": 1.0
-    }
-  },
-  "module.render.particles.name": {
-    "state": false,
-    "Multiplier in module.render.particles.name Module": {
-      "value": 1.0
-    },
-    "Always Crit in module.render.particles.name Module": {
-      "value": true
-    },
-    "Always Sharpness in module.render.particles.name Module": {
-      "value": false
-    }
-  },
-  "module.player.fastuse.name": {
-    "state": false,
-    "Speed in module.player.fastuse.name Module": {
-      "value": 1.0
-    }
-  },
-  "module.other.murdermystery.name": {
-    "state": false,
-    "Newest Method in module.other.murdermystery.name Module": {
-      "value": true
-    },
-    "Call Out in module.other.murdermystery.name Module": {
-      "value": false
-    }
-  },
-  "module.player.autohead.name": {
-    "state": false,
-    "Health in module.player.autohead.name Module": {
-      "value": 10.0
-    },
-    "Delay in module.player.autohead.name Module": {
-      "first": 50.0,
-      "second": 50.0
-    }
-  },
-  "module.movement.sprint.name": {
-    "state": true,
-    "Legit in module.movement.sprint.name Module": {
-      "value": true
-    },
-    "Watchdog Prediction in module.movement.sprint.name Module": {
-      "value": false
-    }
-  },
-  "module.player.inventorysync.name": {
-    "state": false
-  },
-  "module.combat.regen.name": {
-    "state": false,
-    "Mode in module.combat.regen.name Module": {
-      "value": "Vanilla"
-    },
-    "Minimum Health in Vanilla Mode": {
-      "value": 15.0
-    },
-    "Speed in Vanilla Mode": {
-      "value": 20.0
-    },
-    "Minimum Health in Verus Regen Mode": {
-      "value": 15.0
-    },
-    "Minimum Health in World Guard Mode": {
-      "value": 15.0
-    }
-  },
-  "module.render.2desp.name": {
-    "state": true,
-    "Box in module.render.2desp.name Module": {
-      "value": "CS"
-    },
-    "Health Bar Mode in module.render.2desp.name Module": {
-      "value": "Health"
-    },
-    "Armor Bar in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Targets in module.render.2desp.name Module": {
-      "value": true
-    },
-    "Player in module.render.2desp.name Module": {
-      "value": true
-    },
-    "Invisibles in module.render.2desp.name Module": {
-      "value": true
-    },
-    "Animals in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Mobs in module.render.2desp.name Module": {
-      "value": false
-    },
-    "Player Teammates in module.render.2desp.name Module": {
-      "value": true
-    },
-    "Glow in module.render.2desp.name Module": {
-      "value": true
-    }
-  },
-  "module.player.manager.name": {
-    "state": false,
-    "Delay in module.player.manager.name Module": {
-      "first": 150.0,
-      "second": 200.0
-    },
-    "Legit in module.player.manager.name Module": {
-      "value": true
-    },
-    "Drop Custom Items in module.player.manager.name Module": {
-      "value": false
-    },
-    "Use Custom Items in module.player.manager.name Module": {
-      "value": false
-    },
-    "Prioritize Splash Potions in module.player.manager.name Module": {
-      "value": false
-    },
-    "Block Limit in module.player.manager.name Module": {
-      "value": 512.0
-    },
-    "Arrow Limit in module.player.manager.name Module": {
-      "value": 512.0
-    },
-    "Bucket Limit in module.player.manager.name Module": {
-      "value": 4.0
-    },
-    "Snowball/Egg Limit in module.player.manager.name Module": {
-      "value": 64.0
-    },
-    "Ender Pearl Limit in module.player.manager.name Module": {
-      "value": 64.0
-    },
-    "Sword Slot in module.player.manager.name Module": {
-      "value": 1.0
-    },
-    "Pickaxe Slot in module.player.manager.name Module": {
-      "value": 0.0
-    },
-    "Axe Slot in module.player.manager.name Module": {
-      "value": 0.0
-    },
-    "Shovel Slot in module.player.manager.name Module": {
-      "value": 0.0
-    },
-    "Block Slot in module.player.manager.name Module": {
-      "first": 2.0,
-      "second": 2.0
-    },
-    "Potion Slot in module.player.manager.name Module": {
-      "first": 0.0,
-      "second": 0.0
-    },
-    "Bow Slot in module.player.manager.name Module": {
-      "value": 0.0
-    },
-    "Rod Slot in module.player.manager.name Module": {
-      "value": 0.0
-    },
-    "Food Slot in module.player.manager.name Module": {
-      "first": 7.0,
-      "second": 7.0
-    }
-  },
-  "XRay": {
-    "state": false,
-    "Opacity in XRay Module": {
-      "value": 160.0
-    },
-    "World Opacity in XRay Module": {
-      "value": 50.0
-    },
-    "ESP in XRay Module": {
-      "value": true
-    },
-    "Tracers in XRay Module": {
-      "value": true
-    },
-    "Diamond in XRay Module": {
-      "value": true
-    },
-    "Redstone in XRay Module": {
-      "value": false
-    },
-    "Emerald in XRay Module": {
-      "value": false
-    },
-    "Lapis in XRay Module": {
-      "value": false
-    },
-    "Iron in XRay Module": {
-      "value": false
-    },
-    "Coal in XRay Module": {
-      "value": false
-    },
-    "Gold in XRay Module": {
-      "value": false
-    },
-    "Distance in XRay Module": {
-      "value": 42.0
-    },
-    "Chunk Update in XRay Module": {
-      "value": false
-    },
-    "Update Delay in XRay Module": {
-      "value": 10.0
-    }
-  },
-  "module.player.clutch.name": {
-    "state": false,
-    "Rotation Speed in module.player.clutch.name Module": {
-      "first": 9.0,
-      "second": 9.0
-    },
-    "Place Delay in module.player.clutch.name Module": {
-      "first": 0.0,
-      "second": 1.0
-    }
-  },
   "module.other.hypixelautoplay.name": {
     "state": false,
     "Mode in module.other.hypixelautoplay.name Module": {
       "value": "Hypixel"
     }
   },
-  "module.ghost.aimbacktrack.name": {
-    "state": false,
-    "Rotation Backtrack Amount in module.ghost.aimbacktrack.name Module": {
-      "value": 12.0
-    }
-  },
-  "module.movement.wallclimb.name": {
-    "state": false,
-    "Mode in module.movement.wallclimb.name Module": {
-      "value": "Watchdog"
-    }
-  },
-  "module.ghost.noclickdelay.name": {
-    "state": true
-  },
-  "module.render.hurtcolor.name": {
-    "state": true,
-    "1.7 Damage Animation in module.render.hurtcolor.name Module": {
-      "value": true
-    }
-  },
   "module.combat.killaura.name": {
-    "state": false,
+    "state": true,
     "Attack Mode in module.combat.killaura.name Module": {
       "value": "Switch"
     },
@@ -1425,7 +1235,10 @@
     "Auto Block in module.combat.killaura.name Module": {
       "value": "Fake"
     },
-    "New (may lag on duels and sw) in module.combat.killaura.name Module": {
+    "New (you need this toggled on currently on hypixel) in module.combat.killaura.name Module": {
+      "value": false
+    },
+    "Fallback to Watchdog in module.combat.killaura.name Module": {
       "value": false
     },
     "Right Click Only in module.combat.killaura.name Module": {
@@ -1441,7 +1254,7 @@
       "value": "Hurt Time"
     },
     "Click Delay Mode in module.combat.killaura.name Module": {
-      "value": "Normal"
+      "value": "Hit Select"
     },
     "Randomize 1.9+ Speed in module.combat.killaura.name Module": {
       "value": false
@@ -1466,14 +1279,14 @@
       "value": false
     },
     "CPS in module.combat.killaura.name Module": {
-      "first": 20.0,
-      "second": 20.0
+      "first": 10.0,
+      "second": 12.0
     },
     "Velocity Boost in module.combat.killaura.name Module": {
-      "value": true
+      "value": false
     },
     "Boost Ticks in module.combat.killaura.name Module": {
-      "value": 7.0
+      "value": 1.0
     },
     "Knockback Displacement in module.combat.killaura.name Module": {
       "value": false
@@ -1493,11 +1306,14 @@
     "Keep sprint in module.combat.killaura.name Module": {
       "value": false
     },
-    "Prediction Keep sprint in module.combat.killaura.name Module": {
-      "value": true
-    },
-    "Prediction Keep sprint Movefix Boost in module.combat.killaura.name Module": {
+    "Old Prediction Keep sprint in module.combat.killaura.name Module": {
       "value": false
+    },
+    "Old Movefix Boost in module.combat.killaura.name Module": {
+      "value": false
+    },
+    "New Universal Keep sprint in module.combat.killaura.name Module": {
+      "value": true
     },
     "Target ESP Mode in module.combat.killaura.name Module": {
       "value": "Ring"
@@ -1511,8 +1327,11 @@
     "Ray cast in module.combat.killaura.name Module": {
       "value": true
     },
-    "Through Walls in module.combat.killaura.name Module": {
+    "Subtick Raycast in module.combat.killaura.name Module": {
       "value": true
+    },
+    "Through Walls in module.combat.killaura.name Module": {
+      "value": false
     },
     "Advanced in module.combat.killaura.name Module": {
       "value": true
@@ -1650,8 +1469,1157 @@
       "value": false
     }
   },
-  "Resource Pack Spoof": {
+  "module.ghost.aimassist.name": {
+    "state": false,
+    "Mode in module.ghost.aimassist.name Module": {
+      "value": "Legit"
+    },
+    "Speed in module.ghost.aimassist.name Module": {
+      "value": 2.0
+    },
+    "Silent in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Require Swinging in module.ghost.aimassist.name Module": {
+      "value": true
+    },
+    "Sticky in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Require Mouse Movement in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Limit Items in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Aim Whilst on Target in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "FOV in module.ghost.aimassist.name Module": {
+      "value": 90.0
+    },
+    "Targets in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Player in module.ghost.aimassist.name Module": {
+      "value": true
+    },
+    "Invisibles in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Animals in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Mobs in module.ghost.aimassist.name Module": {
+      "value": false
+    },
+    "Player Teammates in module.ghost.aimassist.name Module": {
+      "value": true
+    }
+  },
+  "Jump Circles": {
     "state": false
+  },
+  "module.combat.teleportaura.name": {
+    "state": false,
+    "Mode in module.combat.teleportaura.name Module": {
+      "value": "Single"
+    },
+    "Range in module.combat.teleportaura.name Module": {
+      "value": 100.0
+    },
+    "CPS in module.combat.teleportaura.name Module": {
+      "first": 1.0,
+      "second": 1.0
+    },
+    "1.9 Cooldown in module.combat.teleportaura.name Module": {
+      "value": false
+    },
+    "Render in module.combat.teleportaura.name Module": {
+      "value": true
+    }
+  },
+  "module.render.particles.name": {
+    "state": false,
+    "Multiplier in module.render.particles.name Module": {
+      "value": 1.0
+    },
+    "Always Crit in module.render.particles.name Module": {
+      "value": true
+    },
+    "Always Sharpness in module.render.particles.name Module": {
+      "value": false
+    }
+  },
+  "module.player.manager.name": {
+    "state": false,
+    "Delay in module.player.manager.name Module": {
+      "first": 150.0,
+      "second": 200.0
+    },
+    "Legit in module.player.manager.name Module": {
+      "value": true
+    },
+    "Drop Custom Items in module.player.manager.name Module": {
+      "value": false
+    },
+    "Use Custom Items in module.player.manager.name Module": {
+      "value": false
+    },
+    "Prioritize Splash Potions in module.player.manager.name Module": {
+      "value": false
+    },
+    "Block Limit in module.player.manager.name Module": {
+      "value": 512.0
+    },
+    "Arrow Limit in module.player.manager.name Module": {
+      "value": 512.0
+    },
+    "Bucket Limit in module.player.manager.name Module": {
+      "value": 4.0
+    },
+    "Snowball/Egg Limit in module.player.manager.name Module": {
+      "value": 64.0
+    },
+    "Ender Pearl Limit in module.player.manager.name Module": {
+      "value": 64.0
+    },
+    "Sword Slot in module.player.manager.name Module": {
+      "value": 1.0
+    },
+    "Second Sword Slot in module.player.manager.name Module": {
+      "value": 2.0
+    },
+    "Pickaxe Slot in module.player.manager.name Module": {
+      "value": 0.0
+    },
+    "Axe Slot in module.player.manager.name Module": {
+      "value": 0.0
+    },
+    "Shovel Slot in module.player.manager.name Module": {
+      "value": 0.0
+    },
+    "Block Slot in module.player.manager.name Module": {
+      "first": 2.0,
+      "second": 2.0
+    },
+    "Potion Slot in module.player.manager.name Module": {
+      "first": 0.0,
+      "second": 0.0
+    },
+    "Bow Slot in module.player.manager.name Module": {
+      "value": 0.0
+    },
+    "Rod Slot in module.player.manager.name Module": {
+      "value": 0.0
+    },
+    "Food Slot in module.player.manager.name Module": {
+      "first": 7.0,
+      "second": 7.0
+    }
+  },
+  "module.ghost.noclickdelay.name": {
+    "state": true
+  },
+  "module.render.cpscounter.name": {
+    "state": false,
+    "Title in module.render.cpscounter.name Module": {
+      "value": true
+    },
+    "Position in module.render.cpscounter.name Module": {
+      "positionX": 100.0,
+      "positionY": 100.0,
+      "scaleX": 33.0,
+      "scaleY": 21.0
+    }
+  },
+  "module.combat.staffdetector.name": {
+    "state": false,
+    "Auto Leave in module.combat.staffdetector.name Module": {
+      "value": true
+    },
+    "Mode in module.combat.staffdetector.name Module": {
+      "value": "List"
+    },
+    "Show Invisible Staff in Hypixel Mode": {
+      "value": true
+    }
+  },
+  "module.player.oldmanager.name": {
+    "state": true,
+    "Delay in module.player.oldmanager.name Module": {
+      "first": 60.0,
+      "second": 60.0
+    },
+    "Legit in module.player.oldmanager.name Module": {
+      "value": false
+    },
+    "Drop Custom Items in module.player.oldmanager.name Module": {
+      "value": false
+    },
+    "Use Custom Items in module.player.oldmanager.name Module": {
+      "value": false
+    },
+    "Prioritize Splash Potions in module.player.oldmanager.name Module": {
+      "value": false
+    },
+    "Block Limit in module.player.oldmanager.name Module": {
+      "value": 272.0
+    },
+    "Arrow Limit in module.player.oldmanager.name Module": {
+      "value": 160.0
+    },
+    "Bucket Limit in module.player.oldmanager.name Module": {
+      "value": 2.0
+    },
+    "Snowball/Egg Limit in module.player.oldmanager.name Module": {
+      "value": 64.0
+    },
+    "Ender Pearl Limit in module.player.oldmanager.name Module": {
+      "value": 64.0
+    },
+    "Fire Charge Limit in module.player.oldmanager.name Module": {
+      "value": 16.0
+    },
+    "TNT Limit in module.player.oldmanager.name Module": {
+      "value": 16.0
+    },
+    "Sword Slot in module.player.oldmanager.name Module": {
+      "value": 1.0
+    },
+    "Second Sword Slot in module.player.oldmanager.name Module": {
+      "value": 0.0
+    },
+    "Pickaxe Slot in module.player.oldmanager.name Module": {
+      "value": 5.0
+    },
+    "Axe Slot in module.player.oldmanager.name Module": {
+      "value": 3.0
+    },
+    "Shovel Slot in module.player.oldmanager.name Module": {
+      "value": 4.0
+    },
+    "Block Slot in module.player.oldmanager.name Module": {
+      "first": 2.0,
+      "second": 2.0
+    },
+    "Potion Slot in module.player.oldmanager.name Module": {
+      "first": 9.0,
+      "second": 9.0
+    },
+    "Bow Slot in module.player.oldmanager.name Module": {
+      "value": 6.0
+    },
+    "Rod Slot in module.player.oldmanager.name Module": {
+      "value": 0.0
+    },
+    "Food Slot in module.player.oldmanager.name Module": {
+      "first": 7.0,
+      "second": 7.0
+    }
+  },
+  "module.render.2desp.name": {
+    "state": true,
+    "Box in module.render.2desp.name Module": {
+      "value": "CS"
+    },
+    "Health Bar Mode in module.render.2desp.name Module": {
+      "value": "Health"
+    },
+    "Armor Bar in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Targets in module.render.2desp.name Module": {
+      "value": true
+    },
+    "Player in module.render.2desp.name Module": {
+      "value": true
+    },
+    "Invisibles in module.render.2desp.name Module": {
+      "value": true
+    },
+    "Animals in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Mobs in module.render.2desp.name Module": {
+      "value": false
+    },
+    "Player Teammates in module.render.2desp.name Module": {
+      "value": true
+    },
+    "Glow in module.render.2desp.name Module": {
+      "value": true
+    }
+  },
+  "module.ghost.safewalk.name": {
+    "state": false,
+    "Blocks Only in module.ghost.safewalk.name Module": {
+      "value": true
+    },
+    "Backwards Only in module.ghost.safewalk.name Module": {
+      "value": true
+    }
+  },
+  "module.ghost.hitbox.name": {
+    "state": false,
+    "Expand Amount in module.ghost.hitbox.name Module": {
+      "value": 0.0
+    },
+    "Effect range in module.ghost.hitbox.name Module": {
+      "value": true
+    }
+  },
+  "module.render.nametags.name": {
+    "state": true,
+    "Mode in module.render.nametags.name Module": {
+      "value": "Modern"
+    },
+    "Show Health in Modern Mode": {
+      "value": true
+    },
+    "Overlays (Bloom/Blur) in Modern Mode": {
+      "value": true
+    },
+    "Show Team Tag in Vanilla Mode": {
+      "value": true
+    },
+    "Show Target Tag in Vanilla Mode": {
+      "value": true
+    },
+    "Show Friend Tag in Vanilla Mode": {
+      "value": true
+    },
+    "Shortened Tags in Vanilla Mode": {
+      "value": true
+    },
+    "Show Team Tag in Classic Mode": {
+      "value": true
+    },
+    "Show Target Tag in Classic Mode": {
+      "value": true
+    },
+    "Show Friend Tag in Classic Mode": {
+      "value": false
+    },
+    "Shortened Tags in Classic Mode": {
+      "value": false
+    },
+    "Targets in module.render.nametags.name Module": {
+      "value": true
+    },
+    "Player in module.render.nametags.name Module": {
+      "value": true
+    },
+    "Invisibles in module.render.nametags.name Module": {
+      "value": true
+    },
+    "Animals in module.render.nametags.name Module": {
+      "value": false
+    },
+    "Mobs in module.render.nametags.name Module": {
+      "value": false
+    },
+    "Player Teammates in module.render.nametags.name Module": {
+      "value": true
+    }
+  },
+  "module.combat.norotate.name": {
+    "state": false,
+    "Mode in module.combat.norotate.name Module": {
+      "value": "Edit"
+    }
+  },
+  "module.player.scaffold.name": {
+    "state": false,
+    "Mode in module.player.scaffold.name Module": {
+      "value": "Telly"
+    },
+    "Rotation Mode in module.player.scaffold.name Module": {
+      "value": "Normal"
+    },
+    "Ray Cast in module.player.scaffold.name Module": {
+      "value": "Normal"
+    },
+    "Sprint in module.player.scaffold.name Module": {
+      "value": "Normal"
+    },
+    "Speed in Vulcan Mode": {
+      "value": 1.3
+    },
+    "Place Extra blocks in Watchdog Jump Mode": {
+      "value": true
+    },
+    "Tower in module.player.scaffold.name Module": {
+      "value": "Disabled"
+    },
+    "Same Y in module.player.scaffold.name Module": {
+      "value": "On"
+    },
+    "Downwards (Press Sneak) in module.player.scaffold.name Module": {
+      "value": "Off"
+    },
+    "Rotation Speed in module.player.scaffold.name Module": {
+      "first": 10.0,
+      "second": 10.0
+    },
+    "Place Delay in module.player.scaffold.name Module": {
+      "first": 0.0,
+      "second": 0.0
+    },
+    "Timer in module.player.scaffold.name Module": {
+      "value": 1.0
+    },
+    "Expand in module.player.scaffold.name Module": {
+      "value": 0.0
+    },
+    "Movement Correction in module.player.scaffold.name Module": {
+      "value": true
+    },
+    "Safe Walk in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "New Watchdog Rots in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Keep-Y bypass in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Watchdog Prediction in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Watchdog Telly in module.player.scaffold.name Module": {
+      "value": true
+    },
+    "Visual Back Rotations in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Block Diagonal Ascend in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Don\u0027t force raycast on Watchdog Telly in module.player.scaffold.name Module": {
+      "value": true
+    },
+    "Extend Block Reach on Watchdog Telly in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Watchdog Telly Jump Delay in module.player.scaffold.name Module": {
+      "first": 1.0,
+      "second": 2.0
+    },
+    "Disable On Flag in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Watchdog Telly Rotation Speed in module.player.scaffold.name Module": {
+      "first": 36.0,
+      "second": 36.0
+    },
+    "Rotation Block Boost in module.player.scaffold.name Module": {
+      "value": true
+    },
+    "Rotation Block Rotation Speed in module.player.scaffold.name Module": {
+      "first": 86.0,
+      "second": 99.0
+    },
+    "Boost Only While Holding Jump in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Sneak in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Start Sneaking in module.player.scaffold.name Module": {
+      "first": 0.0,
+      "second": 0.0
+    },
+    "Stop Sneaking in module.player.scaffold.name Module": {
+      "first": 0.0,
+      "second": 0.0
+    },
+    "Sneak every x blocks in module.player.scaffold.name Module": {
+      "first": 1.0,
+      "second": 1.0
+    },
+    "Sneaking Speed in module.player.scaffold.name Module": {
+      "value": 0.2
+    },
+    "Telly Only on Right Click in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Render in module.player.scaffold.name Module": {
+      "value": true
+    },
+    "Advanced in module.player.scaffold.name Module": {
+      "value": true
+    },
+    "Yaw Offset in module.player.scaffold.name Module": {
+      "value": "0"
+    },
+    "Ignore Speed Effect in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Up Side Down in module.player.scaffold.name Module": {
+      "value": false
+    },
+    "Bypass Raycast When Falling in module.player.scaffold.name Module": {
+      "value": false
+    }
+  },
+  "module.ghost.reach.name": {
+    "state": false,
+    "Range in module.ghost.reach.name Module": {
+      "first": 3.0,
+      "second": 4.0
+    },
+    "Buffer Decrease in module.ghost.reach.name Module": {
+      "value": 1.0
+    },
+    "Max Buffer in module.ghost.reach.name Module": {
+      "value": 5.0
+    },
+    "Buffer Abuse in module.ghost.reach.name Module": {
+      "value": false
+    }
+  },
+  "module.movement.longjump.name": {
+    "state": false,
+    "Mode in module.movement.longjump.name Module": {
+      "value": "Vulcan"
+    },
+    "Height in Vanilla Mode": {
+      "value": 0.0
+    },
+    "Speed in Vanilla Mode": {
+      "value": 1.0
+    },
+    "Silent in Matrix 2 Mode": {
+      "value": false
+    },
+    "Bunny Friction in NCP Mode": {
+      "value": 159.0
+    },
+    "Ground Speed in NCP Mode": {
+      "value": 0.0
+    },
+    "Jump Speed in NCP Mode": {
+      "value": 1.0
+    },
+    "Glide in NCP Mode": {
+      "value": 0.0
+    },
+    "Timer in NCP Mode": {
+      "value": 1.0
+    },
+    "Timer in Watchdog 2 Mode": {
+      "value": false
+    },
+    "Fly Mode in Watchdog 2 Mode": {
+      "value": false
+    },
+    "Allow Damage Move in Watchdog 2 Mode": {
+      "value": false
+    },
+    "Delay Boost (go further with less height) in Watchdog 2 Mode": {
+      "value": 2.0
+    },
+    "Mode in Fire Ball Mode": {
+      "value": "Hypixel"
+    },
+    "Height in Unknown": {
+      "value": 1.0
+    },
+    "Speed in Unknown": {
+      "value": 1.0
+    },
+    "Smooth Camera in Watchdog Mode": {
+      "value": false
+    },
+    "Boost in Watchdog Fire Ball Mode": {
+      "value": true
+    },
+    "Boost in Watchdog Fire Ball 2 Mode": {
+      "value": true
+    },
+    "Auto Disable in module.movement.longjump.name Module": {
+      "value": true
+    },
+    "Fake Damage in module.movement.longjump.name Module": {
+      "value": true
+    }
+  },
+  "XRay": {
+    "state": false,
+    "Opacity in XRay Module": {
+      "value": 160.0
+    },
+    "World Opacity in XRay Module": {
+      "value": 50.0
+    },
+    "ESP in XRay Module": {
+      "value": true
+    },
+    "Tracers in XRay Module": {
+      "value": true
+    },
+    "Diamond in XRay Module": {
+      "value": true
+    },
+    "Redstone in XRay Module": {
+      "value": false
+    },
+    "Emerald in XRay Module": {
+      "value": false
+    },
+    "Lapis in XRay Module": {
+      "value": false
+    },
+    "Iron in XRay Module": {
+      "value": false
+    },
+    "Coal in XRay Module": {
+      "value": false
+    },
+    "Gold in XRay Module": {
+      "value": false
+    },
+    "Distance in XRay Module": {
+      "value": 42.0
+    },
+    "Chunk Update in XRay Module": {
+      "value": false
+    },
+    "Update Delay in XRay Module": {
+      "value": 10.0
+    }
+  },
+  "module.combat.fences.name": {
+    "state": false
+  },
+  "module.player.watchdogblink.name": {
+    "state": false,
+    "Interval in module.player.watchdogblink.name Module": {
+      "value": 4.0
+    },
+    "Disable Ticks in module.player.watchdogblink.name Module": {
+      "value": 15.0
+    }
+  },
+  "module.render.streamer.name": {
+    "state": false,
+    "Name in module.render.streamer.name Module": {
+      "value": true
+    },
+    "Replacement in module.render.streamer.name Module": {
+      "value": "You"
+    }
+  },
+  "module.render.freelook.name": {
+    "state": false,
+    "Invert Pitch in module.render.freelook.name Module": {
+      "value": false
+    }
+  },
+  "module.other.autogroomer.name": {
+    "state": false,
+    "Chat Bypass in module.other.autogroomer.name Module": {
+      "value": false
+    },
+    "DM Messages in module.other.autogroomer.name Module": {
+      "value": false
+    },
+    "Spam in module.other.autogroomer.name Module": {
+      "value": false
+    }
+  },
+  "module.combat.consolespammer.name": {
+    "state": false,
+    "Mode in module.combat.consolespammer.name Module": {
+      "value": "Channel"
+    },
+    "Channels/tick in Channel Mode": {
+      "value": 1.0
+    }
+  },
+  "module.ghost.keepsprint.name": {
+    "state": false,
+    "Hit Slow Down During Velocity in module.ghost.keepsprint.name Module": {
+      "value": 1.0
+    },
+    "Hit Slow Down Normal in module.ghost.keepsprint.name Module": {
+      "value": 1.0
+    },
+    "Buffer Decrease in module.ghost.keepsprint.name Module": {
+      "value": 1.0
+    },
+    "Max Buffer in module.ghost.keepsprint.name Module": {
+      "value": 5.0
+    },
+    "Velocity Hit Sprint in module.ghost.keepsprint.name Module": {
+      "value": true
+    },
+    "Normal Hit Sprint in module.ghost.keepsprint.name Module": {
+      "value": true
+    },
+    "Buffer Abuse in module.ghost.keepsprint.name Module": {
+      "value": false
+    },
+    "Only In Air in module.ghost.keepsprint.name Module": {
+      "value": false
+    }
+  },
+  "module.movement.clipper.name": {
+    "state": false,
+    "Clip Height in module.movement.clipper.name Module": {
+      "value": 13.0
+    }
+  },
+  "module.movement.automlg.name": {
+    "state": false,
+    "Fall Distance in module.movement.automlg.name Module": {
+      "value": 4.0
+    },
+    "Pickup Delay in module.movement.automlg.name Module": {
+      "value": 4.0
+    },
+    "Auto Pickup in module.movement.automlg.name Module": {
+      "value": true
+    },
+    "Auto Disable in module.movement.automlg.name Module": {
+      "value": false
+    }
+  },
+  "module.combat.velocity.name": {
+    "state": true,
+    "Mode in module.combat.velocity.name Module": {
+      "value": "Grim Reduce"
+    },
+    "Horizontal in Standard Mode": {
+      "value": 0.0
+    },
+    "Vertical in Standard Mode": {
+      "value": 0.0
+    },
+    "Explosion Ignore in Standard Mode": {
+      "value": true
+    },
+    "Horizontal in Buffer Abuse Mode": {
+      "value": 100.0
+    },
+    "Vertical in Buffer Abuse Mode": {
+      "value": 100.0
+    },
+    "Buffer in Buffer Abuse Mode": {
+      "value": 1.0
+    },
+    "Delay (ticks) in Delay Mode": {
+      "value": 5.0
+    },
+    "Delay Explosions in Delay Mode": {
+      "value": true
+    },
+    "Chance in Legit/Jump Reset Mode": {
+      "value": 100.0
+    },
+    "Legit Timing in Legit/Jump Reset Mode": {
+      "value": false
+    },
+    "Chance in Polar Mode": {
+      "value": 100.0
+    },
+    "Legit Timing in Polar Mode": {
+      "value": false
+    },
+    "Delay in Ground Mode": {
+      "value": 1.0
+    },
+    "Stack in Vulcan Mode": {
+      "value": true
+    },
+    "Ping Spoof in Vulcan Mode": {
+      "value": true
+    },
+    "Always Cancel Vertical in Vulcan Mode": {
+      "value": true
+    },
+    "Backtrack in Vulcan Mode": {
+      "value": false
+    },
+    "Damage Boost in Vulcan Mode": {
+      "value": false
+    },
+    "Damage Boost Speed in Vulcan Mode": {
+      "value": 1.0
+    },
+    "Horizontal in Watchdog Damage Boost Fly Disabler Mode": {
+      "value": 0.0
+    },
+    "Vertical in Watchdog Damage Boost Fly Disabler Mode": {
+      "value": 0.0
+    },
+    "Tick Velocity in Tick Mode": {
+      "value": 1.0
+    },
+    "Tick in Bounce Mode": {
+      "value": 0.0
+    },
+    "Vertical in Bounce Mode": {
+      "value": false
+    },
+    "Horizontal in Bounce Mode": {
+      "value": false
+    },
+    "Delay till Ground in Grim Reduce Mode": {
+      "value": true
+    },
+    "Jump Reset in Grim Reduce Mode": {
+      "value": true
+    },
+    "Reduce Ticks in Grim Reduce Mode": {
+      "value": 3.0
+    },
+    "Teleport Disable Ticks in Grim Reduce Mode": {
+      "value": 7.0
+    },
+    "On Swing Disable on Aura in Grim Reduce Mode": {
+      "value": false
+    },
+    "Rotate in Grim Reduce Mode": {
+      "value": false
+    },
+    "Delay Plus in Grim Reduce Mode": {
+      "value": true
+    },
+    "Extra Hit in Grim Reduce Mode": {
+      "value": true
+    },
+    "Stop Sprint in Grim Reduce Mode": {
+      "value": true
+    },
+    "Range in Grim Reduce Mode": {
+      "value": 3.0
+    },
+    "Smart Combat (for High Ping) in Grim Mode": {
+      "value": true
+    },
+    "Rotate in Grim Mode": {
+      "value": true
+    },
+    "Full Rotation Fix in Grim 2 Mode": {
+      "value": true
+    },
+    "Fake S08 in Grim 2 Mode": {
+      "value": true
+    },
+    "Cancel Velocity in Grim 2 Mode": {
+      "value": true
+    },
+    "Rotation Noise in Grim 2 Mode": {
+      "value": 0.001
+    },
+    "Debug Log in Grim 2 Mode": {
+      "value": true
+    },
+    "Stack in Watchdog Mode": {
+      "value": false
+    },
+    "Ping Spoof in Watchdog Mode": {
+      "value": true
+    },
+    "Always Cancel Vertical in Watchdog Mode": {
+      "value": false
+    },
+    "Watchdog Backtrack in Watchdog Mode": {
+      "value": false
+    },
+    "Damage Boost (not for hypixel) in Watchdog Mode": {
+      "value": false
+    },
+    "Damage Boost Speed in Watchdog Mode": {
+      "value": 1.0
+    },
+    "Velocity to let through in Watchdog Prediction Mode": {
+      "value": 0.3
+    },
+    "Prevent Ghosting in Watchdog Prediction Mode": {
+      "value": false
+    },
+    "Cancel On Ground in Watchdog Reduce Mode": {
+      "value": true
+    },
+    "Cancel On Attack in Watchdog Reduce Mode": {
+      "value": true
+    },
+    "Cancel Explosions in Watchdog Reduce Mode": {
+      "value": true
+    },
+    "Type in Grim Test Mode": {
+      "value": "Reduce"
+    },
+    "Min Attacks in Unknown": {
+      "value": 2.0
+    },
+    "Max Attacks in Unknown": {
+      "value": 3.0
+    },
+    "Delay Release in Unknown": {
+      "value": false
+    },
+    "Delay Speed Threshold in Unknown": {
+      "value": 0.6
+    },
+    "Delay Timeout (ms) in Unknown": {
+      "value": 5000.0
+    },
+    "Delay Logging in Unknown": {
+      "value": false
+    },
+    "Jump Reset Tick in Unknown": {
+      "value": 1.0
+    },
+    "Grim Level in Unknown": {
+      "value": 0.001
+    },
+    "Logging in Grim Test Mode": {
+      "value": true
+    },
+    "On Swing in module.combat.velocity.name Module": {
+      "value": true
+    }
+  },
+  "module.movement.snaptap.name": {
+    "state": false
+  },
+  "module.other.noguiclose.name": {
+    "state": false,
+    "Chat Only in module.other.noguiclose.name Module": {
+      "value": true
+    }
+  },
+  "module.ghost.clickassist.name": {
+    "state": false,
+    "Extra Left Clicks in module.ghost.clickassist.name Module": {
+      "value": 1.0
+    },
+    "Extra Right Clicks in module.ghost.clickassist.name Module": {
+      "value": 1.0
+    }
+  },
+  "module.player.autotool.name": {
+    "state": true
+  },
+  "module.other.chatbypass.name": {
+    "state": false
+  },
+  "module.combat.comboonehit.name": {
+    "state": false,
+    "Attack Packets in module.combat.comboonehit.name Module": {
+      "value": 8.0
+    }
+  },
+  "module.player.autohead.name": {
+    "state": false,
+    "Health in module.player.autohead.name Module": {
+      "value": 10.0
+    },
+    "Delay in module.player.autohead.name Module": {
+      "first": 50.0,
+      "second": 50.0
+    }
+  },
+  "module.player.clutch.name": {
+    "state": false,
+    "Rotation Speed in module.player.clutch.name Module": {
+      "first": 9.0,
+      "second": 9.0
+    },
+    "Place Delay in module.player.clutch.name Module": {
+      "first": 0.0,
+      "second": 1.0
+    }
+  },
+  "module.other.anticrash.name": {
+    "state": false
+  },
+  "module.other.spammer.name": {
+    "state": false,
+    "Message in module.other.spammer.name Module": {
+      "value": "Buy Rise at riseclient.com!"
+    },
+    "Delay in module.other.spammer.name Module": {
+      "value": 20000.0
+    }
+  },
+  "module.render.scoreboard.name": {
+    "state": true,
+    "Position in module.render.scoreboard.name Module": {
+      "positionX": 829.5,
+      "positionY": 227.0,
+      "scaleX": 123.0,
+      "scaleY": 123.0
+    },
+    "Outline in module.render.scoreboard.name Module": {
+      "value": false
+    },
+    "Blur color in module.render.scoreboard.name Module": {
+      "value": false
+    },
+    "Replace IP with Rise Website in module.render.scoreboard.name Module": {
+      "value": true
+    }
+  },
+  "KB Displacement": {
+    "state": false,
+    "Rotation Speed in KB Displacement Module": {
+      "value": 8.0
+    },
+    "Tracking Range in KB Displacement Module": {
+      "value": 6.0
+    },
+    "Debug in KB Displacement Module": {
+      "value": false
+    }
+  },
+  "module.other.insults.name": {
+    "state": false,
+    "Mode in module.other.insults.name Module": {
+      "value": "Default"
+    },
+    "Prefix in module.other.insults.name Module": {
+      "value": ""
+    },
+    "Delay in module.other.insults.name Module": {
+      "value": 3.0
+    },
+    "Randomizer in module.other.insults.name Module": {
+      "value": false
+    }
+  },
+  "module.combat.godmode.name": {
+    "state": false
+  },
+  "module.render.interface.name": {
+    "state": true,
+    "Mode in module.render.interface.name Module": {
+      "value": "Modern"
+    },
+    "ArrayList Color Mode in Modern Mode": {
+      "value": "Fade"
+    },
+    "ArrayList Font in Modern Mode": {
+      "value": "Apple UI"
+    },
+    "Custom Installed Font in Unknown": {
+      "value": "Arial"
+    },
+    "Shader Effect in Modern Mode": {
+      "value": "Glow"
+    },
+    "Drop Shadow in Modern Mode": {
+      "value": true
+    },
+    "Sidebar in Modern Mode": {
+      "value": true
+    },
+    "Particles on Kill in Modern Mode": {
+      "value": true
+    },
+    "BackGround in Modern Mode": {
+      "value": "Off"
+    },
+    "Custom Client Name in Modern Mode": {
+      "value": ""
+    },
+    "ArrayList Color Mode in Classic Mode": {
+      "value": "Fade"
+    },
+    "ArrayList Alignment in Classic Mode": {
+      "value": "Right"
+    },
+    "Arraylist Side Bar in Classic Mode": {
+      "value": true
+    },
+    "Arraylist Background in Classic Mode": {
+      "value": false
+    },
+    "Show Fps in Classic Mode": {
+      "value": false
+    },
+    "Show Time in Classic Mode": {
+      "value": true
+    },
+    "Show Ping in Classic Mode": {
+      "value": false
+    },
+    "Show Coordinates in Classic Mode": {
+      "value": true
+    },
+    "Custom Client Name in Classic Mode": {
+      "value": "Rise"
+    },
+    "Font in Creida Mode": {
+      "value": false
+    },
+    "Modules to Show in module.render.interface.name Module": {
+      "value": "Only bound"
+    },
+    "Suffix in module.render.interface.name Module": {
+      "value": false
+    },
+    "Lowercase in module.render.interface.name Module": {
+      "value": true
+    },
+    "Remove Spaces in module.render.interface.name Module": {
+      "value": false
+    },
+    "Shaders in module.render.interface.name Module": {
+      "value": false
+    },
+    "Toggle Notifications in module.render.interface.name Module": {
+      "value": false
+    },
+    "Blur Radius in module.render.interface.name Module": {
+      "value": 5.0
+    },
+    "Blur Compression in module.render.interface.name Module": {
+      "value": 1.0
+    },
+    "Bloom Radius in module.render.interface.name Module": {
+      "value": 14.0
+    },
+    "Bloom Compression in module.render.interface.name Module": {
+      "value": 2.0
+    },
+    "Background Alpha in module.render.interface.name Module": {
+      "value": 48.0
+    },
+    "Rounding Radius in module.render.interface.name Module": {
+      "value": 0.0
+    },
+    "Information Type in module.render.interface.name Module": {
+      "value": "Traditional"
+    }
+  },
+  "module.render.itemphysics.name": {
+    "state": false
+  },
+  "module.player.antivoid.name": {
+    "state": false,
+    "Mode in module.player.antivoid.name Module": {
+      "value": "Watchdog"
+    },
+    "Distance in Packet Mode": {
+      "value": 5.0
+    },
+    "Distance in Position Mode": {
+      "value": 5.0
+    },
+    "Distance in Vulcan Mode": {
+      "value": 5.0
+    },
+    "Distance in Collision Mode": {
+      "value": 5.0
+    },
+    "Distance in Watchdog Mode": {
+      "value": 4.0
+    }
   },
   "module.movement.speed.name": {
     "state": false,
@@ -1782,399 +2750,82 @@
       "value": false
     }
   },
-  "module.other.timer.name": {
-    "state": false,
-    "Timer in module.other.timer.name Module": {
-      "first": 1.0,
-      "second": 1.0
-    },
-    "Watchdog in module.other.timer.name Module": {
-      "value": false
-    },
-    "Compensate Low Timer in module.other.timer.name Module": {
-      "value": true
-    },
-    "Compensate Speed in module.other.timer.name Module": {
-      "value": 16.0
-    },
-    "Balance Multiplier in module.other.timer.name Module": {
-      "value": 0.0
-    }
-  },
-  "module.other.cheatdetector.name": {
-    "state": false,
-    "Alert Type in module.other.cheatdetector.name Module": {
-      "value": "ClientSide"
-    }
-  },
-  "module.render.fpscounter.name": {
+  "module.other.debugger.name": {
     "state": true,
-    "Title in module.render.fpscounter.name Module": {
+    "Transactions in module.other.debugger.name Module": {
+      "value": false
+    },
+    "Keep Alive in module.other.debugger.name Module": {
+      "value": false
+    },
+    "Teleport in module.other.debugger.name Module": {
       "value": true
     },
-    "Position in module.render.fpscounter.name Module": {
-      "positionX": 4.5,
-      "positionY": 30.0,
-      "scaleX": 43.0,
-      "scaleY": 21.0
+    "Velocity in module.other.debugger.name Module": {
+      "value": false
+    },
+    "Abilities in module.other.debugger.name Module": {
+      "value": false
+    },
+    "Display All in module.other.debugger.name Module": {
+      "value": false
+    },
+    "Blacklist in module.other.debugger.name Module": {
+      "value": false
+    },
+    "Time Since Move in module.other.debugger.name Module": {
+      "value": true
+    },
+    "Dev Panel in module.other.debugger.name Module": {
+      "value": false
+    },
+    "Event Calls in module.other.debugger.name Module": {
+      "value": false
+    },
+    " in module.other.debugger.name Module": {
+      "positionX": 242.0,
+      "positionY": 28.0,
+      "scaleX": 180.0,
+      "scaleY": 207.0
     }
   },
-  "module.combat.pingspoof.name": {
+  "module.other.nuker.name": {
     "state": false,
-    "Delay in module.combat.pingspoof.name Module": {
-      "first": 2147.0,
-      "second": 3644.0
+    "Mode in module.other.nuker.name Module": {
+      "value": "Nearby"
     },
-    "Delay Teleports in module.combat.pingspoof.name Module": {
-      "value": true
+    "Delay in module.other.nuker.name Module": {
+      "value": 150.0
     },
-    "Delay Velocity in module.combat.pingspoof.name Module": {
-      "value": true
-    },
-    "Delay Entity Movements in module.combat.pingspoof.name Module": {
-      "value": true
-    }
-  },
-  "module.ghost.legitscaffold.name": {
-    "state": false,
-    "Length in module.ghost.legitscaffold.name Module": {
-      "first": 3.0,
-      "second": 4.0
-    },
-    "Sneak speed multiplier in module.ghost.legitscaffold.name Module": {
-      "value": 0.0
-    },
-    "Only on ground in module.ghost.legitscaffold.name Module": {
-      "value": false
-    },
-    "Only when holding blocks in module.ghost.legitscaffold.name Module": {
-      "value": false
-    },
-    "Only when moving backwards in module.ghost.legitscaffold.name Module": {
-      "value": false
-    },
-    "Only on Sneak in module.ghost.legitscaffold.name Module": {
-      "value": true
-    }
-  },
-  "module.other.translator.name": {
-    "state": false,
-    "Mode in module.other.translator.name Module": {
-      "value": "Delay"
-    }
-  },
-  "module.movement.potionextender.name": {
-    "state": false,
-    "Extend Duration in module.movement.potionextender.name Module": {
-      "value": 10.0
-    }
-  },
-  "module.combat.staffdetector.name": {
-    "state": false,
-    "Auto Leave in module.combat.staffdetector.name Module": {
-      "value": true
-    },
-    "Mode in module.combat.staffdetector.name Module": {
-      "value": "List"
-    },
-    "Show Invisible Staff in Hypixel Mode": {
-      "value": true
-    }
-  },
-  "module.other.anticrash.name": {
-    "state": false
-  },
-  "module.combat.teleportaura.name": {
-    "state": false,
-    "Mode in module.combat.teleportaura.name Module": {
-      "value": "Single"
-    },
-    "Range in module.combat.teleportaura.name Module": {
-      "value": 100.0
-    },
-    "CPS in module.combat.teleportaura.name Module": {
-      "first": 1.0,
-      "second": 1.0
-    },
-    "1.9 Cooldown in module.combat.teleportaura.name Module": {
-      "value": false
-    },
-    "Render in module.combat.teleportaura.name Module": {
-      "value": true
-    }
-  },
-  "module.combat.fences.name": {
-    "state": false
-  },
-  "module.movement.strafe.name": {
-    "state": false,
-    "Strength in module.movement.strafe.name Module": {
-      "value": 100.0
-    },
-    "Hypixel Fly Disabler in module.movement.strafe.name Module": {
-      "value": false
-    }
-  },
-  "module.other.clientspoofer.name": {
-    "state": false,
-    "Mode in module.other.clientspoofer.name Module": {
-      "value": "LabyMod"
-    },
-    "Spoofed Version, Latest would be preferred in LabyMod Mode": {
-      "value": "4.2.31"
-    }
-  },
-  "module.ghost.reach.name": {
-    "state": false,
-    "Range in module.ghost.reach.name Module": {
-      "first": 3.0,
-      "second": 4.0
-    },
-    "Buffer Decrease in module.ghost.reach.name Module": {
-      "value": 1.0
-    },
-    "Max Buffer in module.ghost.reach.name Module": {
-      "value": 5.0
-    },
-    "Buffer Abuse in module.ghost.reach.name Module": {
-      "value": false
-    }
-  },
-  "module.render.interface.name": {
-    "state": true,
-    "Mode in module.render.interface.name Module": {
-      "value": "Classic"
-    },
-    "ArrayList Color Mode in Modern Mode": {
-      "value": "Fade"
-    },
-    "ArrayList Font in Modern Mode": {
-      "value": "Custom"
-    },
-    "Custom Installed Font in Unknown": {
-      "value": "Arial"
-    },
-    "Shader Effect in Modern Mode": {
-      "value": "Glow"
-    },
-    "Drop Shadow in Modern Mode": {
-      "value": true
-    },
-    "Sidebar in Modern Mode": {
-      "value": true
-    },
-    "Particles on Kill in Modern Mode": {
-      "value": true
-    },
-    "BackGround in Modern Mode": {
-      "value": "Off"
-    },
-    "Custom Client Name in Modern Mode": {
-      "value": ""
-    },
-    "ArrayList Color Mode in Classic Mode": {
-      "value": "Fade"
-    },
-    "ArrayList Alignment in Classic Mode": {
-      "value": "Right"
-    },
-    "Arraylist Side Bar in Classic Mode": {
-      "value": true
-    },
-    "Arraylist Background in Classic Mode": {
-      "value": false
-    },
-    "Show Fps in Classic Mode": {
-      "value": false
-    },
-    "Show Time in Classic Mode": {
-      "value": true
-    },
-    "Show Ping in Classic Mode": {
-      "value": false
-    },
-    "Show Coordinates in Classic Mode": {
-      "value": true
-    },
-    "Custom Client Name in Classic Mode": {
-      "value": "Rise"
-    },
-    "Font in Creida Mode": {
-      "value": false
-    },
-    "Modules to Show in module.render.interface.name Module": {
-      "value": "Exclude render"
-    },
-    "Suffix in module.render.interface.name Module": {
-      "value": true
-    },
-    "Lowercase in module.render.interface.name Module": {
-      "value": false
-    },
-    "Remove Spaces in module.render.interface.name Module": {
-      "value": false
-    },
-    "Shaders in module.render.interface.name Module": {
-      "value": false
-    },
-    "Toggle Notifications in module.render.interface.name Module": {
-      "value": false
-    },
-    "Blur Radius in module.render.interface.name Module": {
-      "value": 5.0
-    },
-    "Blur Compression in module.render.interface.name Module": {
-      "value": 1.0
-    },
-    "Bloom Radius in module.render.interface.name Module": {
-      "value": 14.0
-    },
-    "Bloom Compression in module.render.interface.name Module": {
-      "value": 2.0
-    },
-    "Background Alpha in module.render.interface.name Module": {
-      "value": 48.0
-    },
-    "Rounding Radius in module.render.interface.name Module": {
-      "value": 8.0
-    },
-    "Information Type in module.render.interface.name Module": {
-      "value": "Rise"
-    }
-  },
-  "module.exploit.ghosthand.name": {
-    "state": true,
-    "Range in module.exploit.ghosthand.name Module": {
+    "Range in module.other.nuker.name Module": {
       "value": 4.0
-    }
-  },
-  "module.movement.noclip.name": {
-    "state": false,
-    "Block in module.movement.noclip.name Module": {
+    },
+    "Rotations in module.other.nuker.name Module": {
+      "value": false
+    },
+    "Scatter in module.other.nuker.name Module": {
+      "value": false
+    },
+    "Swing in module.other.nuker.name Module": {
       "value": false
     }
   },
-  "module.player.healthbypass.name": {
-    "state": true
-  },
-  "module.ghost.hitbox.name": {
+  "module.combat.criticals.name": {
     "state": false,
-    "Expand Amount in module.ghost.hitbox.name Module": {
-      "value": 0.0
+    "Mode in module.combat.criticals.name Module": {
+      "value": "Watchdog"
     },
-    "Effect range in module.ghost.hitbox.name Module": {
-      "value": true
-    }
-  },
-  "module.ghost.fastplace.name": {
-    "state": true,
-    "Delay in module.ghost.fastplace.name Module": {
-      "value": 0.0
-    }
-  },
-  "module.render.streamer.name": {
-    "state": false,
-    "Name in module.render.streamer.name Module": {
-      "value": true
+    "Delay in Packet Mode": {
+      "value": 1000.0
     },
-    "Replacement in module.render.streamer.name Module": {
-      "value": "You"
-    }
-  },
-  "module.other.clicksounds.name": {
-    "state": false,
-    "Sound in module.other.clicksounds.name Module": {
-      "value": "Double"
+    "Delay in Edit Mode": {
+      "value": 500.0
     },
-    "Volume in module.other.clicksounds.name Module": {
-      "value": 0.0
+    "Delay in Watchdog Mode": {
+      "value": 1000.0
     },
-    "Variation in module.other.clicksounds.name Module": {
-      "value": 5.0
-    }
-  },
-  "module.combat.consolespammer.name": {
-    "state": false,
-    "Mode in module.combat.consolespammer.name Module": {
-      "value": "Channel"
-    },
-    "Channels/tick in Channel Mode": {
-      "value": 1.0
-    }
-  },
-  "module.render.ambience.name": {
-    "state": false,
-    "Time in module.render.ambience.name Module": {
-      "value": 22539.0
-    },
-    "Time Speed in module.render.ambience.name Module": {
-      "value": 0.0
-    },
-    "Weather in module.render.ambience.name Module": {
-      "value": "Unchanged"
-    },
-    "Snow Color in module.render.ambience.name Module": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 255
-    }
-  },
-  "module.render.bossbar.name": {
-    "state": false
-  },
-  "module.render.freecam.name": {
-    "state": false,
-    "Speed in module.render.freecam.name Module": {
-      "value": 1.0
-    }
-  },
-  "module.combat.tickbase.name": {
-    "state": false,
-    "Mode in module.combat.tickbase.name Module": {
-      "value": "Post"
-    }
-  },
-  "module.movement.teleport.name": {
-    "state": false,
-    "Mode in module.movement.teleport.name Module": {
-      "value": "Watchdog BedWars"
-    }
-  },
-  "module.movement.nojumpdelay.name": {
-    "state": true
-  },
-  "module.other.test.name": {
-    "state": false,
-    "Position in module.other.test.name Module": {
-      "positionX": 100.0,
-      "positionY": 100.0,
-      "scaleX": 100.0,
-      "scaleY": 100.0
-    },
-    "Run If () -\u003e in module.other.test.name Module": {
-      "value": "onGround"
-    },
-    "Test Curve in module.other.test.name Module": {}
-  },
-  "module.player.stealer.name": {
-    "state": true,
-    "Delay in module.player.stealer.name Module": {
-      "first": 20.0,
-      "second": 150.0
-    },
-    "First Item Delay in module.player.stealer.name Module": {
-      "first": 50.0,
-      "second": 50.0
-    },
-    "Ignore Trash in module.player.stealer.name Module": {
-      "value": true
-    },
-    "Respect Manager Rules in module.player.stealer.name Module": {
-      "value": true
-    },
-    "Gui Detection in module.player.stealer.name Module": {
-      "value": true
+    "Delay in Verus Mode": {
+      "value": 500.0
     }
   },
   "module.player.breaker.name": {
@@ -2228,225 +2879,24 @@
       "value": "Rise"
     }
   },
-  "module.render.sessionstats.name": {
+  "module.other.test.name": {
     "state": false,
-    " in module.render.sessionstats.name Module": {
+    "Position in module.other.test.name Module": {
       "positionX": 100.0,
       "positionY": 100.0,
-      "scaleX": 130.0,
-      "scaleY": 55.0
+      "scaleX": 100.0,
+      "scaleY": 100.0
     },
-    "Mode in module.render.sessionstats.name Module": {
-      "value": "Rue"
-    }
+    "Run If () -\u003e in module.other.test.name Module": {
+      "value": "onGround"
+    },
+    "Test Curve in module.other.test.name Module": {}
   },
-  "module.movement.targetstrafe.name": {
+  "module.movement.noclip.name": {
     "state": false,
-    "Range in module.movement.targetstrafe.name Module": {
-      "value": 0.0
-    },
-    "Hold Jump in module.movement.targetstrafe.name Module": {
-      "value": true
-    },
-    "Hold Jump Speed or Flight only in module.movement.targetstrafe.name Module": {
-      "value": false
-    },
-    "Auto third person camera in module.movement.targetstrafe.name Module": {
-      "value": false
-    },
-    "Circle in module.movement.targetstrafe.name Module": {
-      "value": true
-    },
-    "Glow in module.movement.targetstrafe.name Module": {
-      "value": true
-    },
-    "Dots in module.movement.targetstrafe.name Module": {
-      "value": 18.0
-    },
-    "Thickness in module.movement.targetstrafe.name Module": {
-      "value": 12.0
-    },
-    "Behind in module.movement.targetstrafe.name Module": {
-      "value": true
-    }
-  },
-  "module.movement.snaptap.name": {
-    "state": false
-  },
-  "module.other.nuker.name": {
-    "state": false,
-    "Mode in module.other.nuker.name Module": {
-      "value": "Nearby"
-    },
-    "Delay in module.other.nuker.name Module": {
-      "value": 150.0
-    },
-    "Range in module.other.nuker.name Module": {
-      "value": 4.0
-    },
-    "Rotations in module.other.nuker.name Module": {
-      "value": false
-    },
-    "Scatter in module.other.nuker.name Module": {
-      "value": false
-    },
-    "Swing in module.other.nuker.name Module": {
+    "Block in module.movement.noclip.name Module": {
       "value": false
     }
-  },
-  "module.render.breadcrumbs.name": {
-    "state": false,
-    "Time in module.render.breadcrumbs.name Module": {
-      "value": 10.0
-    }
-  },
-  "module.movement.noslow.name": {
-    "state": true,
-    "Mode in module.movement.noslow.name Module": {
-      "value": "Grim 3.0"
-    },
-    "Max Ping Spoof in Watchdog Prediction Mode": {
-      "value": 8.0
-    },
-    "When to finish eating in Watchdog Prediction Mode": {
-      "value": 30.0
-    },
-    "Non-Blink Speed Bypass in Watchdog Prediction Mode": {
-      "value": true
-    },
-    "Multiplier in Variable Mode": {
-      "value": 0.0
-    },
-    "Amount in Prediction Mode": {
-      "value": 5.0
-    },
-    "Slow down on Slabs in Watchdog Mode": {
-      "value": true
-    },
-    "Heypixel in Grim 3.0 Mode": {
-      "value": false
-    },
-    "Food in module.movement.noslow.name Module": {
-      "value": false
-    },
-    "Potion in module.movement.noslow.name Module": {
-      "value": false
-    },
-    "Sword in module.movement.noslow.name Module": {
-      "value": false
-    },
-    "Bow in module.movement.noslow.name Module": {
-      "value": false
-    }
-  },
-  "module.render.fullbright.name": {
-    "state": true,
-    "Mode in module.render.fullbright.name Module": {
-      "value": "Effect"
-    }
-  },
-  "module.combat.criticals.name": {
-    "state": false,
-    "Mode in module.combat.criticals.name Module": {
-      "value": "Watchdog"
-    },
-    "Delay in Packet Mode": {
-      "value": 1000.0
-    },
-    "Delay in Edit Mode": {
-      "value": 500.0
-    },
-    "Delay in Watchdog Mode": {
-      "value": 1000.0
-    },
-    "Delay in Verus Mode": {
-      "value": 500.0
-    }
-  },
-  "module.other.autogg.name": {
-    "state": false,
-    "Message in module.other.autogg.name Module": {
-      "value": "Why waste another game without Rise?"
-    }
-  },
-  "module.player.antisuffocate.name": {
-    "state": false,
-    "Swing in module.player.antisuffocate.name Module": {
-      "value": true
-    }
-  },
-  "module.render.bpscounter.name": {
-    "state": false,
-    "Title in module.render.bpscounter.name Module": {
-      "value": true
-    },
-    "Position in module.render.bpscounter.name Module": {
-      "positionX": 4.0,
-      "positionY": 84.0,
-      "scaleX": 41.0,
-      "scaleY": 21.0
-    }
-  },
-  "module.render.unlimitedchat.name": {
-    "state": false
-  },
-  "module.ghost.wtap.name": {
-    "state": false,
-    "Mode in module.ghost.wtap.name Module": {
-      "value": "Legit"
-    },
-    "WTap Chance in module.ghost.wtap.name Module": {
-      "value": 25.0
-    }
-  },
-  "module.player.antifireball.name": {
-    "state": false,
-    "Rotate in module.player.antifireball.name Module": {
-      "value": true
-    },
-    "Bad Packets Check in module.player.antifireball.name Module": {
-      "value": false
-    }
-  },
-  "module.player.antivoid.name": {
-    "state": false,
-    "Mode in module.player.antivoid.name Module": {
-      "value": "Watchdog"
-    },
-    "Distance in Packet Mode": {
-      "value": 5.0
-    },
-    "Distance in Position Mode": {
-      "value": 5.0
-    },
-    "Distance in Vulcan Mode": {
-      "value": 5.0
-    },
-    "Distance in Collision Mode": {
-      "value": 5.0
-    },
-    "Distance in Watchdog Mode": {
-      "value": 4.0
-    }
-  },
-  "module.player.polardetector.name": {
-    "state": false
-  },
-  "module.render.glint.name": {
-    "state": false,
-    "Glint Weapons in module.render.glint.name Module": {
-      "value": true
-    },
-    "Hue in module.render.glint.name Module": {
-      "first": 0.0,
-      "second": 360.0
-    },
-    "Layers in module.render.glint.name Module": {
-      "value": 4.0
-    }
-  },
-  "module.render.chestesp.name": {
-    "state": true
   },
   "module.other.spotify.name": {
     "state": false,
@@ -2487,67 +2937,98 @@
       "value": 1.0
     }
   },
-  "module.player.nofall.name": {
+  "module.movement.teleport.name": {
     "state": false,
-    "Mode in module.player.nofall.name Module": {
-      "value": "Grim Server 1.9+"
+    "Mode in module.movement.teleport.name Module": {
+      "value": "Watchdog BedWars"
+    }
+  },
+  "module.player.healthbypass.name": {
+    "state": true
+  },
+  "module.movement.targetstrafe.name": {
+    "state": false,
+    "Range in module.movement.targetstrafe.name Module": {
+      "value": 0.0
     },
-    "Newest Grim, may flag the anticheat in Grim Server 1.9+ Mode": {
-      "value": false
-    },
-    "Packet in Watchdog Blink Mode": {
+    "Hold Jump in module.movement.targetstrafe.name Module": {
       "value": true
     },
-    "Prediction in Watchdog Packet Mode": {
+    "Hold Jump Speed or Flight only in module.movement.targetstrafe.name Module": {
       "value": false
-    }
-  },
-  "module.other.insults.name": {
-    "state": false,
-    "Mode in module.other.insults.name Module": {
-      "value": "Default"
     },
-    "Prefix in module.other.insults.name Module": {
-      "value": ""
-    },
-    "Delay in module.other.insults.name Module": {
-      "value": 3.0
-    },
-    "Randomizer in module.other.insults.name Module": {
+    "Auto third person camera in module.movement.targetstrafe.name Module": {
       "value": false
-    }
-  },
-  "module.render.hurtcamera.name": {
-    "state": true,
-    "Intensity in module.render.hurtcamera.name Module": {
-      "value": 1.0
-    }
-  },
-  "module.movement.automlg.name": {
-    "state": false,
-    "Fall Distance in module.movement.automlg.name Module": {
-      "value": 4.0
     },
-    "Pickup Delay in module.movement.automlg.name Module": {
-      "value": 4.0
-    },
-    "Auto Pickup in module.movement.automlg.name Module": {
+    "Circle in module.movement.targetstrafe.name Module": {
       "value": true
     },
-    "Auto Disable in module.movement.automlg.name Module": {
-      "value": false
+    "Glow in module.movement.targetstrafe.name Module": {
+      "value": true
+    },
+    "Dots in module.movement.targetstrafe.name Module": {
+      "value": 18.0
+    },
+    "Thickness in module.movement.targetstrafe.name Module": {
+      "value": 12.0
+    },
+    "Behind in module.movement.targetstrafe.name Module": {
+      "value": true
     }
   },
-  "Sampler (Dev)": {
+  "module.render.tracers.name": {
     "state": false
   },
-  "module.other.playernotifier.name": {
+  "module.player.antisuffocate.name": {
     "state": false,
-    "Notify Distance in module.other.playernotifier.name Module": {
-      "value": 35.0
+    "Swing in module.player.antisuffocate.name Module": {
+      "value": true
+    }
+  },
+  "module.other.timer.name": {
+    "state": false,
+    "Timer in module.other.timer.name Module": {
+      "first": 1.0,
+      "second": 1.0
     },
-    "Notify Once in module.other.playernotifier.name Module": {
+    "Watchdog in module.other.timer.name Module": {
       "value": false
+    },
+    "Compensate Low Timer in module.other.timer.name Module": {
+      "value": true
+    },
+    "Compensate Speed in module.other.timer.name Module": {
+      "value": 16.0
+    },
+    "Balance Multiplier in module.other.timer.name Module": {
+      "value": 0.0
+    }
+  },
+  "module.player.inventorysync.name": {
+    "state": false
+  },
+  "module.combat.tickbase.name": {
+    "state": false,
+    "Mode in module.combat.tickbase.name Module": {
+      "value": "Post"
+    }
+  },
+  "Watchdog TP Aura": {
+    "state": false,
+    "Range in Watchdog TP Aura Module": {
+      "value": 20.0
+    },
+    "Players in Watchdog TP Aura Module": {
+      "value": true
+    },
+    "Hostile in Watchdog TP Aura Module": {
+      "value": false
+    },
+    "Teammates in Watchdog TP Aura Module": {
+      "value": false
+    },
+    "Invisibles in Watchdog TP Aura Module": {
+      "value": true
     }
   },
   "module.movement.sneak.name": {
@@ -2556,521 +3037,202 @@
       "value": "Standard"
     }
   },
-  "module.other.noguiclose.name": {
+  "module.ghost.legitscaffold.name": {
     "state": false,
-    "Chat Only in module.other.noguiclose.name Module": {
+    "Length in module.ghost.legitscaffold.name Module": {
+      "first": 3.0,
+      "second": 4.0
+    },
+    "Sneak speed multiplier in module.ghost.legitscaffold.name Module": {
+      "value": 0.0
+    },
+    "Only on ground in module.ghost.legitscaffold.name Module": {
+      "value": false
+    },
+    "Only when holding blocks in module.ghost.legitscaffold.name Module": {
+      "value": false
+    },
+    "Only when moving backwards in module.ghost.legitscaffold.name Module": {
+      "value": false
+    },
+    "Only on Sneak in module.ghost.legitscaffold.name Module": {
       "value": true
     }
   },
-  "module.ghost.aimassist.name": {
-    "state": false,
-    "Speed in module.ghost.aimassist.name Module": {
-      "value": 2.0
-    },
-    "Require Swinging in module.ghost.aimassist.name Module": {
-      "value": true
-    },
-    "Sticky in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "Require Mouse Movement in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "Limit Items in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "Aim Whilst on Target in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "FOV in module.ghost.aimassist.name Module": {
-      "value": 90.0
-    },
-    "Targets in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "Player in module.ghost.aimassist.name Module": {
-      "value": true
-    },
-    "Invisibles in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "Animals in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "Mobs in module.ghost.aimassist.name Module": {
-      "value": false
-    },
-    "Player Teammates in module.ghost.aimassist.name Module": {
-      "value": true
-    }
+  "Resource Pack Spoof": {
+    "state": false
   },
-  "module.player.oldmanager.name": {
+  "module.render.animations.name": {
     "state": true,
-    "Delay in module.player.oldmanager.name Module": {
-      "first": 50.0,
-      "second": 60.0
+    "Block Animation in module.render.animations.name Module": {
+      "value": "Exhibition New"
     },
-    "Legit in module.player.oldmanager.name Module": {
+    "Swing Animation in module.render.animations.name Module": {
+      "value": "None"
+    },
+    "Update Position Only When Blocking in module.render.animations.name Module": {
       "value": false
     },
-    "Drop Custom Items in module.player.oldmanager.name Module": {
-      "value": false
+    "Swing Speed in module.render.animations.name Module": {
+      "value": -15.0
     },
-    "Use Custom Items in module.player.oldmanager.name Module": {
-      "value": false
-    },
-    "Prioritize Splash Potions in module.player.oldmanager.name Module": {
-      "value": false
-    },
-    "Block Limit in module.player.oldmanager.name Module": {
-      "value": 272.0
-    },
-    "Arrow Limit in module.player.oldmanager.name Module": {
-      "value": 160.0
-    },
-    "Bucket Limit in module.player.oldmanager.name Module": {
-      "value": 2.0
-    },
-    "Snowball/Egg Limit in module.player.oldmanager.name Module": {
-      "value": 64.0
-    },
-    "Ender Pearl Limit in module.player.oldmanager.name Module": {
-      "value": 64.0
-    },
-    "Fire Charge Limit in module.player.oldmanager.name Module": {
-      "value": 16.0
-    },
-    "TNT Limit in module.player.oldmanager.name Module": {
-      "value": 16.0
-    },
-    "Sword Slot in module.player.oldmanager.name Module": {
-      "value": 1.0
-    },
-    "Pickaxe Slot in module.player.oldmanager.name Module": {
-      "value": 5.0
-    },
-    "Axe Slot in module.player.oldmanager.name Module": {
-      "value": 3.0
-    },
-    "Shovel Slot in module.player.oldmanager.name Module": {
-      "value": 4.0
-    },
-    "Block Slot in module.player.oldmanager.name Module": {
-      "first": 2.0,
-      "second": 2.0
-    },
-    "Potion Slot in module.player.oldmanager.name Module": {
-      "first": 9.0,
-      "second": 9.0
-    },
-    "Bow Slot in module.player.oldmanager.name Module": {
-      "value": 6.0
-    },
-    "Rod Slot in module.player.oldmanager.name Module": {
+    "X in module.render.animations.name Module": {
       "value": 0.0
     },
-    "Food Slot in module.player.oldmanager.name Module": {
-      "first": 7.0,
-      "second": 7.0
-    }
-  },
-  "module.other.chatbypass.name": {
-    "state": false
-  },
-  "module.combat.antibot.name": {
-    "state": false,
-    "Funcraft Check in module.combat.antibot.name Module": {
-      "value": false
+    "Y in module.render.animations.name Module": {
+      "value": 0.0
     },
-    "Tab Check in module.combat.antibot.name Module": {
-      "value": true
+    "Z in module.render.animations.name Module": {
+      "value": 0.0
     },
-    "NPC Detection Check in module.combat.antibot.name Module": {
-      "value": true
+    "Scale in module.render.animations.name Module": {
+      "value": 1.0
     },
-    "Duplicate Name Check in module.combat.antibot.name Module": {
-      "value": false
-    },
-    "No Ping Check in module.combat.antibot.name Module": {
-      "value": true
-    },
-    "Cubecraft Bedrock Check in module.combat.antibot.name Module": {
-      "value": true
-    },
-    "Duplicate Unique ID Check in module.combat.antibot.name Module": {
-      "value": false
-    },
-    "Colour Check in module.combat.antibot.name Module": {
-      "value": true
-    },
-    "Time Visible Check in module.combat.antibot.name Module": {
-      "value": false
-    },
-    "Middle Click Bot in module.combat.antibot.name Module": {
-      "value": true
-    },
-    "Advanced in module.combat.antibot.name Module": {
-      "value": false
-    },
-    "Advanced 2 in module.combat.antibot.name Module": {
+    "Always Show in module.render.animations.name Module": {
       "value": false
     }
   },
-  "module.other.antiafk.name": {
-    "state": false
-  },
-  "module.player.scaffold.name": {
+  "module.movement.step.name": {
     "state": false,
-    "Mode in module.player.scaffold.name Module": {
-      "value": "Telly"
-    },
-    "Rotation Mode in module.player.scaffold.name Module": {
-      "value": "Normal"
-    },
-    "Ray Cast in module.player.scaffold.name Module": {
-      "value": "Normal"
-    },
-    "Sprint in module.player.scaffold.name Module": {
-      "value": "Normal"
-    },
-    "Speed in Vulcan Mode": {
-      "value": 1.0
-    },
-    "Place Extra blocks in Watchdog Jump Mode": {
-      "value": true
-    },
-    "Tower in module.player.scaffold.name Module": {
-      "value": "Disabled"
-    },
-    "Same Y in module.player.scaffold.name Module": {
-      "value": "On"
-    },
-    "Downwards (Press Sneak) in module.player.scaffold.name Module": {
-      "value": "Off"
-    },
-    "Rotation Speed in module.player.scaffold.name Module": {
-      "first": 10.0,
-      "second": 10.0
-    },
-    "Place Delay in module.player.scaffold.name Module": {
-      "first": 0.0,
-      "second": 0.0
-    },
-    "Timer in module.player.scaffold.name Module": {
-      "value": 1.0
-    },
-    "Expand in module.player.scaffold.name Module": {
-      "value": 0.0
-    },
-    "Movement Correction in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Safe Walk in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "New Watchdog Rots in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Keep-Y bypass in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Watchdog Prediction in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Watchdog Telly in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Visual Back Rotations in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Block Diagonal Ascend in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Don\u0027t force raycast on Watchdog Telly in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Extend Block Reach on Watchdog Telly in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Watchdog Telly Jump Delay in module.player.scaffold.name Module": {
-      "first": 0.0,
-      "second": 0.0
-    },
-    "Disable On Flag in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Watchdog Telly Rotation Speed in module.player.scaffold.name Module": {
-      "first": 38.0,
-      "second": 40.0
-    },
-    "Rotation Block Boost in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Rotation Block Rotation Speed in module.player.scaffold.name Module": {
-      "first": 83.0,
-      "second": 100.0
-    },
-    "Boost Only While Holding Jump in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Sneak in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Start Sneaking in module.player.scaffold.name Module": {
-      "first": 0.0,
-      "second": 0.0
-    },
-    "Stop Sneaking in module.player.scaffold.name Module": {
-      "first": 0.0,
-      "second": 0.0
-    },
-    "Sneak every x blocks in module.player.scaffold.name Module": {
-      "first": 1.0,
-      "second": 1.0
-    },
-    "Sneaking Speed in module.player.scaffold.name Module": {
-      "value": 0.0
-    },
-    "Telly Only on Right Click in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Render in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Advanced in module.player.scaffold.name Module": {
-      "value": true
-    },
-    "Yaw Offset in module.player.scaffold.name Module": {
-      "value": "0"
-    },
-    "Ignore Speed Effect in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Up Side Down in module.player.scaffold.name Module": {
-      "value": false
-    },
-    "Bypass Raycast When Falling in module.player.scaffold.name Module": {
-      "value": false
-    }
-  },
-  "module.combat.crasher.name": {
-    "state": false,
-    "Mode in module.combat.crasher.name Module": {
+    "Mode in module.movement.step.name Module": {
       "value": "Vanilla"
+    },
+    "Height in Vanilla Mode": {
+      "value": 1.0
+    },
+    "Reverse in Vanilla Mode": {
+      "value": false
+    },
+    "Timer in Vanilla Mode": {
+      "value": 0.0
+    },
+    "Height in NCP Mode": {
+      "value": 1.0
+    },
+    "Timer in NCP Mode": {
+      "value": 0.0
+    },
+    "Reverse in NCP Mode": {
+      "value": false
+    },
+    "Height in New NCP Mode": {
+      "value": 1.0
+    },
+    "Timer in New NCP Mode": {
+      "value": 0.0
+    },
+    "2 Block in Matrix Mode": {
+      "value": true
+    },
+    "Instant in Unknown": {
+      "value": true
     }
   },
-  "module.render.itemphysics.name": {
-    "state": false
+  "module.player.blink.name": {
+    "state": false,
+    "Pulse in module.player.blink.name Module": {
+      "value": true
+    },
+    "Delay in module.player.blink.name Module": {
+      "first": 22.0,
+      "second": 23.0
+    }
   },
-  "Jump Circles": {
-    "state": false
+  "1": {
+    "state": false,
+    "Pitch in 1 Module": {
+      "value": 80.0
+    },
+    "Rotation Speed in 1 Module": {
+      "value": 10.0
+    },
+    "Movement Fix in 1 Module": {
+      "value": true
+    },
+    "Reverse Move in 1 Module": {
+      "value": false
+    }
   },
-  "module.render.tracers.name": {
-    "state": false
+  "Binder": {
+    "state": false,
+    "Modules in Binder Module": {
+      "value": "KillAura,Scaffold,Speed,ChestStealer,Longjump,Flight,Breaker,Nofall,AntiVoid,Velocity,InventoryManager"
+    },
+    "Keys in Binder Module": {
+      "value": "Y,H,Z,I,F,J,K,N,N,B,I"
+    }
   },
-  "module.render.targetinfo.name": {
-    "state": true,
-    "Mode in module.render.targetinfo.name Module": {
+  "Module List": {
+    "state": false,
+    "Mode in Module List Module": {
       "value": "Modern"
     },
-    "Particles in Modern Mode": {
+    "Anim Mode in Module List Module": {
+      "value": "Slide"
+    },
+    "Classic Anim in Module List Module": {
+      "value": "Slide"
+    },
+    "Damping in Module List Module": {
+      "value": 2.0
+    },
+    "Theme in Module List Module": {
+      "value": "Dark"
+    },
+    "Color in Module List Module": {
+      "value": "Modern Rainbow"
+    },
+    "Background Alpha in Module List Module": {
+      "value": 100.0
+    },
+    "Blur in Module List Module": {
       "value": true
     },
-    "Background Mode in Modern Mode": {
-      "value": "Glass"
-    },
-    "Particles in Creida Modern Mode": {
+    "Bloom in Module List Module": {
       "value": true
     },
-    "Background Mode in Creida Modern Mode": {
-      "value": "Glass"
+    "Flow Direction in Module List Module": {
+      "value": "Down-\u003eUp"
     },
-    "Position in module.render.targetinfo.name Module": {
-      "positionX": 378.0,
-      "positionY": 280.0,
-      "scaleX": 233.0,
-      "scaleY": 48.0
-    },
-    "Follow Player in module.render.targetinfo.name Module": {
-      "value": false
-    }
-  },
-  "module.combat.lagbreak.name": {
-    "state": false
-  },
-  "module.player.twerk.name": {
-    "state": false
-  },
-  "module.render.nametags.name": {
-    "state": true,
-    "Mode in module.render.nametags.name Module": {
-      "value": "Classic"
-    },
-    "Show Health in Modern Mode": {
-      "value": true
-    },
-    "Overlays (Bloom/Blur) in Modern Mode": {
-      "value": true
-    },
-    "Show Team Tag in Vanilla Mode": {
-      "value": true
-    },
-    "Show Target Tag in Vanilla Mode": {
-      "value": true
-    },
-    "Show Friend Tag in Vanilla Mode": {
-      "value": true
-    },
-    "Shortened Tags in Vanilla Mode": {
-      "value": true
-    },
-    "Show Team Tag in Classic Mode": {
-      "value": true
-    },
-    "Show Target Tag in Classic Mode": {
-      "value": true
-    },
-    "Show Friend Tag in Classic Mode": {
-      "value": false
-    },
-    "Shortened Tags in Classic Mode": {
-      "value": false
-    },
-    "Targets in module.render.nametags.name Module": {
-      "value": true
-    },
-    "Player in module.render.nametags.name Module": {
-      "value": true
-    },
-    "Invisibles in module.render.nametags.name Module": {
-      "value": true
-    },
-    "Animals in module.render.nametags.name Module": {
-      "value": false
-    },
-    "Mobs in module.render.nametags.name Module": {
-      "value": false
-    },
-    "Player Teammates in module.render.nametags.name Module": {
-      "value": true
-    }
-  },
-  "module.render.nocameraclip.name": {
-    "state": true
-  },
-  "module.movement.phase.name": {
-    "state": false,
-    "Mode in module.movement.phase.name Module": {
-      "value": "Watchdog Prediction Full Block"
-    },
-    "Amount in Watchdog Semi Block Mode": {
+    "Flow Speed in Module List Module": {
       "value": 1.0
     },
-    "Timer in Watchdog Semi Block Mode": {
-      "value": 0.0
-    },
-    "Packet in Watchdog Semi Block Mode": {
-      "value": false
-    },
-    "Smart Mode (if you want it to be always be toggled on) in Watchdog 1.17.1 Full Block Mode": {
-      "value": false
-    },
-    "Silent in Watchdog 1.17.1 Full Block Mode": {
-      "value": false
-    },
-    "Release Mode in Grim Mode": {
-      "value": "Simple"
-    },
-    "Semi Packets in Grim Mode": {
-      "value": 2.0
-    }
-  },
-  "module.movement.terrainspeed.name": {
-    "state": false,
-    "Mode in module.movement.terrainspeed.name Module": {
-      "value": "Watchdog"
-    },
-    "Maximise Speed in Bloxd Mode": {
-      "value": true
-    },
-    "Sneak Timer in Bloxd Mode": {
-      "value": 2.0
-    },
-    "Longjump Speed in Bloxd Mode": {
-      "value": 3.0
-    },
-    "Height in Bloxd Mode": {
-      "value": 25.0
-    }
-  },
-  "module.render.killeffect.name": {
-    "state": true,
-    "Lightning in module.render.killeffect.name Module": {
-      "value": true
-    },
-    "Blood Explosion in module.render.killeffect.name Module": {
-      "value": false
-    },
-    "Explosion in module.render.killeffect.name Module": {
-      "value": true
-    }
-  },
-  "module.combat.throwableaura.name": {
-    "state": false,
-    "Rotation Range in module.combat.throwableaura.name Module": {
+    "Saturation in Module List Module": {
       "value": 8.0
     },
-    "Range in module.combat.throwableaura.name Module": {
-      "value": 6.0
-    },
-    "Minimum Range in module.combat.throwableaura.name Module": {
-      "value": 3.0
-    },
-    "Throw Delay in module.combat.throwableaura.name Module": {
-      "value": 5.0
-    },
-    "FOV in module.combat.throwableaura.name Module": {
-      "value": 180.0
-    },
-    "Player Teammates in module.combat.throwableaura.name Module": {
+    "Show Suffix in Module List Module": {
       "value": true
     },
-    "Players in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "Mobs in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "Auto Switch in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "Prediction in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "Module Check in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "AntiBot in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "Snowballs in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "Eggs in module.combat.throwableaura.name Module": {
-      "value": true
-    },
-    "Through Walls in module.combat.throwableaura.name Module": {
-      "value": true
+    "Hide Module in Module List Module": {
+      "value": ""
     }
   },
-  "Auto Register": {
+  "MoveTest": {
+    "state": false,
+    "StopMove Ticks in MoveTest Module": {
+      "value": 3.0
+    }
+  },
+  "DynamicIsland": {
+    "state": false,
+    "Blur in DynamicIsland Module": {
+      "value": true
+    },
+    "Bloom in DynamicIsland Module": {
+      "value": false
+    },
+    "Glow in DynamicIsland Module": {
+      "value": true
+    },
+    "Background Alpha in DynamicIsland Module": {
+      "value": 82.0
+    },
+    "Glow Text in DynamicIsland Module": {
+      "value": false
+    }
+  },
+  "TabGUI": {
     "state": false
   },
-  "EggBreaker": {
-    "state": false,
-    "Range in EggBreaker Module": {
-      "value": 6.0
-    }
-  },
-  "theme": "CHRISTMAS"
+  "theme": "AQUA"
 }
