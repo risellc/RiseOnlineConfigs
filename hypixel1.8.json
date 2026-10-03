@@ -1746,7 +1746,7 @@
     }
   },
   "module.exploit.ghosthand.name": {
-    "state": true,
+    "state": false,
     "Range in module.exploit.ghosthand.name Module": {
       "value": 6.0
     }
