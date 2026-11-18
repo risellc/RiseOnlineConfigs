@@ -467,7 +467,7 @@
     }
   },
   "module.player.stealer.name": {
-    "state": false,
+    "state": true,
     "Delay in module.player.stealer.name Module": {
       "first": 50.0,
       "second": 50.0
@@ -3126,8 +3126,8 @@
   "module.player.manager.name": {
     "state": false,
     "Delay in module.player.manager.name Module": {
-      "first": 0.0,
-      "second": 0.0
+      "first": 50.0,
+      "second": 50.0
     },
     "Legit in module.player.manager.name Module": {
       "value": false
