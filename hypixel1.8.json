@@ -2380,7 +2380,7 @@
     "state": true
   },
   "module.combat.velocity.name": {
-    "state": false,
+    "state": true,
     "Mode in module.combat.velocity.name Module": {
       "value": "Legit/Jump Reset"
     },
