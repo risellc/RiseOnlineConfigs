@@ -391,7 +391,7 @@
   "module.player.nofall.name": {
     "state": true,
     "Mode in module.player.nofall.name Module": {
-      "value": "Spoof"
+      "value": "Watchdog Packet"
     },
     "Newest Grim, may flag the anticheat in Grim Server 1.9+ Mode": {
       "value": false
